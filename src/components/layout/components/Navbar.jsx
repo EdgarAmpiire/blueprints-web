@@ -99,16 +99,16 @@ import { Link } from "react-router-dom";
             
               <li className="nav-item">
                 <Link
-                  to="/founder"
+                  to="/contact-us"
                   className={
-                    page === "founders"
-                      ? "nav-link font-semibold p-0 underline underline-offset-8 decoration-2 text-white decoration-black"
-                      : "nav-link p-0"
+                    page === "contact-us"
+                      ? "nav-link  bg-[#0055BA] px-5 py-3 text-white rounded-md text-base  "
+                      : "nav-link  bg-[#0055BA] px-5 py-3 text-white rounded-md text-base "
                   }
                 >
-                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                  {/* <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300"> */}
                     Contact Us
-                  </p>
+                  {/* </p> */}
                 </Link>
               </li>
             </ul>
