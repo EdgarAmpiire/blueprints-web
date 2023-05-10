@@ -5,7 +5,7 @@ export const HowWeWork = () => {
   return (
     <div>
       <MainLayout page="how-we-work">
-        <h1>howWeWork</h1>
+        <h1>How We Work</h1>
       </MainLayout>
     </div>
   );
