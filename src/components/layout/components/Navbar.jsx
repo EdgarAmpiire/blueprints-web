@@ -1,9 +1,9 @@
 import React from "react";
-import defaultLogo from "../../../assets/founders-logo.png";
+// import defaultLogo from "../../../assets/founders-logo.png";
 import { Link } from "react-router-dom";
 
 
-  export const NavBar = ({ page }) => {
+  export const Navbar = ({ page }) => {
   
   
     return (
@@ -14,13 +14,14 @@ import { Link } from "react-router-dom";
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               href="#pablo"
             >
-              <Link className="flex items-center p-2 w-40" to="/">
-                <img
+              <Link className="flex items-center p-2 w-40 text-[#0055BA]" to="/">
+                {/* <img
                   src={defaultLogo}
                   className="w-12/12"
                   alt="logo"
                   loading="lazy"
-                />
+                /> */}
+                Blueprint Strategy
               </Link>
             </a>
             <button
