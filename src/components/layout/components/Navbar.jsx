@@ -102,8 +102,8 @@ import { Link } from "react-router-dom";
                   to="/contact-us"
                   className={
                     page === "contact-us"
-                      ? "nav-link  bg-[#0055BA] px-4 py-2 text-white rounded-md  text-base 2xl:text-base "
-                      : "nav-link  bg-[#0055BA] px-4 py-2 text-white rounded-md text-base 2xl:text-base"
+                      ? "nav-link  bg-[#0055BA] px-4 py-1.5 text-white rounded-md  text-base 2xl:text-base "
+                      : "nav-link  bg-[#0055BA] px-4 py-1.5 text-white rounded-md text-base 2xl:text-base"
                   }
                 >
                   {/* <p className="cursor-pointer text-base 2xl:text-base px-3 py-2 rounded-md  transition ease-in-out delay-50 duration-300"> */}
