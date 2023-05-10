@@ -4,7 +4,7 @@ import MainLayout from "../../../components/layout/MainLayouts";
 export const Services = () => {
   return (
     <div>
-      <MainLayout>Services</MainLayout>
+      <MainLayout page="services">Services</MainLayout>
     </div>
   );
 };
