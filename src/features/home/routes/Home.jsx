@@ -4,7 +4,7 @@ import { MainLayout } from "../../../components/layout/MainLayout";
 export const Home = () => {
   return (
     <div>
-      <MainLayout>
+      <MainLayout page="home">
        Home
       </MainLayout>
     </div>

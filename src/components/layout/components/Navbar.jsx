@@ -37,7 +37,7 @@ import { Link } from "react-router-dom";
                   to="/"
                   className={
                     page === "home"
-                      ? "nav-link font-semibold p-0 underline underline-offset-8 decoration-2 text-white decoration-black"
+                      ? "nav-link p-0 underline underline-offset-8 decoration-2 decoration-black"
                       : "nav-link p-0"
                   }
                 >
