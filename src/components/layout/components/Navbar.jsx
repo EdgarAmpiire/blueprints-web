@@ -41,7 +41,7 @@ import { Link } from "react-router-dom";
                       : "nav-link p-0"
                   }
                 >
-                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                  <p className="cursor-pointer text-base 2xl:text-base px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
                     Home
                   </p>
                 </Link>
@@ -54,7 +54,7 @@ import { Link } from "react-router-dom";
                       : "nav-link p-0"
                   }
                 >
-                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                  <p className="cursor-pointer text-base 2xl:text-base px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
                     About Us
                   </p>
                 </Link>
@@ -69,7 +69,7 @@ import { Link } from "react-router-dom";
                       : "nav-link p-0"
                   }
                 >
-                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                  <p className="cursor-pointer text-base 2xl:text-base px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
                    How We Work
                   </p>
                 </Link>
@@ -83,7 +83,7 @@ import { Link } from "react-router-dom";
                       : "nav-link p-0"
                   }
                 >
-                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                  <p className="cursor-pointer text-base 2xl:text-base px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
                     Services
                   </p>
                 </Link>
@@ -102,11 +102,11 @@ import { Link } from "react-router-dom";
                   to="/contact-us"
                   className={
                     page === "contact-us"
-                      ? "nav-link  bg-[#0055BA] px-5 py-3 text-white rounded-md text-base  "
-                      : "nav-link  bg-[#0055BA] px-5 py-3 text-white rounded-md text-base "
+                      ? "nav-link  bg-[#0055BA] px-4 py-2 text-white rounded-md  text-base 2xl:text-base "
+                      : "nav-link  bg-[#0055BA] px-4 py-2 text-white rounded-md text-base 2xl:text-base"
                   }
                 >
-                  {/* <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300"> */}
+                  {/* <p className="cursor-pointer text-base 2xl:text-base px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300"> */}
                     Contact Us
                   {/* </p> */}
                 </Link>
