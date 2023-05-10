@@ -1,5 +1,5 @@
 import { useRoutes } from "react-router-dom";
-import { Home } from "../features/home/routes";
+import { Home } from "../features/home"
 
 import { publicRoutes } from "./public";
 
