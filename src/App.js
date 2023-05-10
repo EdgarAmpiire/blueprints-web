@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { AppProvider } from "./providers/app";
 import { AppRoutes } from "./routes";
 
-
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -22,15 +21,14 @@ function App() {
               alt="Loading"
               className="h-32 w-auto mx-auto animate__animated animate__flipInX animate-bounce"
             /> */}
-           <h1 className="text-[#0055BA]">
+            {/* <h1 className="text-[#0055BA]">Blueprint Strategy</h1> */}
 
-            Blueprint Strategy
-           </h1>
+            <span class="relative flex h-8 w-8">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#0055BA] opacity-75"></span>
+              {/* <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#0055BA] opacity-50"></span> */}
 
-           <span class="relative flex h-3 w-3">
-  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-  <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-</span>
+              <span class="relative inline-flex rounded-full h-8 w-8 bg-[#0055BA]"></span>
+            </span>
           </div>
         ) : (
           <div className="transition ease-in delay-150">
