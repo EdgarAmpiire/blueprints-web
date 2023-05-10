@@ -32,17 +32,59 @@ import { Link } from "react-router-dom";
           >
             <ul className="flex flex-col lg:flex-row list-none ml-auto">
             
-              <li className="nav-item">
+            <li className="nav-item">
                 <Link
-                  to="/founder"
+                  to="/home"
                   className={
-                    page === "founders"
+                    page === "home"
+                      ? "nav-link font-semibold p-0 underline underline-offset-8 decoration-2 text-white decoration-black"
+                      : "nav-link p-0"
+                  }
+                >
+                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                    Home
+                  </p>
+                </Link>
+              </li> <li className="nav-item">
+                <Link
+                  to="/about-us"
+                  className={
+                    page === "about-us"
                       ? "nav-link font-semibold p-0 underline underline-offset-8 decoration-2 text-white decoration-black"
                       : "nav-link p-0"
                   }
                 >
                   <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
                     About Us
+                  </p>
+                </Link>
+              </li> 
+               
+              <li className="nav-item">
+                <Link
+                  to="/how-we-work"
+                  className={
+                    page === "how-we-work"
+                      ? "nav-link font-semibold p-0 underline underline-offset-8 decoration-2 text-white decoration-black"
+                      : "nav-link p-0"
+                  }
+                >
+                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                   How We Work
+                  </p>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/services"
+                  className={
+                    page === "services"
+                      ? "nav-link font-semibold p-0 underline underline-offset-8 decoration-2 text-white decoration-black"
+                      : "nav-link p-0"
+                  }
+                >
+                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                    Services
                   </p>
                 </Link>
               </li>
