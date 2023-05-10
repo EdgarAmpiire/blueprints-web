@@ -1,10 +1,10 @@
 import React from "react";
-// import { NavBar } from "./components/NavBar";
+import { Navbar } from "./components/Navbar";
 
 export const MainLayout = ({ page, children }) => {
   return (
     <div>
-      <NavBar page={page} />
+      <Navbar page={page} />
       {children}
     </div>
   );
