@@ -25,6 +25,30 @@ import { Link } from "react-router-dom";
               </Link>
             </a>
           </div>
+
+          <div
+            className="lg:flex flex-grow items-center"
+            id="example-navbar-warning"
+          >
+            <ul className="flex flex-col lg:flex-row list-none ml-auto">
+            
+              <li className="nav-item">
+                <Link
+                  to="/founder"
+                  className={
+                    page === "founders"
+                      ? "nav-link font-semibold p-0 underline underline-offset-8 decoration-2 text-white decoration-black"
+                      : "nav-link p-0"
+                  }
+                >
+                  <p className="cursor-pointer text-lg 2xl:text-lg px-3 py-2 rounded-md hover:text-white transition ease-in-out delay-50 duration-300">
+                    About Us
+                  </p>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           <div
             className="lg:flex flex-grow items-center"
             id="example-navbar-warning"
