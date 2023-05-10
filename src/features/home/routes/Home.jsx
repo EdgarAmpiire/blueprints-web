@@ -4,7 +4,9 @@ import { MainLayout } from "../../../components/layout/MainLayout";
 export const Home = () => {
   return (
     <div>
-      <MainLayout>Home</MainLayout>
+      <MainLayout>
+       Home
+      </MainLayout>
     </div>
   );
 };

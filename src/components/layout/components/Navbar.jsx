@@ -34,7 +34,7 @@ import { Link } from "react-router-dom";
             
             <li className="nav-item">
                 <Link
-                  to="/home"
+                  to="/"
                   className={
                     page === "home"
                       ? "nav-link font-semibold p-0 underline underline-offset-8 decoration-2 text-white decoration-black"
