@@ -16,12 +16,13 @@ function App() {
     <AppProvider>
       <>
         {loading ? (
-          <div className="flex flex-row items-center h-[100vh]">
+          <div className="flex flex-row justify-center items-center h-[100vh]">
             {/* <img
               src={logoImage}
               alt="Loading"
               className="h-32 w-auto mx-auto animate__animated animate__flipInX animate-bounce"
             /> */}
+           <h1 className="text-[#0055BA]"></h1>
             Blueprint Strategy
           </div>
         ) : (
