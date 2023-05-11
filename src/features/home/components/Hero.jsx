@@ -20,7 +20,7 @@ export const Hero = () => {
             </p>
             <Link to="/contact" className="" >
             <div className=" bg-[#0055BA] py-3 px-4 rounded-md flex items-center mt-5 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150   ">
-              <p className="pl-2 pr-2 text-base text-white font-medium">
+              <p className="pl-2 pr-2 text-base text-white ">
               Book an initial session now
               </p>
               <span className="">
