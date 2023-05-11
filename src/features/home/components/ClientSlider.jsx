@@ -38,7 +38,24 @@ class ClientSlider extends Component {
             <div>
                 <Slider {...settings}>
                      <div>
-                        <img src={} alt="" />
+                        <img src={logitech} alt="" />
+                     </div>
+                     <div>
+                        <img src={h} alt="" />
+                     </div><div>
+                        <img src={army} alt="" />
+                     </div><div>
+                        <img src={eightyFour} alt="" />
+                     </div><div>
+                        <img src={gid} alt="" />
+                     </div><div>
+                        <img src={blueCross} alt="" />
+                     </div><div>
+                        <img src={nike} alt="" />
+                     </div><div>
+                        <img src={ingram} alt="" />
+                     </div><div>
+                        <img src={cnb} alt="" />
                      </div>
                 </Slider>
             </div>
