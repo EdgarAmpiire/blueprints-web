@@ -28,135 +28,140 @@ class ClientSlider extends Component {
       infinite: true,
       slidesToShow: 5,
       slidesToScroll: 1,
-        autoplay: true,
+      autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
       cssEase: "linear",
     };
 
     const settingsTwo = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-          autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear",
-      };
+      dots: false,
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
+    };
 
-      const settingsThree = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 1,
-          autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear",
-      };
+    const settingsThree = {
+      dots: false,
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
+    };
 
     return (
-        <>
-      <div className="mt-10 ">
-        <Slider {...settings}>
-          <div className=" h-24">
-            <div className="flex items-center justify-center h-full ">
-              <img src={logitech} alt="" className="" />
+      <>
+        <div className="mt-10 ">
+          <Slider {...settings}>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={logitech} alt="" className="" />
+              </div>
             </div>
-          </div>
-          <div className=" h-24">
-            <div className="flex items-center justify-center h-full ">
-              <img src={h} alt="" className="" />
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={h} alt="" className="" />
+              </div>
             </div>
-          </div><div className=" h-24">
-            <div className="flex items-center justify-center h-full ">
-              <img src={army} alt="" className="" />
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={army} alt="" className="" />
+              </div>
             </div>
-          </div><div className=" h-24">
-            <div className="flex items-center justify-center h-full ">
-              <img src={eightyFour} alt="" className="" />
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={eightyFour} alt="" className="" />
+              </div>
             </div>
-          </div><div className=" h-24">
-            <div className="flex items-center justify-center h-full ">
-              <img src={gid} alt="" className="" />
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={gid} alt="" className="" />
+              </div>
             </div>
-          </div>
-          <div className=" h-24">
-            <div className="flex items-center justify-center h-full ">
-              <img src={blueCross} alt="" className="" />
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={blueCross} alt="" className="" />
+              </div>
             </div>
-          </div>
-         
-        </Slider>
-      </div>
 
-<div className="mt-10 ">
-<Slider {...settingsTwo}>
-  <div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={nike} alt="" className="" />
-    </div>
-  </div>
-  <div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={ingram} alt="" className="" />
-    </div>
-  </div><div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={cnb} alt="" className="" />
-    </div>
-  </div><div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={honda} alt="" className="" />
-    </div>
-  </div><div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={avery} alt="" className="" />
-    </div>
-  </div>
-  <div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={corelogic} alt="" className="" />
-    </div>
-  </div>
-  
-</Slider>
-</div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={nike} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={ingram} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={cnb} alt="" className="" />
+              </div>
+            </div>
+          </Slider>
+        </div>
 
-<div className="mt-10 ">
-<Slider {...settingsThree}>
-  <div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={adobe} alt="" className="" />
-    </div>
-  </div>
-  <div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={deloitte} alt="" className="" />
-    </div>
-  </div><div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={farmers} alt="" className="" />
-    </div>
-  </div><div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={ibm} alt="" className="" />
-    </div>
-  </div><div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={zelle} alt="" className="" />
-    </div>
-  </div>
-  <div className=" h-24">
-    <div className="flex items-center justify-center h-full ">
-      <img src={lewray} alt="" className="" />
-    </div>
-  </div>
-  
-</Slider>
-</div>
-</>
+        <div className="mt-10 ">
+          <Slider {...settingsTwo}>
+            
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={honda} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={avery} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={corelogic} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={adobe} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={deloitte} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={farmers} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={ibm} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={zelle} alt="" className="" />
+              </div>
+            </div>
+            <div className=" h-24">
+              <div className="flex items-center justify-center h-full ">
+                <img src={lewray} alt="" className="" />
+              </div>
+            </div>
+          </Slider>
+        </div>
+
+        
+      </>
     );
   }
 }
