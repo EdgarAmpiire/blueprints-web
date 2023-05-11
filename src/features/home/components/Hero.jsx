@@ -30,7 +30,7 @@ export const Hero = () => {
           </Link>
           </div>
         </div>
-        <div className="w-4/12">
+        <div className="w-4/12 flex items-center justify-center">
           <img src={thumb} alt="" />
         </div>
       </div>
