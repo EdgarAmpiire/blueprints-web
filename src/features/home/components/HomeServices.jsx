@@ -18,14 +18,14 @@ export const HomeServices = () => {
 
         <div className="bg-[#F5F5F5] py-5 px-3 rounded-lg mt-5">
           
-        <div className="my-12">
+        <div className="py-3">
             <div className=" border-gray-300">
               <div className="flex justify-around w-full ">
                 <button
                   className={
                     isActive === "strategy"
-                      ? "mx-1 bg-black text-white rounded-full py-1.5 text-sm px-3"
-                      : "mx-1 bg-[#E5E5E5] rounded-full py-1.5 text-sm text-black px-3"
+                      ? "mx-1 bg-black text-white rounded-full py-2 text-sm px-3"
+                      : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
                   }
                   onClick={() => changeComponent("strategy")}
                 >
@@ -34,8 +34,8 @@ export const HomeServices = () => {
                 <button
                   className={
                     isActive === "management"
-                      ? "mx-1 bg-black text-white rounded-full py-1.5 text-sm px-3"
-                      : "mx-1 bg-[#E5E5E5] rounded-full py-1.5 text-sm text-black px-3"
+                      ? "mx-1 bg-black text-white rounded-full py-2 text-sm px-3"
+                      : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
                   }
                   onClick={() => changeComponent("management")}
                 >
@@ -44,8 +44,8 @@ export const HomeServices = () => {
                 <button
                   className={
                     isActive === "operation"
-                      ? "mx-1 bg-black text-white rounded-full py-1.5 text-sm px-3"
-                      : "mx-1 bg-[#E5E5E5] rounded-full py-1.5 text-sm text-black px-3"
+                      ? "mx-1 bg-black text-white rounded-full py-2 text-sm px-3"
+                      : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
                   }
                   onClick={() => changeComponent("operation")}
                 >
@@ -54,8 +54,8 @@ export const HomeServices = () => {
                 <button
                   className={
                     isActive === "marketing"
-                      ? "mx-1 bg-black text-white rounded-full py-1.5 text-sm px-3"
-                      : "mx-1 bg-[#E5E5E5] rounded-full py-1.5 text-sm text-black px-3"
+                      ? "mx-1 bg-black text-white rounded-full py-2 text-sm px-3"
+                      : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
                   }
                   onClick={() => changeComponent("marketing")}
                 >
@@ -63,7 +63,7 @@ export const HomeServices = () => {
                 </button>
               </div>
             </div>
-            <div>
+            <div className="mt-5">
               {isActive === "strategy" && "tab1"}
               {isActive === "management" && "tab2"}
               {isActive === "operation" && "tab3"}
