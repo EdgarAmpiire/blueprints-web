@@ -2,7 +2,7 @@ import React from "react";
 import { Strategy } from "./Strategy";
 
 export const HomeServices = () => {
-    const [isActive, setisActive] = React.useState("history");
+    const [isActive, setisActive] = React.useState("strategy");
 
   const changeComponent = (item) => {
     setisActive(item);
@@ -29,6 +29,7 @@ export const HomeServices = () => {
                       : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
                   }
                   onClick={() => changeComponent("strategy")}
+                
                 >
                   Business & Product Strategy
                 </button>
