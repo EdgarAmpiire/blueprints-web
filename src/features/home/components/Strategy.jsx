@@ -22,8 +22,8 @@ export const Strategy = () => {
               </Link>
             </div>
           </div>
-          <div className="w-4/12 ">
-            <div className="flex w-full justify-center items-center">
+          <div className="w-4/12 flex items-center justify-center ">
+            <div className="">
               <img src={thumb} alt="" />
             </div>
           </div>
