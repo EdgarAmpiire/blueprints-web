@@ -45,6 +45,17 @@ class ClientSlider extends Component {
         cssEase: "linear",
       };
 
+      const settingsThree = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+          autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+      };
+
     return (
         <>
       <div className="mt-10 ">
@@ -107,6 +118,39 @@ class ClientSlider extends Component {
   <div className=" h-24">
     <div className="flex items-center justify-center h-full ">
       <img src={corelogic} alt="" className="" />
+    </div>
+  </div>
+  
+</Slider>
+</div>
+
+<div className="mt-10 ">
+<Slider {...settingsThree}>
+  <div className=" h-24">
+    <div className="flex items-center justify-center h-full ">
+      <img src={adobe} alt="" className="" />
+    </div>
+  </div>
+  <div className=" h-24">
+    <div className="flex items-center justify-center h-full ">
+      <img src={deloitte} alt="" className="" />
+    </div>
+  </div><div className=" h-24">
+    <div className="flex items-center justify-center h-full ">
+      <img src={farmers} alt="" className="" />
+    </div>
+  </div><div className=" h-24">
+    <div className="flex items-center justify-center h-full ">
+      <img src={ibm} alt="" className="" />
+    </div>
+  </div><div className=" h-24">
+    <div className="flex items-center justify-center h-full ">
+      <img src={zelle} alt="" className="" />
+    </div>
+  </div>
+  <div className=" h-24">
+    <div className="flex items-center justify-center h-full ">
+      <img src={lewray} alt="" className="" />
     </div>
   </div>
   
