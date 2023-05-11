@@ -1,4 +1,5 @@
 import React from "react";
+import { Strategy } from "./Strategy";
 
 export const HomeServices = () => {
     const [isActive, setisActive] = React.useState("history");
@@ -64,7 +65,7 @@ export const HomeServices = () => {
               </div>
             </div>
             <div className="mt-5">
-              {isActive === "strategy" && "tab1"}
+              {isActive === "strategy" && <Strategy />}
               {isActive === "management" && "tab2"}
               {isActive === "operation" && "tab3"}
               {isActive === "marketing" && "tab4"}
