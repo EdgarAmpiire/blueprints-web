@@ -3,6 +3,7 @@ import { MainLayout } from "../../../components/layout/MainLayout";
 import { Hero } from "../components/Hero";
 import { HomeServices } from "../components/HomeServices";
 import { Clients } from "../components/Clients";
+import { HomeBlog } from "../components/HomeBlog";
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
        <Hero />
        <HomeServices />
        <Clients />
+       <HomeBlog />
       </MainLayout>
     </div>
   );
