@@ -1,16 +1,8 @@
  import React from 'react'
-import { Carousel } from './Carousel'
+import { HomeCarousel } from './HomeCarousel'
  
  export const HomeBlog = () => {
-  const items = [
-    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(16).jpg",
-    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(17).jpg",
-    // "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(18).jpg",
-    // "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(19).jpg",
-    // "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(20).jpg",
-    // "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(21).jpg",
-    // "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg",
-  ];
+ 
 
    return (
      <div>
@@ -23,7 +15,7 @@ import { Carousel } from './Carousel'
           <p className='mt-5 text-lg text-gray-500 '>Ultimately, these three interdependent elements are a key strategic component for digital operations to reach consistent efficiency, automated scaling, and achieve goals and outcomes</p>
         </div>
         </div>
-        <Carousel items={items} />
+        <HomeCarousel />
      </div>
    )
  }
