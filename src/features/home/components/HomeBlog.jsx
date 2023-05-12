@@ -2,6 +2,14 @@
 import { Carousel } from './Carousel'
  
  export const HomeBlog = () => {
+  const images = [
+    "https://via.placeholder.com/800x400.png?text=Image+1",
+    "https://via.placeholder.com/800x400.png?text=Image+2",
+    "https://via.placeholder.com/800x400.png?text=Image+3",
+    "https://via.placeholder.com/800x400.png?text=Image+4",
+    "https://via.placeholder.com/800x400.png?text=Image+5",
+  ];
+  
    return (
      <div>
         <div className="mt-24 w-full">
