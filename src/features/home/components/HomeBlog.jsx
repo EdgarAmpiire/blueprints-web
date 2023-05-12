@@ -3,13 +3,15 @@ import { Carousel } from './Carousel'
  
  export const HomeBlog = () => {
   const images = [
-    "https://via.placeholder.com/800x400.png?text=Image+1",
-    "https://via.placeholder.com/800x400.png?text=Image+2",
-    "https://via.placeholder.com/800x400.png?text=Image+3",
-    "https://via.placeholder.com/800x400.png?text=Image+4",
-    "https://via.placeholder.com/800x400.png?text=Image+5",
+    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(16).jpg",
+    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(17).jpg",
+    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(18).jpg",
+    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(19).jpg",
+    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(20).jpg",
+    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(21).jpg",
+    "https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg",
   ];
-  
+
    return (
      <div>
         <div className="mt-24 w-full">
@@ -21,7 +23,7 @@ import { Carousel } from './Carousel'
           <p className='mt-5 text-lg text-gray-500 '>Ultimately, these three interdependent elements are a key strategic component for digital operations to reach consistent efficiency, automated scaling, and achieve goals and outcomes</p>
         </div>
         </div>
-        <Carousel />
+        <Carousel images={images} />
      </div>
    )
  }

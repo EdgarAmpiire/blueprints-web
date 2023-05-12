@@ -1,11 +1,20 @@
-.carousel-container {
-    margin: 0 auto;
-    max-width: 800px;
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
   }
   
-  .slick-slide img {
+  .carousel-slide {
+    flex: 0 0 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .carousel-slide.active {
+    opacity: 1;
+  }
+  
+  .carousel-slide img {
     width: 100%;
     height: auto;
-    margin: 0 auto;
   }
-  
