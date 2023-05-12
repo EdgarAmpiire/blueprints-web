@@ -1,31 +1,31 @@
 import React from 'react'
-import blue from "../../../assets/blue.png"
+// import blue from "../../../assets/blue.png"
 import {BsArrowRightShort, BsArrowLeftShort} from "react-icons/bs"
 
-export const Carousel = ({images}) => {
+export const Carousel = ({items}) => {
     const [currentSlide, setCurrentSlide] = React.useState(0);
 
     const previousSlide = () => {
-      const newSlide = currentSlide === 0 ? images.length - 1 : currentSlide - 1;
+      const newSlide = currentSlide === 0 ? items.length - 1 : currentSlide - 1;
       setCurrentSlide(newSlide);
     };
   
     const nextSlide = () => {
-      const newSlide = currentSlide === images.length - 1 ? 0 : currentSlide + 1;
+      const newSlide = currentSlide === items.length - 1 ? 0 : currentSlide + 1;
       setCurrentSlide(newSlide);
     };
   return (
     <div>
     <div className="relative">
       <div className="carousel">
-        {images.map((image, index) => (
+        {items.map((item, index) => (
           <div
             key={index}
             className={`carousel-slide ${
               index === currentSlide ? "active" : ""
             }`}
           >
-            <img src={image} alt={`carousel-image-${index}`} />
+            <img src={item} alt={`carousel-item-${index}`} />
           </div>
         ))}
       </div>
