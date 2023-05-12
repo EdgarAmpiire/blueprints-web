@@ -15,7 +15,10 @@ import { Carousel } from './Carousel'
           <p className='mt-5 text-lg text-gray-500 '>Ultimately, these three interdependent elements are a key strategic component for digital operations to reach consistent efficiency, automated scaling, and achieve goals and outcomes</p>
         </div>
         </div>
+        <div className=''>
+
         <Carousel />
+        </div>
      </div>
    )
  }

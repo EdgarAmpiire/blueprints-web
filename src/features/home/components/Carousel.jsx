@@ -1,7 +1,6 @@
 import React from 'react'
 import {BsArrowRightShort, BsArrowLeftShort} from "react-icons/bs"
-// import { Carousel } from "tw-elements"
-// import "./Carousel.scss"
+import blue from "../../../assets/blue.png"
 
 export const Carousel = () => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -35,33 +34,25 @@ export const Carousel = () => {
             setCurrentSlide(currentSlide<data.length -1 ? currentSlide+1 : 0)
     }
   return (
-    <div>
+    <div >
       <div className="flex items-center justify-center relative" id="works">
 			<div
-				className="slider"
+				className="h-fit flex absolute l-0 transition delay-150 duration-100  ease-out"
 				style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
-				{data.map((d) => (
-					<div className="container">
-						<div className="item">
-							<div className="left">
-								<div className="leftContainer">
-									<div className="imgContainer">
-										<img src={d.icon} alt="" />
-									</div>
-									<h2>{d.title}</h2>
-									<p>{d.desc}</p>
-									<span>Projects</span>
-								</div>
-							</div>
+				
+					<div className="w-full flex items-center justify-center ">
+						<div className="w-8/12 h-full bg-white rounded-md flex items-center justify-center  ">
+							
 							<div className="right">
 								<img
-									src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+									src={blue}
 									alt=""
 								/>
+								
 							</div>
 						</div>
 					</div>
-				))}
+				
 			</div>
 
 			{/* <img
