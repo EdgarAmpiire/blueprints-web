@@ -39,39 +39,37 @@ export const Carousel = () => {
 			<div
 				className="h-fit flex absolute l-0 transition delay-150 duration-100  ease-out"
 				style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
-				
-					<div className="w-full flex items-center justify-center ">
-						<div className="w-8/12 h-full bg-white rounded-md flex items-center justify-center  ">
-							
-							<div className="right">
+				{/* {data.map((d) => (
+					<div className="w-full bg-primary flex items-center justify-center">
+						<div className="w-[700px] h-full rouned-md flex items-center justify-center bg-primary">
+							 <div className="flex-4 h-10/12 flex items-center justify-center ">
+								<div className="w-11/12 h-10/12 flex flex-col justify-between">
+									<div className="w-32 h-32 rounded-full bg-blue-200 flex items-center justify-center ">
+										<img src={d.icon} alt="" />
+									</div>
+									<h2>{d.title}</h2>
+									<p>{d.desc}</p>
+									<span>Projects</span>
+								</div>
+							</div> 
+							 <div className=" h-full flex items-center justify-center overflow-hidden">
 								<img
-									src={blue}
+									src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
 									alt=""
+									className='w-[400px]'
 								/>
-								
-							</div>
+							</div> 
 						</div>
 					</div>
+				))} */}
 				
 			</div>
 
-			{/* <img
-				src="assets/arrow.png"
-				className="arrow left"
-				alt=""
-				onClick={() => handleClick("left")}
-			/> */}
-			{/* <div className='absolute flex item-center justify-center p-3 bg-primary'> */}
-
+			
 			<BsArrowLeftShort className='absolute cursor-pointer text-4xl inset-y-0 left-0  '  onClick={() => handleClick("")} />
 			
 			<BsArrowRightShort className='absolute cursor-pointer text-4xl inset-y-0 right-0  ' onClick={() => handleClick("left")} />
-			{/* <img
-				src="assets/arrow.png"
-				className="arrow right"
-				alt=""
-				onClick={() => handleClick("")}
-			/> */}
+			
 		</div>
     </div>
   )
