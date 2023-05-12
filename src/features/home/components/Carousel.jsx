@@ -1,6 +1,7 @@
 import React from 'react'
+import {BsArrowRightShort, BsArrowLeftShort} from "react-icons/bs"
 // import { Carousel } from "tw-elements"
-import "./Carousel.scss"
+// import "./Carousel.scss"
 
 export const Carousel = () => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -35,7 +36,7 @@ export const Carousel = () => {
     }
   return (
     <div>
-      <div className="works" id="works">
+      <div className="flex items-center justify-center relative" id="works">
 			<div
 				className="slider"
 				style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
@@ -63,18 +64,23 @@ export const Carousel = () => {
 				))}
 			</div>
 
-			<img
+			{/* <img
 				src="assets/arrow.png"
 				className="arrow left"
 				alt=""
 				onClick={() => handleClick("left")}
-			/>
-			<img
+			/> */}
+			{/* <div className='absolute flex item-center justify-center p-3 bg-primary'> */}
+
+			<BsArrowLeftShort className='absolute cursor-pointer text-4xl inset-y-0 left-0  '  onClick={() => handleClick("")} />
+			
+			<BsArrowRightShort className='absolute cursor-pointer text-4xl inset-y-0 right-0  ' onClick={() => handleClick("left")} />
+			{/* <img
 				src="assets/arrow.png"
 				className="arrow right"
 				alt=""
 				onClick={() => handleClick("")}
-			/>
+			/> */}
 		</div>
     </div>
   )
