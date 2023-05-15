@@ -37,6 +37,16 @@ export const Footer = () => {
           <div className="flex w-full items-center justify-between mt-4">
             <div className="w-5/12">
               <p className="text-white">Visit us at our office:</p>
+              <p className="text-white">Blueprint Strategy Group, Inc
+
+
+</p>
+<p className="text-white">30 N Gould Street, Suite 4000</p>
+<p className="text-white">Sheridan, WY</p>
+
+
+
+              
             </div>
             <div className="w-7/12 border-l-2 border-l-white py-2 px-5">
               <p className="text-white">Privacy Policy</p>
