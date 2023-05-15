@@ -33,25 +33,22 @@ export const Carousel = () => {
 
 	const slides = [
 		{
-			url: blue
-		},
-		{
-		url : "https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp"
+		url : "https://images.unsplash.com/photo-1683085809775-d9ac53fcbe21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
 	},
 	{
-		url : "https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(16).webp"
+		url : "https://images.unsplash.com/photo-1683539808348-f80e4dd0feaf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1197&q=80"
 	},
 	{
-		url : "https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(17).webp"
+		url : "https://images.unsplash.com/photo-1683247367884-36427f44ea39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
 	},
 	{
-		url : "https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(18).webp"
+		url : "https://images.unsplash.com/photo-1683554426429-d88777a2ce0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
 	},
 	{
-		url : "https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
+		url : "https://images.unsplash.com/photo-1683464423979-2b2e3f5d61f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
 	},
 	{
-		url : "https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(20).webp"
+		url : "https://images.unsplash.com/photo-1682174579821-cd31db30a9c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
 	},
 ]
 
