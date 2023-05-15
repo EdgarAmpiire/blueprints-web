@@ -76,7 +76,7 @@ export const Carousel = () => {
         {" "}
       </div>
 
-      <div className="w-full flex items-center justify-between mt-10">
+      <div className="w-full flex items-center justify-between mt-3">
         <div className="flex gap-1.5 items-center justify-center ">
           {slides.map((slide, slideIndex) => (
             <div
