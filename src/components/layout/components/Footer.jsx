@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className="">
-      <div className="mt-20 bg-black py-6 px-5 w-full">
+      <div className="mt-20 bg-black py-10 px-5 w-full">
         <h1 className="text-white text-xl">HEY....WAIT!</h1>
 
         <div className="flex w-full items-center justify-between mt-4">
