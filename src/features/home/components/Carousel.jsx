@@ -1,7 +1,7 @@
 import React from "react";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
-import blue from "../../../assets/blue.png";
-import { RxDotFilled, RxDot } from "react-icons/rx";
+
+import { RxDotFilled } from "react-icons/rx";
 
 export const Carousel = () => {
   //   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -80,7 +80,7 @@ export const Carousel = () => {
         <div className="flex ">
           {slides.map((slide, slideIndex) => (
             <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className="cursor-pointer ">
-              <RxDotFilled className="text-2xl" />
+              <RxDotFilled className="text-4xl" />
             </div>
           ))}
         </div>
