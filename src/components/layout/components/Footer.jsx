@@ -33,8 +33,15 @@ export const Footer = () => {
         </div>
 
         <div className="mt-24">
-        <h1 className="text-white text-xl">READY TO GET STARTED</h1>
-
+          <h1 className="text-white text-xl">READY TO GET STARTED</h1>
+          <div className="flex w-full items-center justify-between mt-4">
+            <div className="w-5/12">
+              <p className="text-white">Visit us at our office:</p>
+            </div>
+            <div className="w-7/12">
+              <p>Privacy Policy</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
