@@ -77,7 +77,7 @@ export const Carousel = () => {
       </div>
 
       <div className="w-full flex items-center justify-between mt-10">
-        <div className="flex gap-1 items-center justify-center ">
+        <div className="flex gap-1.5 items-center justify-center ">
           {slides.map((slide, slideIndex) => (
             <div
               key={slideIndex}
@@ -91,7 +91,7 @@ export const Carousel = () => {
         </div>
         <div className="flex gap-5 justify-between items-center ">
           {/* Left rrow */}
-          <div className="flex items-center justify-center py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
+          <div className="flex items-center justify-center py-2 px-2 rounded-full bg-gray-200 text-gray-600 cursor-pointer hover:bg-gray-300 transition duration-500 ease-in-out ">
             <BsArrowLeftShort onClick={prevSlide} className="text-2xl" />
           </div>
           {/* Right rrow */}
