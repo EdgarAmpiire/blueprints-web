@@ -65,8 +65,8 @@ export const Carousel = () => {
   };
 
   const goToSlide = (slideIndex) => {
-	setCurrentIndex(slideIndex)
-  }
+    setCurrentIndex(slideIndex);
+  };
 
   return (
     <div className="max-w-[1400px] h-[380px] w-full m-auto py-5 relative">
@@ -79,8 +79,13 @@ export const Carousel = () => {
       <div className="w-full flex items-center justify-between mt-10">
         <div className="flex ">
           {slides.map((slide, slideIndex) => (
-            <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className="cursor-pointer ">
-              <RxDotFilled className="text-4xl" />
+            <div
+              key={slideIndex}
+              onClick={() => goToSlide(slideIndex)}
+              className={`cursor-pointer transition-all w-3 h-3 bg-gray-500 rounded-full ${
+                currentIndex === slideIndex ? "p-4" : "bg-opacity-50"
+              } `}>
+              {/* <RxDotFilled className="text-4xl" /> */}
             </div>
           ))}
         </div>
