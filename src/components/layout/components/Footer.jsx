@@ -57,9 +57,9 @@ export const Footer = () => {
             <h1 className="text-white">2023 © The Blueprint Strategy Group - All Rights Reserved</h1>
             </div>
             <div className="flex justify-between items-center w-2/12">
-<BsFacebook className="text-white" />
-<BsTwitter className="text-white" />
-<BsLinkedin  className="text-white"/>
+<BsFacebook className="text-white text-xl cursor-pointer " />
+<BsTwitter className="text-white text-xl cursor-pointer " />
+<BsLinkedin  className="text-white text-xl cursor-pointer "/>
             </div>
         </div>
       </div>
