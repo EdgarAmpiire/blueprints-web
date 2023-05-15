@@ -6,7 +6,7 @@ import { Carousel } from './Carousel'
 
    return (
      <div>
-        <div className="mt-24 w-full">
+        {/* <div className="mt-24 w-full">
         <div className="w-full flex justify-start ">
           <div className="px-6 py-1 bg-primary"></div>
         </div>
@@ -15,10 +15,10 @@ import { Carousel } from './Carousel'
           <p className='mt-5 text-lg text-gray-500 '>Ultimately, these three interdependent elements are a key strategic component for digital operations to reach consistent efficiency, automated scaling, and achieve goals and outcomes</p>
         </div>
         </div>
-        <div className=''>
+        <div className=''> */}
 
         <Carousel />
-        </div>
+        {/* </div> */}
      </div>
    )
  }
