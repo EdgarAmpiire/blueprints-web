@@ -77,13 +77,13 @@ export const Carousel = () => {
       </div>
 
       <div className="w-full flex items-center justify-between mt-10">
-        <div className="flex ">
+        <div className="flex gap-1 items-center justify-center ">
           {slides.map((slide, slideIndex) => (
             <div
               key={slideIndex}
               onClick={() => goToSlide(slideIndex)}
-              className={`cursor-pointer transition-all w-3 h-3 bg-gray-500 rounded-full ${
-                currentIndex === slideIndex ? "p-4" : "bg-opacity-50"
+              className={`cursor-pointer transition-all w-3 h-3 bg-black rounded-full ${
+                currentIndex === slideIndex ? "p-2" : "bg-gray-300"
               } `}>
               {/* <RxDotFilled className="text-4xl" /> */}
             </div>
