@@ -50,13 +50,13 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-16 flex items-center justify-between ">
-            <div></div>
-            <div>
+        <div className="mt-16 flex items-center justify-between  w-full ">
+            <div className="w-3/12"></div>
+            <div className="w-7/12">
 
             <h1 className="text-white">2023 © The Blueprint Strategy Group - All Rights Reserved</h1>
             </div>
-            <div>
+            <div className="flex justify-between items-center w-2/12">
 <BsFacebook className="text-white" />
 <BsTwitter className="text-white" />
 <BsLinkedin  className="text-white"/>
