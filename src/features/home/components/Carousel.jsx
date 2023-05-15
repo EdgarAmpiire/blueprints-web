@@ -4,7 +4,7 @@ import blue from "../../../assets/blue.png";
 
 export const Carousel = () => {
   //   const [currentSlide, setCurrentSlide] = React.useState(0);
-  //   const [currentSlide, setCurrentSlide] = React.useState(0);
+    const [currentIndex, setCurrentIndex] = React.useState(0);
 
   // const data = [
   // 	{
@@ -54,19 +54,19 @@ export const Carousel = () => {
   return (
     <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative">
       <div
-        style={{ backgroundImage: `url(${slides[0].url})` }}
+        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500 ">
         {" "}
       </div>
 
-      <div className="w-full flex justify-end mt-10">
-        <div className="flex gap-5 justify-between">
+      <div className="w-full flex items-center justify-end mt-10">
+        <div className="flex gap-5 justify-between items-center ">
           {/* Left rrow */}
-          <div className="py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
+          <div className="flex items-center justify-center py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
             <BsArrowLeftShort className="text-2xl" />
           </div>
           {/* Right rrow */}
-          <div className="py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
+          <div className="flex items-center justify-center py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
 
           <BsArrowRightShort className="text-2xl" />
 		  </div>
