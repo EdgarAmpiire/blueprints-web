@@ -1,4 +1,5 @@
 import React from "react";
+import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
 
 export const Footer = () => {
   return (
@@ -56,7 +57,9 @@ export const Footer = () => {
             <h1 className="text-white">2023 © The Blueprint Strategy Group - All Rights Reserved</h1>
             </div>
             <div>
-
+<BsFacebook className="text-white" />
+<BsTwitter className="text-white" />
+<BsLinkedin  className="text-white"/>
             </div>
         </div>
       </div>
