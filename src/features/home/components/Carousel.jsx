@@ -1,6 +1,7 @@
 import React from "react";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
 import blue from "../../../assets/blue.png";
+import {RxDotFilled,RxDot} from 'react-icons/rx';
 
 export const Carousel = () => {
   //   const [currentSlide, setCurrentSlide] = React.useState(0);
@@ -72,7 +73,15 @@ export const Carousel = () => {
         {" "}
       </div>
 
-      <div className="w-full flex items-center justify-end mt-10">
+      <div className="w-full flex items-center justify-between mt-10">
+		<div className="flex ">
+{slides.map((slide, slideIndex) => (
+			<div >
+
+			<RxDotFilled className="text-2xl" />
+			</div>
+))}
+		</div>
         <div className="flex gap-5 justify-between items-center ">
           {/* Left rrow */}
           <div className="flex items-center justify-center py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
