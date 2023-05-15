@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -45,22 +46,28 @@ export const Footer = () => {
             <div className="w-7/12 py-2 px-5 gap-5 flex flex-col">
               <p className="text-white ">Privacy Policy</p>
               <p className="text-white">Terms & Conditions</p>
-
             </div>
           </div>
         </div>
 
         <div className="mt-16 flex items-center justify-between  w-full ">
-            <div className="w-3/12"></div>
-            <div className="w-7/12">
-
-            <h1 className="text-white">2023 © The Blueprint Strategy Group - All Rights Reserved</h1>
-            </div>
-            <div className="flex justify-between items-center w-2/12">
-<BsFacebook className="text-white text-xl cursor-pointer " />
-<BsTwitter className="text-white text-xl cursor-pointer " />
-<BsLinkedin  className="text-white text-xl cursor-pointer "/>
-            </div>
+          <div className="w-3/12"></div>
+          <div className="w-7/12">
+            <h1 className="text-white">
+              2023 © The Blueprint Strategy Group - All Rights Reserved
+            </h1>
+          </div>
+          <div className="flex justify-between items-center w-2/12">
+            <Link to={'/'} className="cursor-pointer">
+            <BsFacebook className="text-white text-xl cursor-pointer " />
+            </Link>
+            <Link to={'/'} className="cursor-pointer" >
+            <BsTwitter className="text-white text-xl cursor-pointer " />
+            </Link>
+            <Link to={'/'} className="cursor-pointer">
+            <BsLinkedin className="text-white text-xl cursor-pointer " />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
