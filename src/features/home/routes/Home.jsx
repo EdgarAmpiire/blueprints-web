@@ -9,10 +9,12 @@ export const Home = () => {
   return (
     <div>
       <MainLayout page="home">
-       <Hero />
-       <HomeServices />
-       <Clients />
-       <HomeBlog />
+        <div>
+          <Hero />
+          <HomeServices />
+          <Clients />
+          <HomeBlog />
+        </div>
       </MainLayout>
     </div>
   );
