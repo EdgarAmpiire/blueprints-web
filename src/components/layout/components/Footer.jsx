@@ -35,21 +35,16 @@ export const Footer = () => {
         <div className="mt-24">
           <h1 className="text-white text-xl">READY TO GET STARTED</h1>
           <div className="flex w-full items-center justify-between mt-4">
-            <div className="w-5/12">
+            <div className="w-5/12 border-r-2 border-r-white ">
               <p className="text-white">Visit us at our office:</p>
-              <p className="text-white">Blueprint Strategy Group, Inc
-
-
-</p>
-<p className="text-white">30 N Gould Street, Suite 4000</p>
-<p className="text-white">Sheridan, WY</p>
-
-
-
-              
+              <p className="text-white mt-8">Blueprint Strategy Group, Inc</p>
+              <p className="text-white">30 N Gould Street, Suite 4000</p>
+              <p className="text-white">Sheridan, WY</p>
             </div>
-            <div className="w-7/12 border-l-2 border-l-white py-2 px-5">
-              <p className="text-white">Privacy Policy</p>
+            <div className="w-7/12 py-2 px-5 gap-5 flex flex-col">
+              <p className="text-white ">Privacy Policy</p>
+              <p className="text-white">Terms & Conditions</p>
+
             </div>
           </div>
         </div>
