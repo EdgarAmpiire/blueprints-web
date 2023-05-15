@@ -63,14 +63,16 @@ export const Carousel = () => {
 		<div className="flex w-1/12 justify-between">
 
         {/* Left rrow */}
-		<div>
+		<div className="py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
 
-        <BsArrowLeftShort />
+        <BsArrowLeftShort className="text-2xl" />
 		</div>
         {/* Right rrow */}
         <BsArrowRightShort />
 		</div>
       </div>
+
+	  
     </div>
   );
 };
