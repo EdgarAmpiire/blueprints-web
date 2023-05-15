@@ -59,20 +59,19 @@ export const Carousel = () => {
         {" "}
       </div>
 
-      <div className="w-full flex justify-end mt-10" >
-		<div className="flex w-1/12 justify-between">
+      <div className="w-full flex justify-end mt-10">
+        <div className="flex gap-5 justify-between">
+          {/* Left rrow */}
+          <div className="py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
+            <BsArrowLeftShort className="text-2xl" />
+          </div>
+          {/* Right rrow */}
+          <div className="py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
 
-        {/* Left rrow */}
-		<div className="py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
-
-        <BsArrowLeftShort className="text-2xl" />
-		</div>
-        {/* Right rrow */}
-        <BsArrowRightShort />
-		</div>
+          <BsArrowRightShort className="text-2xl" />
+		  </div>
+        </div>
       </div>
-
-	  
     </div>
   );
 };
