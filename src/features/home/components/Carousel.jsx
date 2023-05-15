@@ -1,11 +1,11 @@
 import React from "react";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
 import blue from "../../../assets/blue.png";
-import {RxDotFilled,RxDot} from 'react-icons/rx';
+import { RxDotFilled, RxDot } from "react-icons/rx";
 
 export const Carousel = () => {
   //   const [currentSlide, setCurrentSlide] = React.useState(0);
-    const [currentIndex, setCurrentIndex] = React.useState(0);
+  const [currentIndex, setCurrentIndex] = React.useState(0);
 
   // const data = [
   // 	{
@@ -53,17 +53,20 @@ export const Carousel = () => {
   ];
 
   const prevSlide = () => {
-	const isFirstSlide = currentIndex === 0;
-	const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-	setCurrentIndex(newIndex)
-  }
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
 
   const nextSlide = () => {
-	const isLastSlide = currentIndex === slides.length - 1;
-	const newIndex = isLastSlide ? 0 : currentIndex + 1;
-	setCurrentIndex(newIndex)
-  }
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
 
+  const goToSlide = (slideIndex) => {
+	setCurrentIndex(slideIndex)
+  }
 
   return (
     <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative">
@@ -74,14 +77,13 @@ export const Carousel = () => {
       </div>
 
       <div className="w-full flex items-center justify-between mt-10">
-		<div className="flex ">
-{slides.map((slide, slideIndex) => (
-			<div >
-
-			<RxDotFilled className="text-2xl" />
-			</div>
-))}
-		</div>
+        <div className="flex ">
+          {slides.map((slide, slideIndex) => (
+            <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className="cursor-pointer ">
+              <RxDotFilled className="text-2xl" />
+            </div>
+          ))}
+        </div>
         <div className="flex gap-5 justify-between items-center ">
           {/* Left rrow */}
           <div className="flex items-center justify-center py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
@@ -89,9 +91,8 @@ export const Carousel = () => {
           </div>
           {/* Right rrow */}
           <div className="flex items-center justify-center py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
-
-          <BsArrowRightShort onClick={nextSlide} className="text-2xl" />
-		  </div>
+            <BsArrowRightShort onClick={nextSlide} className="text-2xl" />
+          </div>
         </div>
       </div>
     </div>
