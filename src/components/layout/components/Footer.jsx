@@ -31,6 +31,11 @@ export const Footer = () => {
             </form>
           </div>
         </div>
+
+        <div className="mt-24">
+        <h1 className="text-white text-xl">READY TO GET STARTED</h1>
+
+        </div>
       </div>
     </div>
   );
