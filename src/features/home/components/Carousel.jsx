@@ -57,7 +57,11 @@ export const Carousel = () => {
 	setCurrentIndex(newIndex)
   }
 
-  const nextSlide = () => {}
+  const nextSlide = () => {
+	const isFirstSlide = currentIndex === 0;
+	const newIndex = isFirstSlide ? slides.length + 1: currentIndex + 1;
+	setCurrentIndex(newIndex)
+  }
 
 
   return (
@@ -72,12 +76,12 @@ export const Carousel = () => {
         <div className="flex gap-5 justify-between items-center ">
           {/* Left rrow */}
           <div className="flex items-center justify-center py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
-            <BsArrowLeftShort className="text-2xl" />
+            <BsArrowLeftShort onClick={prevSlide} className="text-2xl" />
           </div>
           {/* Right rrow */}
           <div className="flex items-center justify-center py-2 px-2 rounded-full bg-black text-white cursor-pointer hover:bg-gray-500 transition duration-500 ease-in-out ">
 
-          <BsArrowRightShort className="text-2xl" />
+          <BsArrowRightShort onClick={nextSlide} className="text-2xl" />
 		  </div>
         </div>
       </div>
