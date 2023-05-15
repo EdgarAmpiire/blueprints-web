@@ -38,8 +38,8 @@ export const Footer = () => {
             <div className="w-5/12">
               <p className="text-white">Visit us at our office:</p>
             </div>
-            <div className="w-7/12">
-              <p>Privacy Policy</p>
+            <div className="w-7/12 border-l-2 border-l-white py-2 px-5">
+              <p className="text-white">Privacy Policy</p>
             </div>
           </div>
         </div>

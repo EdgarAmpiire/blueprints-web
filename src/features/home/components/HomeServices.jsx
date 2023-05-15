@@ -14,7 +14,7 @@ export const HomeServices = () => {
           <div className="px-6 py-1 bg-primary"></div>
         </div>
         <div className="w-full flex justify-center mt-4 ">
-          <h1 className="text-3xl font-semibold">We help you with</h1>
+          <h1 className="text-3xl font-semibold ">We help you with</h1>
         </div>
 
         <div className="bg-[#F5F5F5] py-5 px-3 rounded-lg mt-5">
