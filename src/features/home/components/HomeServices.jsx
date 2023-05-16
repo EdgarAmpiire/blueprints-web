@@ -76,7 +76,7 @@ export const HomeServices = () => {
           </div>
         </div> */}
 
-        <div className="bg-[#F5F5F5] w-full   py-5 px-5 rounded-lg mt-5 gap-14 grid grid-cols-2">
+        <div className=" w-full   py-5 px-5 rounded-lg mt-5 gap-14 grid grid-cols-2">
           <div className="w-12/12 flex justify-center items-center">
             <div className="rounded-3xl bg-[#050422] py-8 px-5 w-10/12 ">
               <div>
@@ -100,11 +100,43 @@ export const HomeServices = () => {
                 <img src={portfolio} alt="" />
               </div>
               <div>
-                <h1 className="text-white mt-5 font-semibold">
+                <h1 className="text-black mt-5 font-semibold">
                 Product Portfolio Management
                 </h1>
-                <p className="text-white mt-5 font-light text-sm mb-5">
+                <p className="text-black mt-5 font-light text-sm mb-5">
                 Optimizing resource allocation, aligning products, and improving portfolios.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-12/12 flex justify-center items-center">
+            <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5 w-10/12 ">
+              <div>
+                <img src={management} alt="" />
+              </div>
+              <div>
+                <h1 className="text-black mt-5 font-semibold w-8/12">
+                Product Development and Management Operation 
+                </h1>
+                <p className="text-black mt-5 font-light text-sm mb-5">
+                Commercializing new or existing products that meet market needs
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-12/12 flex justify-center items-center">
+            <div className="rounded-3xl bg-[#050422] py-8 px-5 w-10/12 ">
+              <div>
+                <img src={marketing} alt="" />
+              </div>
+              <div>
+                <h1 className="text-white mt-5 font-semibold">
+                Digital Marketing
+                </h1>
+                <p className="text-white mt-5 font-light text-sm mb-5">
+                Executing campaigns to increase revenue and engage with your audience
                 </p>
               </div>
             </div>
