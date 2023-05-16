@@ -76,14 +76,33 @@ export const HomeServices = () => {
           </div>
         </div> */}
 
-        <div className="bg-[#F5F5F5] w-full flex justify-center items-center py-5 px-3 rounded-lg mt-5">
-          <div className="w-10/12">
-            <div className="rounded-3xl bg-[#050422] py-8 px-5 w-5/12 ">
+        <div className="bg-[#F5F5F5] w-full   py-5 px-5 rounded-lg mt-5 gap-14 grid grid-cols-2">
+          <div className="w-10/12 flex justify-center items-center">
+            <div className="rounded-3xl bg-[#050422] py-8 px-5 ">
               <div>
                 <img src={strategy} alt="" />
               </div>
               <div>
-                <h1 className="text-white mt-5 font-semibold">Business & Product Strategy</h1>
+                <h1 className="text-white mt-5 font-semibold">
+                  Business & Product Strategy
+                </h1>
+                <p className="text-white mt-5 font-light text-sm mb-5">
+                  Defining product ideas to achieve your strategic vision and
+                  goals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-10/12">
+            <div className="rounded-3xl bg-[#050422] py-8 px-5  ">
+              <div>
+                <img src={strategy} alt="" />
+              </div>
+              <div>
+                <h1 className="text-white mt-5 font-semibold">
+                  Business & Product Strategy
+                </h1>
                 <p className="text-white mt-5 font-light text-sm mb-5">
                   Defining product ideas to achieve your strategic vision and
                   goals.
