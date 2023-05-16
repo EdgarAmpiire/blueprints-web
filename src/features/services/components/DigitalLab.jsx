@@ -36,6 +36,31 @@ export const DigitalLab = () => {
             </div>
           </div>
         </div>
+
+        <div className="bg-[#F5E5FF] rounded-xl py-10 px-10 mt-15">
+          <div className="grid grid-cols-2 w-full">
+            
+            <div className="flex flex-col items-start ">
+              <div>
+                <h1 className="text-[#040052] text-lg font-semibold">Digital Marketing</h1>
+                <h3 className="mt-5 text-[#040052]">Connect and Convert</h3>
+              </div>
+              <div className="mt-5 w-8/12">
+                <p className="text-[#6B6A6A] text-sm">
+                A digital marketing strategy is a set of planned, strategic and tactical actions to acquire and retain the attention of your addressable market
+                </p>
+                <p className="mt-5 text-[#6B6A6A] text-sm ">Services:</p>
+                <ul class="list-disc mt-5 text-[#6B6A6A] text-sm ml-8">
+                  <li>Digital Marketing Strategy Builder </li>
+                  <li>Digital Marketing Assesment Tools </li>
+                </ul>
+              </div>
+            </div>
+            <div className="flex items-center justify-center ">
+              <img src={thumb} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
