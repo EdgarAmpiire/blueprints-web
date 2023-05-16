@@ -2,7 +2,7 @@ import React from "react";
 import strategy from "../../../assets/strategyIcon.png";
 import portfolio from "../../../assets/portfolioIcon.png";
 import management from "../../../assets/managementIcon.png";
-import marketing from "../../../assets/marketing.png";
+import marketing from "../../../assets/marketingIcon.png";
 // import { Strategy } from "./Strategy";
 
 export const HomeServices = () => {
