@@ -37,7 +37,7 @@ export const DigitalLab = () => {
           </div>
         </div>
 
-        <div className="bg-[#F5E5FF] rounded-xl py-10 px-10 mt-15">
+        <div className="bg-[#F5E5FF] rounded-xl py-10 px-10 mt-16">
           <div className="grid grid-cols-2 w-full">
             
             <div className="flex flex-col items-start ">
@@ -58,6 +58,33 @@ export const DigitalLab = () => {
             </div>
             <div className="flex items-center justify-center ">
               <img src={thumb} alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-[#F3F3F3] rounded-xl py-10 px-10 mt-10">
+          <div className="grid grid-cols-2 w-full">
+            <div className="flex items-center justify-center ">
+              <img src={thumb} alt="" />
+            </div>
+            <div className="flex flex-col items-start ">
+              <div>
+                <h1 className="text-[#040052] text-lg font-semibold">Product Development and Product Management Operations (ProdOps)</h1>
+                <h3 className="mt-5 text-[#040052]">From Concept to Commercialization</h3>
+              </div>
+              <div className="mt-5 w-8/12">
+                <p className="text-[#6B6A6A] text-sm">
+                Product development is the end-to-end process of driving an idea from concept to commercialization and beyond in its lifecycle. 
+                </p>
+                <p className="mt-5 text-[#6B6A6A] text-sm ">Services:</p>
+                <ul class="list-disc mt-5 text-[#6B6A6A] text-sm ml-8">
+                  <li>Product Development  </li>
+                  <li>Product Operations (ProdOps) </li>
+                  <li>Design Thinking and Innovation  </li>
+                  <li>User experience (UX) design </li>
+
+                </ul>
+              </div>
             </div>
           </div>
         </div>
