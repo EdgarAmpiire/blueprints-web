@@ -114,6 +114,10 @@ import { Link } from "react-router-dom";
             </ul>
           </div>
         </div>
+
+        <div className="border-b-2 w-full mt-6 border-b-[#0000001A]">
+          
+        </div>
       </nav>
     );
     

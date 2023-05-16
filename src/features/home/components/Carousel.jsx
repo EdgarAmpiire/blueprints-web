@@ -1,7 +1,7 @@
 import React from "react";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
 
-import { RxDotFilled } from "react-icons/rx";
+// import { RxDotFilled } from "react-icons/rx";
 
 export const Carousel = () => {
   //   const [currentSlide, setCurrentSlide] = React.useState(0);
