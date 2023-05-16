@@ -23,14 +23,28 @@ export const Hero = () => {
           <h1 className="text-[#040052] font-semibold text-xl">We Help With</h1>
         </div>
         <div className="flex justify-between w-6/12 gap-10 mt-10">
+          <div>
+
           <div className="bg-[#5A50FE] py-4 px-4 rounded-full flex items-center justify-center">
             <img src={startUp} alt="" className="h-9/12 w-9/12" />
           </div>
-          <div className="bg-[#5A50FE] py-4 px-4 rounded-full flex items-center justify-center">
-            <img src={startUp} alt="" className="h-9/12 w-9/12" />
+          <p>Start-ups</p>
+
           </div>
+          <div>
+
           <div className="bg-[#5A50FE] py-4 px-4 rounded-full flex items-center justify-center">
-            <img src={startUp} alt="" className="h-9/12 w-9/12" />
+            <img src={midSized} alt="" className="h-9/12 w-9/12" />
+          </div>
+            <p>Mid Sized Enterprises</p>
+
+          </div>
+          <div>
+
+          <div className="bg-[#5A50FE] py-4 px-4 rounded-full flex items-center justify-center">
+            <img src={largeEnt} alt="" className="h-9/12 w-9/12" />
+          </div>
+            <p>Large Corporations</p>
           </div>
         </div>
       </div>
