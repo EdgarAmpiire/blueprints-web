@@ -102,7 +102,7 @@ export const DigitalLab = () => {
           </div>
         </div>
 
-        <div className="bg-[#F5E5FF] rounded-xl py-10 px-10 mt-16">
+        <div className="bg-[#ECEBFF] rounded-xl py-10 px-10 mt-16">
           <div className="grid grid-cols-2 w-full">
             <div className="flex flex-col items-start ">
               <div>
