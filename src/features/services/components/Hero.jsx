@@ -27,7 +27,7 @@ export const Hero = () => {
             <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
               <img src={startUp} alt="" className="w-fit" />
             </div>
-            <div>
+            <div  className="mt-2">
               <p>Start-ups</p>
             </div>
           </div>
@@ -36,7 +36,7 @@ export const Hero = () => {
             <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
               <img src={midSized} alt="" className="w-fit" />
             </div>
-            <div>
+            <div className="mt-2">
               <p>Mid Sized Enterprises</p>
             </div>
           </div>
@@ -45,7 +45,7 @@ export const Hero = () => {
             <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
               <img src={largeEnt} alt="" className="w-fit" />
             </div>
-            <div>
+            <div className="mt-2">
               <p>Large Corporations</p>
             </div>
           </div>
