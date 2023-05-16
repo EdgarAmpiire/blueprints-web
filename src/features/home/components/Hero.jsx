@@ -10,7 +10,9 @@ export const Hero = () => {
         <div className="w-8/12">
           <div className="w-10/12">
             <h1 className="text-4xl font-semibold tracking-wide w-10/12 leading-tight text-black">
-              Delivering Solutions Powered by <span className="text-[#0055BA]"> People, Process,</span> and <span className="text-[#0055BA]"> Technology</span> 
+              Delivering Solutions Powered by{" "}
+              <span className="text-[#0055BA]"> People, Process,</span> and{" "}
+              <span className="text-[#0055BA]"> Technology</span>
             </h1>
             <p className="mt-5 text-gray-500 text-lg">
               We partners with businesses and product teams to conceptualize,
@@ -18,16 +20,16 @@ export const Hero = () => {
               scale and succeed in existing or new markets in the digital
               economy.
             </p>
-            <Link to="/contact" className="" >
-            <div className=" bg-[#0055BA] py-3 px-4 rounded-md flex items-center mt-5 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150   ">
-              <p className="pl-2 pr-2 text-base text-white ">
-              Book an initial session now
-              </p>
-              <span className="">
-                <BsArrowRight className="text-2xl   " />
-              </span>
-            </div>
-          </Link>
+            <Link to="/contact" className="">
+              <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center mt-5 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150   ">
+                <p className="pl-2 pr-2 text-base text-black ">
+                  Book an initial session now
+                </p>
+                <span className="">
+                  <BsArrowRight className="text-2xl text-black  " />
+                </span>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="w-4/12 flex items-center justify-center">
