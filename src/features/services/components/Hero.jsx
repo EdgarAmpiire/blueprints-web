@@ -1,4 +1,7 @@
 import React from "react";
+import startUp from "../../../assets/startup.png"
+import midSized from "../../../assets/midsize.png"
+import largeEnt from "../../../assets/large.png"
 
 export const Hero = () => {
   return (
