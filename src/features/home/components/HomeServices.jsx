@@ -2,7 +2,7 @@ import React from "react";
 import { Strategy } from "./Strategy";
 
 export const HomeServices = () => {
-    const [isActive, setisActive] = React.useState("strategy");
+  const [isActive, setisActive] = React.useState("strategy");
 
   const changeComponent = (item) => {
     setisActive(item);
@@ -17,9 +17,8 @@ export const HomeServices = () => {
           <h1 className="text-3xl font-semibold ">We help you with</h1>
         </div>
 
-        <div className="bg-[#F5F5F5] py-5 px-3 rounded-lg mt-5">
-          
-        <div className="py-3">
+        {/* <div className="bg-[#F5F5F5] py-5 px-3 rounded-lg mt-5">
+          <div className="py-3">
             <div className=" border-gray-300">
               <div className="flex justify-around w-full ">
                 <button
@@ -29,7 +28,6 @@ export const HomeServices = () => {
                       : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
                   }
                   onClick={() => changeComponent("strategy")}
-                
                 >
                   Business & Product Strategy
                 </button>
@@ -51,7 +49,7 @@ export const HomeServices = () => {
                   }
                   onClick={() => changeComponent("operation")}
                 >
-                  Product Development and Management Operation 
+                  Product Development and Management Operation
                 </button>
                 <button
                   className={
@@ -72,7 +70,12 @@ export const HomeServices = () => {
               {isActive === "marketing" && "tab4"}
             </div>
           </div>
-          
+        </div> */}
+
+        <div>
+          <div>
+            <img src="" alt="" />
+          </div>
         </div>
       </div>
     </div>
