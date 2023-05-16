@@ -1,12 +1,16 @@
 import React from "react";
-import { Strategy } from "./Strategy";
+import strategy from "../../../assets/strategyIcon.png"
+import portfolio from "../../../assets/portfolioIcon.png"
+import management from "../../../assets/managementIcon.png"
+import marketing from "../../../assets/marketingIcon.png";
+// import { Strategy } from "./Strategy";
 
 export const HomeServices = () => {
-  const [isActive, setisActive] = React.useState("strategy");
+  // const [isActive, setisActive] = React.useState("strategy");
 
-  const changeComponent = (item) => {
-    setisActive(item);
-  };
+  // const changeComponent = (item) => {
+  //   setisActive(item);
+  // };
   return (
     <div>
       <div className="mt-24">
