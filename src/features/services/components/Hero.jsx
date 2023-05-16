@@ -22,29 +22,22 @@ export const Hero = () => {
         <div>
           <h1 className="text-[#040052] font-semibold text-xl">We Help With</h1>
         </div>
-        <div className="flex justify-between w-6/12 gap-10 mt-10">
-          <div>
-
-          <div className="bg-[#5A50FE] py-4 px-4 rounded-full flex items-center justify-center">
-            <img src={startUp} alt="" className="h-9/12 w-9/12" />
+        <div className="flex justify-center w-7/12 gap-10 mt-10">
+          <div className="flex items-center justify-center flex-col">
+            <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
+              <img src={startUp} alt="" className="w-fit" />
+            </div>
+            <div>
+              <p>Start-ups</p>
+            </div>
           </div>
-          <p>Start-ups</p>
-
-          </div>
-          <div>
-
-          <div className="bg-[#5A50FE] py-4 px-4 rounded-full flex items-center justify-center">
-            <img src={midSized} alt="" className="h-9/12 w-9/12" />
-          </div>
-            <p>Mid Sized Enterprises</p>
-
-          </div>
-          <div>
-
-          <div className="bg-[#5A50FE] py-4 px-4 rounded-full flex items-center justify-center">
-            <img src={largeEnt} alt="" className="h-9/12 w-9/12" />
-          </div>
-            <p>Large Corporations</p>
+          <div className="flex items-center justify-center flex-col">
+            <div className="bg-[#5A50FE] py-4 px-4 rounded-full flex items-center justify-center ">
+              <img src={midSized} alt="" className="w-fit" />
+            </div>
+            <div>
+              <p>Start-ups</p>
+            </div>
           </div>
         </div>
       </div>
