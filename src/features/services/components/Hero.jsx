@@ -27,7 +27,7 @@ export const Hero = () => {
             <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
               <img src={startUp} alt="" className="w-fit" />
             </div>
-            <div  className="mt-2">
+            <div className="mt-2">
               <p>Start-ups</p>
             </div>
           </div>
@@ -49,7 +49,18 @@ export const Hero = () => {
               <p>Large Corporations</p>
             </div>
           </div>
-          
+        </div>
+      </div>
+
+      <div className="w-full mt-10 flex justify-center">
+        <div className="bg-[#0055BA] py-10 px-10 rounded-lg w-full flex justify-center">
+          <p className="text-center text-white w-10/12 ">
+            Our focus is on digital strategies that are driven by data and
+            analytics centering on digital discovery, journeys and experience,
+            and digital identities to immerse your customers and consumers into
+            a seamless digital to real-world experience. We work with you to
+            enable the power of digital technologies in your business.
+          </p>
         </div>
       </div>
     </div>
