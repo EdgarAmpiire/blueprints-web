@@ -1,7 +1,7 @@
 import React from "react";
-import strategy from "../../../assets/strategyIcon.png"
-import portfolio from "../../../assets/portfolioIcon.png"
-import management from "../../../assets/managementIcon.png"
+import strategy from "../../../assets/strategyIcon.png";
+import portfolio from "../../../assets/portfolioIcon.png";
+import management from "../../../assets/managementIcon.png";
 import marketing from "../../../assets/marketingIcon.png";
 // import { Strategy } from "./Strategy";
 
@@ -76,9 +76,20 @@ export const HomeServices = () => {
           </div>
         </div> */}
 
-        <div>
-          <div>
-            <img src="" alt="" />
+        <div className="bg-[#F5F5F5] w-full flex justify-center items-center py-5 px-3 rounded-lg mt-5">
+          <div className="w-10/12">
+            <div className="rounded-3xl bg-[#050422] py-8 px-5 w-5/12 ">
+              <div>
+                <img src={strategy} alt="" />
+              </div>
+              <div>
+                <h1 className="text-white mt-5 font-semibold">Business & Product Strategy</h1>
+                <p className="text-white mt-5 font-light text-sm mb-5">
+                  Defining product ideas to achieve your strategic vision and
+                  goals.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
