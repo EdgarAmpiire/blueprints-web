@@ -71,18 +71,18 @@ export const Footer = () => {
                 <Link to={"/about-us"}>
                   <p className="text-white ">Resources</p>
                 </Link>
-                <Link to={"/how-we-work"}>
+                <Link to={"/how-we-work"}  className="flex items-center gap-2">
                   <BsDashLg className="text-white" />
-                  <p className="text-white">Blog</p>
+                  <p className="text-gray-400">Blog</p>
                 </Link>
-                <Link to={"/how-we-work"}>
+                <Link to={"/how-we-work"} className="flex items-center gap-2">
                   <BsDashLg className="text-white" />
 
-                  <p className="text-white">News & Articles</p>
+                  <p className="text-gray-400">News & Articles</p>
                 </Link>
               </div>
               <div>
-                <Link to={"/services"}>
+                <Link to={"/contact-us"}>
                   <p className="text-white">Contact Us</p>
                 </Link>
               </div>
