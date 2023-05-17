@@ -55,8 +55,9 @@ export const Footer = () => {
           </div>
             </div>
             <div className="w-7/12 py-2 px-5 gap-5 flex flex-col">
-              <p className="text-white ">Privacy Policy</p>
-              <p className="text-white">Terms & Conditions</p>
+              <p className="text-white ">About  Us</p>
+              <p className="text-white">How We Work</p>
+              <p className="text-white">Services</p>
             </div>
           </div>
         </div>
