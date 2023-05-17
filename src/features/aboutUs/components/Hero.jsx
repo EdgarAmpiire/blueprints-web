@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div>
+    <di className="">
         <div class="w-full bg-cover bg-center object-cover" style={{height: "32rem", backgroundImage: `url(/images/bg.png)`}}>
         <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
             <div class="text-center">
@@ -11,6 +11,6 @@ export const Hero = () => {
             </div>
         </div>
     </div>
-    </div>
+    </di>
   )
 }
