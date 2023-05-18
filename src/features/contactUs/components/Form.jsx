@@ -73,6 +73,9 @@ export const Form = () => {
             </div>
           </div>
           <div className="w-7/12">
+            <div>
+                <h1>Name (Required)</h1>
+            </div>
             <form>
               <div>
                 <label>First Name</label>
