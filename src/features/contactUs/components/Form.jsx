@@ -102,6 +102,9 @@ export const Form = () => {
                 </div>
                 </div>
                 
+                <div className="mt-5">
+                    <button type="submit" className="uppercase text-white py-2 px-6 bg-[#0055BA] ">Submit</button>
+                </div>
             </form>
           </div>
         </div>
