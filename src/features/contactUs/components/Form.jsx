@@ -41,7 +41,7 @@ export const Form = () => {
                   </div>
                   <div className="text-sm">
                     <p className="text-[#040052] font-semibold">
-                      Visit Us
+                      Visit us
                     </p>
                     <p className="text-[#040052]">
                     Blueprint Strategy Group, Inc 
@@ -62,10 +62,10 @@ export const Form = () => {
                   </div>
                   <div className="text-sm">
                     <p className="text-[#040052] font-semibold">
-                      Send us an email
+                    Call us
                     </p>
                     <p className="text-[#040052]">
-                      info@theblueprintstrategy.com
+                    0414 767 212
                     </p>
                   </div>
                 </div>
