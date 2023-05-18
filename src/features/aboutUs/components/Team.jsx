@@ -2,6 +2,7 @@ import React from "react";
 import user from "../../../assets/user.png";
 import { CiLinkedin, CiTwitter } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export const Team = () => {
   return (
@@ -18,10 +19,16 @@ export const Team = () => {
               <div>
                 <img src={user} alt="" />
               </div>
-              <div className="flex">
-                <CiLinkedin />
-                <CiTwitter />
-                <AiOutlineMail />
+              <div className="flex px-2 mt-3 w-8/12 items-center justify-between">
+                <Link to={"/"}>
+                  <CiLinkedin className="text-xl text-[#040052] cursor-pointer" />
+                </Link>
+                <Link to={"/"}>
+                  <CiTwitter className="text-xl text-[#040052] cursor-pointer" />
+                </Link>
+                <Link to={"/"}>
+                  <AiOutlineMail className="text-xl text-[#040052] cursor-pointer" />
+                </Link>
               </div>
             </div>
             <div className="w-10/12">
