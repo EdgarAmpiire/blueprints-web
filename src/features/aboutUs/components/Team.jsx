@@ -9,6 +9,7 @@ export const Team = () => {
 
     const people = [ 
         {
+            avatar: user,
             name: "E Michael Rosales.MBA, CSPO, CPIP, CSM",
             title: "Chief Digital Product Consultant, BSG Co-founder",
             bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
@@ -16,6 +17,7 @@ export const Team = () => {
             bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
         }, 
         {
+            avatar: user,
             name: "Elliot Ruiz",
             title: "Chief Digital Project Officer, BSG Co-Founder​",
             bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
@@ -23,6 +25,7 @@ export const Team = () => {
             bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
         }, 
         {
+            avatar: user,
             name: "David Araujo",
             title: "Chief Digital Operations Officer, BSG Co-founder",
             bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
@@ -30,6 +33,7 @@ export const Team = () => {
             bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
         }, 
         {
+            avatar: user,
             name: "Austin Young",
             title: "Chief Financial Officer, BSG Co-founder",
             bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
@@ -37,6 +41,7 @@ export const Team = () => {
             bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
         }, 
         {
+            avatar: user,
             name: "Edgar Asiimwe",
             title: "Associate Product Manager",
             bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
