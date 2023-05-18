@@ -2,9 +2,9 @@ import React from "react";
 import {BsArrowRight} from "react-icons/bs"
 import { Link } from "react-router-dom";
 
-export const Hero = () => {
+export const Hero = () => { 
   return (
-    <di className="">
+    <div className="">
       <div
         class="w-full bg-cover bg-center object-cover"
         style={{ height: "28rem", backgroundImage: `url(/images/bg.png)` }}>
@@ -35,6 +35,6 @@ export const Hero = () => {
             </Link>
         </div>
       </div>
-    </di>
+    </div>
   );
 };
