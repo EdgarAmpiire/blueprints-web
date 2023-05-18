@@ -36,7 +36,7 @@ export const Form = () => {
 
               <div>
                 <div className="flex gap-2">
-                  <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
+                  <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
                     <MdOutlineLocationOn className="text-white" />
                   </div>
                   <div className="text-sm">
@@ -56,7 +56,19 @@ export const Form = () => {
               </div>
             
               <div>
-                <MdOutlineLocalPhone />
+                <div className="flex gap-2">
+                  <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
+                    <MdOutlineLocalPhone className="text-white" />
+                  </div>
+                  <div className="text-sm">
+                    <p className="text-[#040052] font-semibold">
+                      Send us an email
+                    </p>
+                    <p className="text-[#040052]">
+                      info@theblueprintstrategy.com
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
