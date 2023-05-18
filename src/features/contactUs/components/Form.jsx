@@ -67,7 +67,7 @@ export const Form = () => {
           </div>
           <div className="w-7/12">
             <div>
-              <h1 className="text-sm text-[#040052]">Name (Required)</h1>
+              <h1 className="text-sm text-[#040052]">Name (required)</h1>
             </div>
             <form>
               <div className="flex justify-between mt-4 gap-5">
