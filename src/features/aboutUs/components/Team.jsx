@@ -6,6 +6,17 @@ import { Link } from "react-router-dom";
 import { BsCheckLg } from "react-icons/bs";
 
 export const Team = () => {
+
+    const people = [ 
+        {
+            name: "E Michael Rosales.MBA, CSPO, CPIP, CSM",
+            title: "Chief Digital Product Consultant, BSG Co-founder",
+            bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
+            bio1: " A proven and passionate digital experience designer specializing in the ideation, development, launch an scaling of digital products for organizations in multiple industries utilizing various business models as well as building and implementing product management operational models to continuously capture and deliver value.",
+            bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
+        }
+     ]
+
   return (
     <div>
       <div className="mt-24">
