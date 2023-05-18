@@ -58,6 +58,10 @@ export const Team = () => {
             The Team that makes it happen
           </h1>
         </div>
+
+        {people.map((p, index) => (
+
+        <div>
         <div className=" mt-14 flex items-center justify-center ">
           <div className="flex w-10/12 gap-14">
             <div className="w-3/12 flex flex-col">
@@ -130,6 +134,8 @@ export const Team = () => {
             </div>
           </div>
         </div>
+        </div>
+        ))}
       </div>
     </div>
   );
