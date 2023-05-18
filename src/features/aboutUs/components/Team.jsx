@@ -14,7 +14,35 @@ export const Team = () => {
             bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
             bio1: " A proven and passionate digital experience designer specializing in the ideation, development, launch an scaling of digital products for organizations in multiple industries utilizing various business models as well as building and implementing product management operational models to continuously capture and deliver value.",
             bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
-        }
+        }, 
+        {
+            name: "Elliot Ruiz",
+            title: "Chief Digital Project Officer, BSG Co-Founder​",
+            bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
+            bio1: " A proven and passionate digital experience designer specializing in the ideation, development, launch an scaling of digital products for organizations in multiple industries utilizing various business models as well as building and implementing product management operational models to continuously capture and deliver value.",
+            bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
+        }, 
+        {
+            name: "David Araujo",
+            title: "Chief Digital Operations Officer, BSG Co-founder",
+            bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
+            bio1: " A proven and passionate digital experience designer specializing in the ideation, development, launch an scaling of digital products for organizations in multiple industries utilizing various business models as well as building and implementing product management operational models to continuously capture and deliver value.",
+            bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
+        }, 
+        {
+            name: "Austin Young",
+            title: "Chief Financial Officer, BSG Co-founder",
+            bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
+            bio1: " A proven and passionate digital experience designer specializing in the ideation, development, launch an scaling of digital products for organizations in multiple industries utilizing various business models as well as building and implementing product management operational models to continuously capture and deliver value.",
+            bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
+        }, 
+        {
+            name: "Edgar Asiimwe",
+            title: "Associate Product Manager",
+            bio: "Michael is an innovative, value-centric, outcome-driven and entrepreneurial business strategist, digital product leader, thinker, and problem solver with Digital DNA leveraging 15+ years of product and business strategy experience.",
+            bio1: " A proven and passionate digital experience designer specializing in the ideation, development, launch an scaling of digital products for organizations in multiple industries utilizing various business models as well as building and implementing product management operational models to continuously capture and deliver value.",
+            bio2: "Michael earned a Bachelor of Science in Organizational Management from the University of La Verne and a Master of Business Administration from the New York Institute of Technology. "
+        }, 
      ]
 
   return (
