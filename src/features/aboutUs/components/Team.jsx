@@ -61,12 +61,12 @@ export const Team = () => {
 
         {people.map((p, index) => (
 
-        <div>
+        <div key={index}>
         <div className=" mt-14 flex items-center justify-center ">
           <div className="flex w-10/12 gap-14">
             <div className="w-3/12 flex flex-col">
               <div>
-                <img src={user} alt="" />
+                <img src={p.avatar} alt="" />
               </div>
               <div className="flex px-2 mt-3 w-8/12 items-center justify-between">
                 <Link to={"/"}>
@@ -83,19 +83,16 @@ export const Team = () => {
             <div className="w-9/12">
               <div>
                 <h1 className="text-[#040052] w-5/12 font-semibold">
-                  E Michael Rosales.MBA, CSPO, CPIP, CSM
+                  {p.name}
                 </h1>
                 <p className="text-[#0055BA] text-sm w-5/12 font-light mt-3">
-                  Chief Digital Product Consultant, BSG Co-founder
+                  {p.title}
                 </p>
               </div>
               <div className="mt-5 border-b border-gray-600 w-9/12"></div>
               <div className="mt-5 w-9/12">
                 <p className="font-light">
-                  Michael is an innovative, value-centric, outcome-driven and
-                  entrepreneurial business strategist, digital product leader,
-                  thinker, and problem solver with Digital DNA leveraging 15+
-                  years of product and business strategy experience.
+                  {p.bio}
                 </p>
               </div>
             </div>
@@ -111,12 +108,7 @@ export const Team = () => {
                     <BsCheckLg className="text-green-500" />
                   </span>
                   <p class="text-sm">
-                    A proven and passionate digital experience designer
-                    specializing in the ideation, development, launch and
-                    scaling of digital products for organizations in multiple
-                    industries utilizing various business models as well as
-                    building and implementing product management operational
-                    models to continuously capture and deliver value.
+                    {p.bio1}
                   </p>
                 </li>
                 <li class="mb-10 ml-6">
@@ -124,10 +116,7 @@ export const Team = () => {
                     <BsCheckLg className="text-green-500" />
                   </span>
                   <p class="text-sm">
-                    Michael earned a Bachelor of Science in Organizational
-                    Management from the University of La Verne and a Master of
-                    Business Administration from the New York Institute of
-                    Technology.
+                    {p.bio2}
                   </p>
                 </li>
               </ol>
