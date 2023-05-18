@@ -56,7 +56,7 @@ export const Team = () => {
 
         <div className="mt-10 flex justify-center">
           <div className=" w-10/12 bg-[#BAD0E41A] rounded-md">
-            <div className="px-10 py-10">
+            <div className="px-10 pt-10">
               <ol class="relative flex flex-col  text-gray-500 border-l border-gray-200 ">
                 <li class="mb-10 ml-6">
                   <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A] ">
