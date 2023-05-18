@@ -1,4 +1,5 @@
 import React from "react";
+import user from "../../../assets/user.png"
 
 export const Team = () => {
   return (
@@ -12,7 +13,7 @@ export const Team = () => {
         <div className="w-10/12 ">
           <div>
             <div>
-              <img src="" alt="" />
+              <img src={user} alt="" />
             </div>
             <div>
               <div>
