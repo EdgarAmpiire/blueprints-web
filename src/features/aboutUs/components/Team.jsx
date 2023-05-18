@@ -14,8 +14,8 @@ export const Team = () => {
           </h1>
         </div>
         <div className=" mt-14 flex items-center justify-center ">
-          <div className="flex w-10/12">
-            <div className="w-2/12 flex flex-col">
+          <div className="flex w-10/12 gap-14">
+            <div className="w-3/12 flex flex-col">
               <div>
                 <img src={user} alt="" />
               </div>
@@ -31,13 +31,14 @@ export const Team = () => {
                 </Link>
               </div>
             </div>
-            <div className="w-10/12">
+            <div className="w-9/12">
               <div>
-                <h1>E Michael Rosales.MBA, CSPO, CPIP, CSM</h1>
-                <p>Chief Digital Product Consultant, BSG Co-founder</p>
+                <h1 className="text-[#040052] w-5/12 font-semibold">E Michael Rosales.MBA, CSPO, CPIP, CSM</h1>
+                <p className="text-[#0055BA] text-sm w-5/12 font-light mt-3">Chief Digital Product Consultant, BSG Co-founder</p>
               </div>
-              <div>
-                <p>
+              <div className="mt-5 border-b border-gray-600 w-9/12"></div>
+              <div className="mt-5 w-9/12">
+                <p className="font-light">
                   Michael is an innovative, value-centric, outcome-driven and
                   entrepreneurial business strategist, digital product leader,
                   thinker, and problem solver with Digital DNA leveraging 15+
