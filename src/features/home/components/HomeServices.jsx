@@ -80,7 +80,7 @@ export const HomeServices = () => {
 
         <div className=" w-10/12   py-5 px-5 rounded-lg mt-5 gap-10 grid grid-cols-2">
           <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#050422] py-8 px-5 w-10/12 ">
+            <div className="rounded-3xl bg-[#050422] py-8 px-5  ">
               <div>
                 <img src={strategy} alt="" />
               </div>
@@ -97,7 +97,7 @@ export const HomeServices = () => {
           </div>
 
           <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5 w-10/12 ">
+            <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5  ">
               <div>
                 <img src={portfolio} alt="" />
               </div>
@@ -113,7 +113,7 @@ export const HomeServices = () => {
           </div>
 
           <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#F3F3F3] py-7 px-5 w-10/12 ">
+            <div className="rounded-3xl bg-[#F3F3F3] py-7 px-5  ">
               <div>
                 <img src={management} alt="" />
               </div>
@@ -131,7 +131,7 @@ export const HomeServices = () => {
           </div>
 
           {/* <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5 w-10/12 ">
+            <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5  ">
               <div>
                 <img src={management} alt="" />
               </div>
@@ -147,7 +147,7 @@ export const HomeServices = () => {
           </div> */}
 
           <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#050422] py-8 px-5 w-10/12 ">
+            <div className="rounded-3xl bg-[#050422] py-8 px-5  ">
               <div>
                 <img src={marketing} alt="" />
               </div>
