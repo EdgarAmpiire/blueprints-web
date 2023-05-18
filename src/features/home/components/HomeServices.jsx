@@ -76,7 +76,9 @@ export const HomeServices = () => {
           </div>
         </div> */}
 
-        <div className=" w-full   py-5 px-5 rounded-lg mt-5 gap-14 grid grid-cols-2">
+<div className="flex justify-center items-center">
+
+        <div className=" w-10/12   py-5 px-5 rounded-lg mt-5 gap-10 grid grid-cols-2">
           <div className="w-12/12 flex justify-center items-center">
             <div className="rounded-3xl bg-[#050422] py-8 px-5 w-10/12 ">
               <div>
@@ -111,6 +113,24 @@ export const HomeServices = () => {
           </div>
 
           <div className="w-12/12 flex justify-center items-center">
+            <div className="rounded-3xl bg-[#F3F3F3] py-7 px-5 w-10/12 ">
+              <div>
+                <img src={management} alt="" />
+              </div>
+              <div>
+                <h1 className="text-black mt-3 font-semibold">
+                                Product Development and Management Operation 
+
+                </h1>
+                <p className="text-black mt-2 font-light text-sm mb-5">
+                Commercializing new or existing products that meet market needs
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="w-12/12 flex justify-center items-center">
             <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5 w-10/12 ">
               <div>
                 <img src={management} alt="" />
@@ -124,7 +144,7 @@ export const HomeServices = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="w-12/12 flex justify-center items-center">
             <div className="rounded-3xl bg-[#050422] py-8 px-5 w-10/12 ">
@@ -142,6 +162,8 @@ export const HomeServices = () => {
             </div>
           </div>
         </div>
+</div>
+
       </div>
     </div>
   );
