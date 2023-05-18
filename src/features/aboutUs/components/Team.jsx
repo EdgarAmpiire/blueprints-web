@@ -55,29 +55,34 @@ export const Team = () => {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <div className=" w-10/12 bg-[#BAD0E41A]">
+          <div className=" w-10/12 bg-[#BAD0E41A] rounded-md">
             <div className="px-10 py-10">
-
-            
-            <ol class="relative text-gray-500 border-l border-gray-200 ">
-              <li class="mb-10 ml-6">
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A] ">
-                 <BsCheckLg className="text-green-500" />
-                </span>
-                <h3 class="font-medium leading-tight">Personal Info</h3>
-                <p class="text-sm">Step details here</p>
-              </li>
-              <li class="mb-10 ml-6">
-                <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A]">
-                <BsCheckLg className="text-green-500" />
-
-                </span>
-                <h3 class="font-medium leading-tight">Account Info</h3>
-                <p class="text-sm">Step details here</p>
-              </li>
-              
-              
-            </ol>
+              <ol class="relative flex flex-col  text-gray-500 border-l border-gray-200 ">
+                <li class="mb-10 ml-6">
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A] ">
+                    <BsCheckLg className="text-green-500" />
+                  </span>
+                  <p class="text-sm">
+                    A proven and passionate digital experience designer
+                    specializing in the ideation, development, launch and
+                    scaling of digital products for organizations in multiple
+                    industries utilizing various business models as well as
+                    building and implementing product management operational
+                    models to continuously capture and deliver value.
+                  </p>
+                </li>
+                <li class="mb-10 ml-6">
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A]">
+                    <BsCheckLg className="text-green-500" />
+                  </span>
+                  <p class="text-sm">
+                    Michael earned a Bachelor of Science in Organizational
+                    Management from the University of La Verne and a Master of
+                    Business Administration from the New York Institute of
+                    Technology.
+                  </p>
+                </li>
+              </ol>
             </div>
           </div>
         </div>
