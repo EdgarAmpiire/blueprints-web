@@ -1,4 +1,6 @@
 import React from "react";
+import {BsArrowRight} from "react-icons/bs"
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -21,9 +23,16 @@ export const Hero = () => {
               products and services
             </p>
           </div>
-          <div>
-            <button className="bg-white py-2 px-4 rounded-md text-black text-sm">Want to know how we work </button>
-          </div>
+          <Link to="/contact" className="">
+              <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center mt-5 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150   ">
+                <p className="pl-2 pr-2 text-sm text-black ">
+                Want to know how we work
+                </p>
+                <span className="">
+                  <BsArrowRight className="text-2xl text-black  " />
+                </span>
+              </div>
+            </Link>
         </div>
       </div>
     </di>
