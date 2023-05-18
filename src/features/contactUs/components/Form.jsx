@@ -24,15 +24,37 @@ export const Form = () => {
                     <MdOutlineEmail className="text-white" />
                   </div>
                   <div className="text-sm">
-
-                    <p className="text-[#040052] font-semibold">Send us an email</p>
-                    <p className="text-[#040052]">info@theblueprintstrategy.com</p>
+                    <p className="text-[#040052] font-semibold">
+                      Send us an email
+                    </p>
+                    <p className="text-[#040052]">
+                      info@theblueprintstrategy.com
+                    </p>
                   </div>
                 </div>
               </div>
+
               <div>
-                <MdOutlineLocationOn />
+                <div className="flex gap-2">
+                  <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
+                    <MdOutlineLocationOn className="text-white" />
+                  </div>
+                  <div className="text-sm">
+                    <p className="text-[#040052] font-semibold">
+                      Visit Us
+                    </p>
+                    <p className="text-[#040052]">
+                    Blueprint Strategy Group, Inc 
+                    </p>
+                    <p className="text-[#040052]">
+                    30 N Gould Street, Suite 4000
+                    </p><p className="text-[#040052]">
+                    Sheridan, WY
+                    </p>
+                  </div>
+                </div>
               </div>
+            
               <div>
                 <MdOutlineLocalPhone />
               </div>
