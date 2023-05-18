@@ -40,33 +40,26 @@ export const Form = () => {
                     <MdOutlineLocationOn className="text-white" />
                   </div>
                   <div className="text-sm">
-                    <p className="text-[#040052] font-semibold">
-                      Visit us
+                    <p className="text-[#040052] font-semibold">Visit us</p>
+                    <p className="text-[#040052]">
+                      Blueprint Strategy Group, Inc
                     </p>
                     <p className="text-[#040052]">
-                    Blueprint Strategy Group, Inc 
+                      30 N Gould Street, Suite 4000
                     </p>
-                    <p className="text-[#040052]">
-                    30 N Gould Street, Suite 4000
-                    </p><p className="text-[#040052]">
-                    Sheridan, WY
-                    </p>
+                    <p className="text-[#040052]">Sheridan, WY</p>
                   </div>
                 </div>
               </div>
-            
+
               <div>
                 <div className="flex gap-2">
                   <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
                     <MdOutlineLocalPhone className="text-white" />
                   </div>
                   <div className="text-sm">
-                    <p className="text-[#040052] font-semibold">
-                    Call us
-                    </p>
-                    <p className="text-[#040052]">
-                    0414 767 212
-                    </p>
+                    <p className="text-[#040052] font-semibold">Call us</p>
+                    <p className="text-[#040052]">0414 767 212</p>
                   </div>
                 </div>
               </div>
@@ -74,14 +67,18 @@ export const Form = () => {
           </div>
           <div className="w-7/12">
             <div>
-                <h1>Name (Required)</h1>
+              <h1 className="text-sm text-[#040052]">Name (Required)</h1>
             </div>
             <form>
-              <div>
-                <label>First Name</label>
-                <input type="text" placeholder="firstname" />
-                <label>Last Name</label>
-                <input type="text" placeholder="lastname" />
+              <div className="flex justify-between mt-4 gap-5">
+                <div className="flex flex-col gap-2 w-6/12">
+                  <label className="text-sm text-[#040052]">First Name</label>
+                  <input type="text" placeholder="firstname" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-500 text-gray-300" />
+                </div>
+                <div className="flex flex-col gap-2 w-6/12">
+                  <label className="text-sm text-[#040052]">Last Name</label>
+                  <input type="text" placeholder="lastname" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-500 text-gray-300" />
+                </div>
               </div>
             </form>
           </div>
