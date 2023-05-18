@@ -73,13 +73,35 @@ export const Form = () => {
               <div className="flex justify-between mt-4 gap-5">
                 <div className="flex flex-col gap-2 w-6/12">
                   <label className="text-sm text-[#040052]">First Name</label>
-                  <input type="text" placeholder="firstname" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none" />
+                  <input type="text" placeholder="" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none" required />
                 </div>
                 <div className="flex flex-col gap-2 w-6/12">
                   <label className="text-sm text-[#040052]">Last Name</label>
-                  <input type="text" placeholder="lastname" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none" />
+                  <input type="text" placeholder="" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none"  required/>
                 </div>
               </div>
+
+              <div className="flex mt-4">
+                <div className="flex flex-col gap-2 w-full ">
+                  <label className="text-sm text-[#040052]">Email (required)</label>
+                  <input type="email" placeholder="" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none w-full" required />
+                </div>
+              </div>
+
+                <div className="flex mt-4">
+                <div className="flex flex-col gap-2 w-full ">
+                  <label className="text-sm text-[#040052]">Subject (required)</label>
+                  <input type="text" placeholder="" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none w-full" required />
+                </div>
+                </div>
+
+                <div className="flex mt-4">
+                <div className="flex flex-col gap-2 w-full ">
+                  <label className="text-sm text-[#040052]">Message (required)</label>
+                  <textarea type="email" placeholder="" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none w-full" rows="7" required />
+                </div>
+                </div>
+                
             </form>
           </div>
         </div>
