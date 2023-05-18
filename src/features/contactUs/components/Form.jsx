@@ -73,11 +73,11 @@ export const Form = () => {
               <div className="flex justify-between mt-4 gap-5">
                 <div className="flex flex-col gap-2 w-6/12">
                   <label className="text-sm text-[#040052]">First Name</label>
-                  <input type="text" placeholder="firstname" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-500 text-gray-300" />
+                  <input type="text" placeholder="firstname" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none" />
                 </div>
                 <div className="flex flex-col gap-2 w-6/12">
                   <label className="text-sm text-[#040052]">Last Name</label>
-                  <input type="text" placeholder="lastname" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-500 text-gray-300" />
+                  <input type="text" placeholder="lastname" className="border px-2 py-2 text-sm bg-[#F5F5F5] border-gray-300 text-gray-600 focus:outline-none" />
                 </div>
               </div>
             </form>
