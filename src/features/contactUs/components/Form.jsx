@@ -13,12 +13,15 @@ export const Form = () => {
         <div>
           <div>Send</div>
           <div>
-            <form >
-                <div>
-
+            <form>
+              <div>
                 <label>First Name</label>
-                <label >Last Name</label>
-                </div>
+                <input type="text" placeholder="firstname" />
+                <label>Last Name</label>
+                <input type="text" placeholder="lastname" />
+
+              </div>
+
             </form>
           </div>
         </div>
