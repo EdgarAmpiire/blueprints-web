@@ -55,6 +55,30 @@ export const Principles = () => {
                 </div>
               </div>
             </div>
+
+            <div className="mt-16">
+              <div className="flex ">
+              <div className="bg-[#ECEBFF] py-5 px-5 w-5/12 rounded-r-lg flex items-center justify-center">
+                    <img src={thumb} alt="" />
+                </div>
+                <div className="bg-[#F5F5F5] py-5 px-5 w-7/12 rounded-l-lg">
+                  <div className="mb-5">
+                    <h3 className="text-[#040052] text-sm font-light">BSG’s Guiding Principle 2:</h3>
+                    <h1 className="text-[#040052]  font-semibold ">Create Meaningful and Collaborative Partnerships
+</h1>
+                  </div>
+                  <div className="flex flex-col gap-5">
+                    <p className="text-sm text-[#040052] font-light">
+                    Our engagements begin with establishing trust and setting the tone for a productive and impactful partnership centered around our client’s goals and objectives. This is primarily done by intently listening to our client’s needs, challenges, the impact that they are working to make in their business and industry, and by effectively communicating our process, ways of working and meeting up to the expectations that we set driven by personal and professional standards.
+                    </p>
+                    <p className="text-sm text-[#040052] font-light">
+                    The collective strength of experience and ideas, combined with our belief in shared accountability is what ultimately drives success—for ourselves and our clients. We invest our time and energy in building valuable partnerships that have positive impacts well beyond our engagement agreement. We take pride in investing time and energy in our projects, partnerships, collaborations and the lasting impact of our work
+                    </p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
