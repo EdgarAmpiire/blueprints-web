@@ -90,15 +90,15 @@ import { Link } from "react-router-dom";
               </li>
               <li className="nav-item">
                 <Link
-                  to="/resource"
+                  to="/resources"
                   className={
-                    page === "resource"
+                    page === "resources"
                       ? "nav-link p-0 underline underline-offset-8 decoration-2 decoration-black"
                       : "nav-link p-0"
                   }
                 >
                   <p className="cursor-pointer text-base 2xl:text-base px-3 py-2 rounded-md  transition ease-in-out delay-50 duration-300">
-                    Resource
+                    Resources
                   </p>
                 </Link>
               </li>
