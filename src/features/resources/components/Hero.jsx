@@ -15,13 +15,10 @@ export const Hero = () => {
             </button>
           </div>
 
-          <div className="flex ">
-              <div className="w-4/12">
-                <div>
-
-                <img src={thumb} alt="" />
-                </div>
-              </div>
+          <div className="flex gap-5 mt-10">
+            <div className="w-4/12 h-56 bg-[#F3F3F3] flex items-center justify-center rounded-xl">
+              <img src={thumb} alt="" className="w-3/12" />
+            </div>
             <div className="w-8/12">
               <div>
                 <h6>18 May 2023, 5 mins read</h6>
