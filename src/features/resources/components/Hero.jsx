@@ -2,6 +2,15 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+        <div>
+            <div>
+                <button>Blog</button>
+            </div>
+            <div>
+                Press
+            </div>
+        </div>
+    </div>
   )
 }
