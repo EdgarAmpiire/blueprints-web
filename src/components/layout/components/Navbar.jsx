@@ -88,6 +88,20 @@ import { Link } from "react-router-dom";
                   </p>
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  to="/resource"
+                  className={
+                    page === "resource"
+                      ? "nav-link p-0 underline underline-offset-8 decoration-2 decoration-black"
+                      : "nav-link p-0"
+                  }
+                >
+                  <p className="cursor-pointer text-base 2xl:text-base px-3 py-2 rounded-md  transition ease-in-out delay-50 duration-300">
+                    Resource
+                  </p>
+                </Link>
+              </li>
             </ul>
           </div>
 
