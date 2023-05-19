@@ -33,10 +33,13 @@ export const Hero = () => {
               </div>
               <div>
                 <button className="bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full">
-                  Press
+                  Read
                 </button>
               </div>
             </div>
+          </div>
+          <div className="border-b mt-7">
+
           </div>
         </div>
       </div>
