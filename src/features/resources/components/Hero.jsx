@@ -1,4 +1,5 @@
 import React from "react";
+import thumb from "../../../assets/thumb.png";
 
 export const Hero = () => {
   return (
@@ -6,8 +7,39 @@ export const Hero = () => {
       <div className="mt-16">
         <div className="w-full">
           <div className="w-4/12 flex justify-between">
-            <button className="bg-[#0055BA] text-white px-10 py-2 rounded-full">Blog</button>
-            <button className="bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full">Press</button>
+            <button className="bg-[#0055BA] text-white px-10 py-2 rounded-full">
+              Blog
+            </button>
+            <button className="bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full">
+              Press
+            </button>
+          </div>
+
+          <div className="flex ">
+              <div className="w-4/12">
+                <div>
+
+                <img src={thumb} alt="" />
+                </div>
+              </div>
+            <div className="w-8/12">
+              <div>
+                <h6>18 May 2023, 5 mins read</h6>
+                <h3>
+                  Lorem ipsum dolor sit amet, labore consectetur adipiscing
+                  elit, sed do
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et.
+                </p>
+              </div>
+              <div>
+                <button className="bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full">
+                  Press
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
