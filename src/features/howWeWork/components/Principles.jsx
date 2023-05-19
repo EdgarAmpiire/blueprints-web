@@ -10,6 +10,15 @@ export const Principles = () => {
                 <h1 className='text-[#0055BA] font-semibold'>Our Guiding Principles</h1>
             </div>
             </div>
+
+            <div className='mt-16 flex justify-center'>
+                <div className='w-10/12'>
+
+                <div>
+                    <h1 className='text-[#040052] font-semibold '>How we guide our decisions</h1>
+                </div>
+                </div>
+            </div>
         </div>
     </div>
   )
