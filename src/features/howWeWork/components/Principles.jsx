@@ -23,13 +23,13 @@ export const Principles = () => {
 
             <div className="mt-5">
               <div className="flex ">
-                <div className="bg-[#F5F5F5] py-5 px-5 w-7/12">
-                  <div>
-                    <h3>BSG’s Guiding Principle 1:</h3>
-                    <h1>People, Process and Technology</h1>
+                <div className="bg-[#F5F5F5] py-5 px-5 w-7/12 rounded-l-lg">
+                  <div className="mb-5">
+                    <h3 className="text-[#040052] text-sm font-light">BSG’s Guiding Principle 1:</h3>
+                    <h1 className="text-[#040052]  font-semibold ">People, Process and Technology</h1>
                   </div>
-                  <div>
-                    <p>
+                  <div className="flex flex-col gap-5">
+                    <p className="text-sm text-[#040052] font-light">
                       Having the right motivated, diversified and purpose-driven
                       people in place working within with a clear understanding
                       of the vision, purpose and NorthStar, sound direction and
@@ -38,7 +38,7 @@ export const Principles = () => {
                       results. Measurable results that consistently improves the
                       bottom line
                     </p>
-                    <p>
+                    <p className="text-sm text-[#040052] font-light">
                       Our group of Consultants work under high ethical standards
                       and are guided by personal and professional integrity as
                       we strive to deliver on the work that we have agreed to
@@ -50,7 +50,7 @@ export const Principles = () => {
                     </p>
                   </div>
                 </div>
-                <div className="bg-[#ECEBFF] py-5 px-5 w-5/12">
+                <div className="bg-[#ECEBFF] py-5 px-5 w-5/12 rounded-r-lg flex items-center justify-center">
                     <img src={thumb} alt="" />
                 </div>
               </div>
