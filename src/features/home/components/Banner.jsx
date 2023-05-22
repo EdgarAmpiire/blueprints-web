@@ -3,7 +3,9 @@ import avatar from "../../../assets/avatarIcon.png";
 
 export const Banner = () => {
   return (
-    <div className="my-10 w-full">
+    <div className="flex items-center justify-center bg-[#0055BA] mt-5 ">
+
+    <div className="my-10 md:w-10/12">
       <div className="bg-[#0055BA] flex items-center justify-center w-full ">
         <div className="mx-14 flex mt-5 w-9/12">
           <div className="flex flex-col items-center justify-center w-8/12">
@@ -21,5 +23,7 @@ export const Banner = () => {
         </div>
       </div>
     </div>
+    </div>
+
   );
 };
