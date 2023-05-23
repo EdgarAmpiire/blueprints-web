@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer";
 export const MainLayout = ({ page, children }) => {
   return (
     <div className="flex items-center justify-center ">
-      <div className="mx-20 lg:mx-0 md:mx-0 max-w-5xl lg:max-w-7xl ">
+      <div className=" max-w-7xl md:max-w-5xl ">
         <Navbar page={page} />
         {children}
         <Footer />
