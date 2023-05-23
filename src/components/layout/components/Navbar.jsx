@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
   
   
     return (
-      <nav className="relative flex flex-wrap items-center justify-between px-0 pt-5 ">
-        <div className="container px-0 mx-auto  md:mx-10 flex flex-wrap items-center justify-between ">
-          <div className="w-full md:w-fit relative flex justify-between">
+      <nav className="relative flex flex-wrap items-center justify-between  pt-5 w-full">
+        <div className="container px-0 mx-auto  md:mx-10 flex flex-wrap items-center justify-between w-full ">
+          <div className="w-full md:w-3/12 relative flex justify-between">
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-0 py-2 whitespace-nowrap uppercase text-white"
               href="/"
@@ -27,10 +27,10 @@ import { Link } from "react-router-dom";
           </div>
 
           <div
-            className="lg:flex flex-grow items-center"
+            className="flex flex-grow items-center md:w-7/12"
             id="example-navbar-warning"
           >
-            <ul className="flex flex-col lg:flex-row list-none ml-auto">
+            <ul className="flex flex-col md:flex-row list-none ml-auto md:ml-0 md:w-fit ">
             
             <li className="nav-item">
                 <Link
@@ -106,10 +106,10 @@ import { Link } from "react-router-dom";
           </div>
 
           <div
-            className="lg:flex flex-grow items-center"
+            className="lg:flex flex-grow items-center md:w-fit"
             id="example-navbar-warning"
           >
-            <ul className="flex flex-col lg:flex-row list-none ml-auto">
+            <ul className="flex flex-col md:flex-row list-none ml-auto md:ml-0 ">
             
               <li className="nav-item">
                 <Link
