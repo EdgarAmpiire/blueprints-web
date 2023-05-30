@@ -8,9 +8,10 @@ import {
 export const Form = () => {
   return (
     <div>
-      <div className="flex items-center justify-center">
-        <div className="lg:max-w-7xl max-w-4xl">
-        {/* <div className="mt-24 lg:w-10/12 w-11/12"> */}
+        
+      
+        <div className="mt-24 lg:w-10/12 w-11/12 flex items-center justify-center">
+          <div className="lg:max-w-7xl max-w-4xl">
           <div>
             <div>
               <h1 className="text-[#040052] uppercase font-bold text-2xl">
