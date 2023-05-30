@@ -16,8 +16,8 @@ export const Form = () => {
         </div>
 
         <div className="w-full">
-          <div className="w-full flex mt-10 justify-center">
-            <div className="w-5/12">
+          <div className="w-full flex lg:flex-row flex-col mt-10 justify-center">
+            <div className="lg:w-5/12">
               <div className="px-1 py-2 gap-5 flex flex-col">
                 <div>
                   <div className="flex gap-2">
@@ -66,7 +66,7 @@ export const Form = () => {
                 </div>
               </div>
             </div>
-            <div className="w-7/12">
+            <div className="lg:w-7/12">
               <div>
                 <h1 className="text-sm text-[#040052]">Name (required)</h1>
               </div>
