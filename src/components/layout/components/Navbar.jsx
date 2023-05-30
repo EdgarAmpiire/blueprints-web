@@ -160,16 +160,18 @@ export const Navbar = ({ page }) => {
 
                     <Menu.Item>
                       {({ active }) => (
-                        <div
+                        <Link
+                        to="/about-us"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
+                            page==="about-us",
                             active
                               ? "bg-blue-50 text-gray-900"
                               : "text-[#040052]",
                             "block px-4 py-2 "
                           )}>
                           About Us
-                        </div>
+                        </Link>
                       )}
                     </Menu.Item>
 
