@@ -177,59 +177,67 @@ export const Navbar = ({ page }) => {
 
                     <Menu.Item>
                       {({ active }) => (
-                        <div
+                        <Link
+                        to="/how-we-work"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
+                            page==="how-we-work",
                             active
                               ? "bg-blue-50 text-gray-900"
                               : "text-[#040052]",
                             "block px-4 py-2 "
                           )}>
                           How We Work
-                        </div>
+                        </Link>
                       )}
                     </Menu.Item>
 
                     <Menu.Item>
                       {({ active }) => (
-                        <div
+                        <Link
+                        to="/services"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
+                            page==="services",
                             active
                               ? "bg-blue-50 text-gray-900"
                               : "text-[#040052]",
                             "block px-4 py-2 "
                           )}>
                           Services
-                        </div>
+                        </Link>
                       )}
                     </Menu.Item>
                     <Menu.Item>
                       {({ active }) => (
-                        <div
+                        <Link 
+                        to="/resources"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
+                            page==="resources",
                             active
                               ? "bg-blue-50 text-gray-900"
                               : "text-[#040052]",
                             "block px-4 py-2 "
                           )}>
                           Resources
-                        </div>
+                        </Link>
                       )}
                     </Menu.Item>
                     <Menu.Item>
                       {({ active }) => (
-                        <div
+                        <Link 
+                        to="/contact-us"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
+                            page==="contact-us",
                             active
                               ? "bg-blue-50 text-gray-900"
                               : "text-[#040052]",
                             "block px-4 py-2 "
                           )}>
                           Contact Us
-                        </div>
+                        </Link>
                       )}
                     </Menu.Item>
                   </div>
