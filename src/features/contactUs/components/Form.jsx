@@ -33,7 +33,7 @@ export const Form = () => {
                       <p className="text-[#040052] font-semibold text-base lg:text-md">
                         Send us an email
                       </p>
-                      <p className="text-[#040052]">
+                      <p className="text-[#040052] font-light lg:font-normal">
                         info@theblueprintstrategy.com
                       </p>
                     </div>
@@ -52,13 +52,13 @@ export const Form = () => {
                     <div className="text-sm lg:w-10/12 text-center lg:text-left">
                       
                         <p className="text-[#040052] font-semibold text-base lg:text-md">Visit us</p>
-                        <p className="text-[#040052] ">
+                        <p className="text-[#040052] font-light lg:font-normal ">
                           Blueprint Strategy Group, Inc
                         </p>
-                        <p className="text-[#040052]">
+                        <p className="text-[#040052] font-light lg:font-normal">
                           30 N Gould Street, Suite 4000
                         </p>
-                        <p className="text-[#040052]">Sheridan, WY</p>
+                        <p className="text-[#040052] font-light lg:font-normal">Sheridan, WY</p>
                      
                     </div>
                   </div>
