@@ -33,7 +33,7 @@ export const Form = () => {
                       <p className="text-[#040052] font-semibold text-base lg:text-md">
                         Send us an email
                       </p>
-                      <p className="text-[#040052] font-light lg:font-normal">
+                      <p className="text-[#040052] font-light lg:font-normal mt-2 lg:mt-0">
                         info@theblueprintstrategy.com
                       </p>
                     </div>
@@ -52,7 +52,7 @@ export const Form = () => {
                     <div className="text-sm lg:w-10/12 text-center lg:text-left">
                       
                         <p className="text-[#040052] font-semibold text-base lg:text-md">Visit us</p>
-                        <p className="text-[#040052] font-light lg:font-normal ">
+                        <p className="text-[#040052] font-light lg:font-normal mt-2 lg:mt-0">
                           Blueprint Strategy Group, Inc
                         </p>
                         <p className="text-[#040052] font-light lg:font-normal">
@@ -75,7 +75,7 @@ export const Form = () => {
                     </div>
                     <div className="text-sm lg:w-10/12 text-center lg:text-left">
                       <p className="text-[#040052] font-semibold text-base lg:text-md">Call us</p>
-                      <p className="text-[#040052] font-light lg:font-normal">0414 767 212</p>
+                      <p className="text-[#040052] font-light lg:font-normal mt-2 lg:mt-0">0414 767 212</p>
                     </div>
                   </div>
                 </div>
