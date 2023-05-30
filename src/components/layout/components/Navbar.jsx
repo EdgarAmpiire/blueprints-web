@@ -19,8 +19,8 @@ function classNames(...classes) {
 
       <nav className="relative flex flex-wrap items-center justify-center w-12/12 pt-5">
         <div className="container px-0 flex flex-wrap items-center justify-between w-12/12 ">
-          <div className="w-12/12 md:w-3/12 relative flex md:justify-between lg:justify-between">
-            <div>
+          <div className="w-12/12 md:w-3/12 relative flex justify-between ">
+            
 
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-0 py-2 whitespace-nowrap uppercase text-white"
@@ -36,7 +36,7 @@ function classNames(...classes) {
                 Blueprint Strategy
               </Link>
             </a>
-                </div>
+                
 
             
           </div>
@@ -173,7 +173,7 @@ function classNames(...classes) {
                               "block px-4 py-2 text-sm"
                             )}
                           >
-                            Signin
+                            Home
                           </div>
                         )}
                       </Menu.Item>
@@ -188,7 +188,90 @@ function classNames(...classes) {
                               "block px-4 py-2 text-sm"
                             )}
                           >
-                            Register
+                            About Us
+                          </div>
+                        )}
+                      </Menu.Item>
+
+                      <Menu.Item>
+                        {({ active }) => (
+                          <div
+                            // onClick={() => setOpen2(true)}
+                            className={classNames(
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                            About Us
+                          </div>
+                        )}
+                      </Menu.Item>
+
+                      <Menu.Item>
+                        {({ active }) => (
+                          <div
+                            // onClick={() => setOpen2(true)}
+                            className={classNames(
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                                               How We Work
+
+                          </div>
+                        )}
+                      </Menu.Item>
+
+                      <Menu.Item>
+                        {({ active }) => (
+                          <div
+                            // onClick={() => setOpen2(true)}
+                            className={classNames(
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                                                Services
+
+                          </div>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <div
+                            // onClick={() => setOpen2(true)}
+                            className={classNames(
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                                                Resources
+
+                          </div>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <div
+                            // onClick={() => setOpen2(true)}
+                            className={classNames(
+                              active
+                                ? "bg-gray-100 text-gray-900"
+                                : "text-gray-700",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                                                                    Contact Us
+
+
                           </div>
                         )}
                       </Menu.Item>
