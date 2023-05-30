@@ -73,7 +73,7 @@ export const HomeServices = () => {
               {isActive === "operation" && "tab3"}
               {isActive === "marketing" && "tab4"}
             </div>
-          </div>
+          </div> 
         </div> */}
 
 <div className="flex justify-center items-center">

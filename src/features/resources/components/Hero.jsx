@@ -2,6 +2,11 @@ import React from "react";
 import thumb from "../../../assets/thumb.png";
 
 export const Hero = () => {
+  const [isActive, setisActive] = React.useState("blog");
+
+  const changeComponent = (item) => {
+    setisActive(item);
+  };
   return (
     <div className="mt-16 ">
       <div className=" flex items-center justify-center ">
@@ -14,6 +19,40 @@ export const Hero = () => {
               Press
             </button>
           </div>
+
+           <div className="bg-[#F5F5F5] py-5 px-3 rounded-lg mt-5">
+          <div className="py-3">
+            <div className=" border-gray-300">
+              <div className="flex justify-around w-full ">
+                <button
+                  className={
+                    isActive === "blog"
+                      ? "mx-1 bg-black text-white rounded-full py-2 text-sm px-3"
+                      : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
+                  }
+                  onClick={() => changeComponent("blog")}
+                >
+                  Blog
+                </button>
+                <button
+                  className={
+                    isActive === "press"
+                      ? "mx-1 bg-black text-white rounded-full py-2 text-sm px-3"
+                      : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
+                  }
+                  onClick={() => changeComponent("press")}
+                >
+                  Press
+                </button>
+                
+              </div>
+            </div>
+            <div className="mt-5">
+              {isActive === "blog" && "blogs"}
+              {isActive === "press" && "presses"}
+            </div>
+          </div>
+        </div>
 
           <div className="flex gap-8 mt-10">
             <div className="w-4/12 h-56 bg-[#F3F3F3] flex items-center justify-center rounded-xl">
