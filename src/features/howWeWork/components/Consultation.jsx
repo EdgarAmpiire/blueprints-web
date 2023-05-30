@@ -4,6 +4,9 @@ import thumb from "../../../assets/thumb.png";
 export const Consultation = () => {
   return (
     <div>
+      <div className="flex items-center justify-center">
+
+<div className="lg:max-w-7xl max-w-4xl">
       <div className="mt-16 flex justify-center items-center">
         <div className="lg:w-10/12 w-11/12 bg-[#ECEBFF] rounded-lg flex flex-col items-center justify-center py-10 px-10">
           <div className="bg-[#0055BA] py-3 px-10 rounded-full ">
@@ -32,6 +35,8 @@ export const Consultation = () => {
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };

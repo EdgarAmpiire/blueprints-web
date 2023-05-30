@@ -4,6 +4,9 @@ import thumb from "../../../assets/thumb.png";
 export const Principles = () => {
   return (
     <div>
+      <div className="flex items-center justify-center">
+
+<div className="lg:max-w-7xl max-w-4xl">
       <div className="mt-16">
         <div className="flex flex-col items-center justify-center">
           <div className="bg-[#0055BA1A] py-2 px-8 rounded-full ">
@@ -126,6 +129,8 @@ export const Principles = () => {
             </div>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );
