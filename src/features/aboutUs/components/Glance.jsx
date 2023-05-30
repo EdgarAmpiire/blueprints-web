@@ -13,7 +13,7 @@ export const Glance = () => {
               At a glance
             </h1>
           </div>
-          <div className="flex justify-between items-center w-10/12  gap-10 mt-10 border-b-2 pb-10">
+          <div className="flex justify-between items-center lg:w-10/12 w-11/12  gap-10 mt-10 border-b-2 pb-10">
             <div className="flex items-center justify-center flex-col w-4/12">
               <div className=" py-2 px-2 rounded-full flex items-center justify-center h-[5.5rem] w-[5.5rem] ">
                 <img src={vision} alt="" className="w-fit" />
@@ -62,7 +62,7 @@ export const Glance = () => {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <div className="px-20 py-10 bg-[#BAD0E44D] rounded-md w-10/12">
+          <div className="px-20 py-10 bg-[#BAD0E44D] rounded-md lg:w-10/12 w-11/12">
             <p className="text-center font-light">
               “ We leverage Agile processes and methodologies for product
               development, and work with businesses to maximize their core
