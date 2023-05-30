@@ -11,14 +11,13 @@ export const Home = () => {
     <div>
       <MainLayout page="home">
         <div className="flex items-center justify-center">
-
-        <div className="lg:max-w-7xl max-w-3xl">
-          <Hero />
-          <HomeServices />
-          <Banner />
-          <Clients />
-          <HomeBlog />
-        </div>
+          <div className="lg:max-w-7xl max-w-3xl">
+            <Hero />
+            <HomeServices />
+            <Banner />
+            <Clients />
+            <HomeBlog />
+          </div>
         </div>
       </MainLayout>
     </div>
