@@ -35,7 +35,7 @@ function classNames(...classes) {
               </Link>
             </a>
 
-            <div className="flex md:hidden cursor-pointer dropdown relative">
+            <div className="flex lg:hidden cursor-pointer dropdown relative">
               <Menu as="div" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="inline-flex w-full justify-center  bg-white px-4 py-2 text-sm font-medium ">
@@ -92,7 +92,7 @@ function classNames(...classes) {
           </div>
 
           <div
-            className="flex flex-grow items-center w-12/12 md:w-7/12"
+            className="lg:flex flex-grow items-center w-12/12 md:w-7/12 hidden"
             id="example-navbar-warning"
           >
             <ul className="flex flex-col md:flex-row list-none ml-auto md:ml-0 md:w-fit ">
@@ -171,7 +171,7 @@ function classNames(...classes) {
           </div>
 
           <div
-            className="lg:flex flex-grow items-center md:w-fit"
+            className="lg:flex flex-grow items-center md:w-fit hidden"
             id="example-navbar-warning"
           >
             <ul className="flex flex-col md:flex-row list-none ml-auto md:ml-0 ">
