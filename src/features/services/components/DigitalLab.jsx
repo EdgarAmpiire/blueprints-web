@@ -4,6 +4,8 @@ import thumb from "../../../assets/thumb.png";
 export const DigitalLab = () => {
   return (
     <div>
+      <div className="flex items-center justify-center">
+          <div className="lg:max-w-7xl max-w-4xl">
       <div className="mt-20 flex flex-col items-center">
         <div>
           <h1 className="text-[#040052] text-xl font-semibold">
@@ -129,6 +131,8 @@ export const DigitalLab = () => {
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };

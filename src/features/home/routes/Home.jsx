@@ -11,7 +11,7 @@ export const Home = () => {
     <div>
       <MainLayout page="home">
         <div className="flex items-center justify-center">
-          <div className="lg:max-w-7xl max-w-3xl">
+          <div className="lg:max-w-7xl max-w-4xl">
             <Hero />
             <HomeServices />
             <Banner />
