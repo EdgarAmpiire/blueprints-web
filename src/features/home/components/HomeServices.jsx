@@ -112,8 +112,8 @@ export const HomeServices = () => {
             </div>
           </div>
 
-          <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#F3F3F3] py-7 px-5  ">
+          <div className="w-12/12  flex justify-center items-center ">
+            <div className="rounded-3xl bg-[#F3F3F3] py-7 px-5 h-56 max-h-56 min-h-56 ">
               <div>
                 <img src={management} alt="" />
               </div>
