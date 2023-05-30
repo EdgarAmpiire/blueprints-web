@@ -44,13 +44,13 @@ export const Form = () => {
 
                 <div className="w-4/12 lg:w-full">
                   <div className="flex gap-2 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
-                    <div className="w-1.5/12">
+                    <div className="lg:w-1.5/12">
                       <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
                         <MdOutlineLocationOn className="text-white" />
                       </div>
                     </div>
-                    <div className="text-sm w-10/12 ">
-                      <div>
+                    <div className="text-sm lg:w-10/12 text-center lg:text-left">
+                      
                         <p className="text-[#040052] font-semibold">Visit us</p>
                         <p className="text-[#040052] ">
                           Blueprint Strategy Group, Inc
@@ -59,7 +59,7 @@ export const Form = () => {
                           30 N Gould Street, Suite 4000
                         </p>
                         <p className="text-[#040052]">Sheridan, WY</p>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
@@ -68,12 +68,12 @@ export const Form = () => {
 
                 <div className="w-4/12 lg:w-full">
                   <div className="flex gap-2 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
-                    <div className="w-1.5/12">
+                    <div className="lg:w-1.5/12">
                       <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
                         <MdOutlineLocalPhone className="text-white" />
                       </div>
                     </div>
-                    <div className="text-sm w-10/12">
+                    <div className="text-sm lg:w-10/12 text-center lg:text-left">
                       <p className="text-[#040052] font-semibold">Call us</p>
                       <p className="text-[#040052]">0414 767 212</p>
                     </div>
