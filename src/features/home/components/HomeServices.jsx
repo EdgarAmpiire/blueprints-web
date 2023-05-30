@@ -80,7 +80,7 @@ export const HomeServices = () => {
 
         <div className=" lg:w-10/12 w-11/12   py-5 lg:px-5 rounded-lg mt-5 gap-10 grid grid-cols-2">
           <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#050422] py-8 px-5  ">
+            <div className="rounded-3xl bg-[#050422] py-8 px-5 h-56 max-h-56 min-h-56 ">
               <div>
                 <img src={strategy} alt="" />
               </div>
@@ -97,7 +97,7 @@ export const HomeServices = () => {
           </div>
 
           <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5  ">
+            <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5 h-56 max-h-56 min-h-56 ">
               <div>
                 <img src={portfolio} alt="" />
               </div>
@@ -118,11 +118,11 @@ export const HomeServices = () => {
                 <img src={management} alt="" />
               </div>
               <div>
-                <h1 className="text-black mt-3 font-semibold">
+                <h1 className="text-black mt-3 font-semibold w-10/12">
                                 Product Development and Management Operation 
 
                 </h1>
-                <p className="text-black mt-2 font-light text-sm mb-5">
+                <p className="text-black mt-2 font-light text-sm mb-5 w-10/12">
                 Commercializing new or existing products that meet market needs
 
                 </p>
@@ -147,7 +147,7 @@ export const HomeServices = () => {
           </div> */}
 
           <div className="w-12/12 flex justify-center items-center">
-            <div className="rounded-3xl bg-[#050422] py-8 px-5  ">
+            <div className="rounded-3xl bg-[#050422] py-8 px-5 h-56 max-h-56 min-h-56 ">
               <div>
                 <img src={marketing} alt="" />
               </div>
