@@ -22,14 +22,14 @@ export const Form = () => {
                 
                 {/* Item One  */}
                 <div className="w-4/12 lg:w-full">
-                  <div className="flex flex-col lg:flex-row gap-2 w-full">
-                    <div className="w-1.5/12">
+                  <div className="flex flex-col lg:flex-row gap-2 w-full justify-center items-center lg:justify-start lg:items-start">
+                    <div className="lg:w-1.5/12">
                       <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
                         <MdOutlineEmail className="text-white" />
                       </div>
                     </div>
 
-                    <div className="text-sm w-10/12">
+                    <div className="text-sm lg:w-10/12 text-center lg:text-left">
                       <p className="text-[#040052] font-semibold">
                         Send us an email
                       </p>
@@ -43,13 +43,13 @@ export const Form = () => {
                 {/* Item Two  */}
 
                 <div className="w-4/12 lg:w-full">
-                  <div className="flex gap-2 flex-col lg:flex-row w-full">
+                  <div className="flex gap-2 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
                     <div className="w-1.5/12">
                       <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
                         <MdOutlineLocationOn className="text-white" />
                       </div>
                     </div>
-                    <div className="text-sm w-10/12">
+                    <div className="text-sm w-10/12 ">
                       <div>
                         <p className="text-[#040052] font-semibold">Visit us</p>
                         <p className="text-[#040052] ">
@@ -67,7 +67,7 @@ export const Form = () => {
                 {/* Item Three  */}
 
                 <div className="w-4/12 lg:w-full">
-                  <div className="flex gap-2 flex-col lg:flex-row">
+                  <div className="flex gap-2 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
                     <div className="w-1.5/12">
                       <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
                         <MdOutlineLocalPhone className="text-white" />
