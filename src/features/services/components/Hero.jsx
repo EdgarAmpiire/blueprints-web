@@ -32,9 +32,9 @@ export const Hero = () => {
 
       <div className="flex flex-col items-center mt-16 w-full">
         <div>
-          <h1 className="text-[#040052] font-semibold text-xl">We Help With</h1>
+          <h1 className="text-[#040052] font-semibold lg:text-3xl text-xl">We Help With</h1>
         </div>
-        <div className="flex justify-between lg:w-7/12 w-9/12 gap-10 mt-10">
+        <div className="flex justify-between lg:w-7/12 w-9/12 gap-10 mt-14">
           <div className="flex items-center justify-center flex-col w-4/12">
             <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
               <img src={startUp} alt="" className="w-fit" />
