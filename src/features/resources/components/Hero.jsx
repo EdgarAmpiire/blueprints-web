@@ -20,7 +20,7 @@ export const Hero = () => {
               <img src={thumb} alt="" className="w-3/12" />
             </div>
             <div className="w-8/12 flex flex-col justify-between py-2 ">
-              <div className="w-10/12">
+              <div className="lg:w-10/12">
                 <h6 className="text-[#04005266] text-sm">18 May 2023, 5 mins read</h6>
                 <h3 className="text-[#040052] mt-2 text-lg">
                   Lorem ipsum dolor sit amet, labore consectetur adipiscing
