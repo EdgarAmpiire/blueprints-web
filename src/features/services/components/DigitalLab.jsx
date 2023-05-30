@@ -8,7 +8,7 @@ export const DigitalLab = () => {
           <div className="lg:max-w-7xl max-w-4xl">
       <div className="mt-20 flex flex-col items-center">
         <div>
-          <h1 className="text-[#040052] text-xl font-semibold">
+          <h1 className="text-[#040052] lg:text-3xl text-xl font-semibold">
             Our Digital Lab{" "}
           </h1>
         </div>
