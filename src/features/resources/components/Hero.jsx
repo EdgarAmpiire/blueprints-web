@@ -20,15 +20,15 @@ export const Hero = () => {
             </button>
           </div>
 
-           <div className="bg-[#F5F5F5] py-5 px-3 rounded-lg mt-5">
+           <div className="bg-[#F5F5F5] rounded-lg mt-5">
           <div className="py-3">
             <div className=" border-gray-300">
-              <div className="flex justify-around w-full ">
+              <div className="flex justify-around w-4/12 ">
                 <button
                   className={
                     isActive === "blog"
-                      ? "mx-1 bg-black text-white rounded-full py-2 text-sm px-3"
-                      : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
+                      ? "bg-[#0055BA] text-white px-10 py-2 rounded-full"
+                      : "bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full"
                   }
                   onClick={() => changeComponent("blog")}
                 >
@@ -37,8 +37,8 @@ export const Hero = () => {
                 <button
                   className={
                     isActive === "press"
-                      ? "mx-1 bg-black text-white rounded-full py-2 text-sm px-3"
-                      : "mx-1 bg-[#E5E5E5] rounded-full py-2 text-sm text-black px-3"
+                      ? "bg-[#0055BA] text-white px-10 py-2 rounded-full"
+                      : "bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full"
                   }
                   onClick={() => changeComponent("press")}
                 >
