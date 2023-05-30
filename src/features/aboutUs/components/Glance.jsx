@@ -5,11 +5,11 @@ import team from "../../../assets/team.png";
 
 export const Glance = () => {
   return (
-    <div className="">
-      <div >
+    <div className="flex items-center justify-center">
+      <div className="lg:max-w-7xl max-w-3xl"  >
         <div className="mt-14 flex items-center flex-col w-full  ">
           <div className="flex items-center justify-center">
-            <h1 className="text-[#040052] font-semibold text-xl">
+            <h1 className="text-[#040052] font-semibold lg:text-3xl text-xl">
               At a glance
             </h1>
           </div>
@@ -60,6 +60,7 @@ export const Glance = () => {
             </div>
           </div>
         </div>
+
 
         <div className="mt-10 flex justify-center">
           <div className="px-20 py-10 bg-[#BAD0E44D] rounded-md lg:w-10/12 w-11/12">
