@@ -51,20 +51,17 @@ export const Team = () => {
 
   return (
     <div>
-      
-          <div className="mt-24">
-            <div className="flex justify-center">
-              <h1 className="font-semibold text-xl text-[#040052]">
-                The Team that makes it happen
-              </h1>
-            </div>
+      <div className="mt-24">
+        <div className="flex justify-center">
+          <h1 className="font-semibold text-xl text-[#040052]">
+            The Team that makes it happen
+          </h1>
+        </div>
 
-            
-            {people.map((p, index) => (
-              <div key={index}>
-                <div className="flex items-center justify-center">
-
-<div className="lg:max-w-7xl max-w-3xl">
+        {people.map((p, index) => (
+          <div key={index}>
+            <div className="flex items-center justify-center">
+              <div className="lg:max-w-7xl max-w-4xl">
                 <div className=" mt-14 flex items-center justify-center ">
                   <div className="flex lg:w-10/12 w-11/12 gap-14">
                     <div className="w-3/12 flex flex-col">
@@ -120,12 +117,11 @@ export const Team = () => {
                     </div>
                   </div>
                 </div>
-                </div>
-                </div>
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-    
+        ))}
+      </div>
+    </div>
   );
 };
