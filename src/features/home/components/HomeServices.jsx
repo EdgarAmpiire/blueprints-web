@@ -78,7 +78,7 @@ export const HomeServices = () => {
 
 <div className="flex justify-center items-center">
 
-        <div className=" lg:w-10/12   py-5 px-5 rounded-lg mt-5 gap-10 grid grid-cols-2">
+        <div className=" lg:w-10/12 w-11/12   py-5 lg:px-5 rounded-lg mt-5 gap-10 grid grid-cols-2">
           <div className="w-12/12 flex justify-center items-center">
             <div className="rounded-3xl bg-[#050422] py-8 px-5  ">
               <div>

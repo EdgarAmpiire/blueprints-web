@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <div className="">
       <div className="flex  mt-12 md:justify-center md:items-center ">
-        <div className="w-full  md:w-11/12 flex flex-col md:flex-row ">
+        <div className="  lg:w-10/12 w-11/12 flex flex-col md:flex-row ">
           <div className="w-8/12   ">
             <div className="lg:w-10/12 w-12/12">
               <h1 className="lg:text-4xl text-3xl font-semibold tracking-wide lg:w-9/12 w-10/12 leading-tight text-black">
