@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
       <div className="w-full">
         {/* <div className="w-full flex flex-col justify-center"> */}
 
-      <nav className="relative flex flex-wrap items-center justify-center w-12/12 pt-5 ">
+      <nav className="relative flex flex-wrap items-center justify-center w-12/12 pt-5">
         <div className="container px-0 flex flex-wrap items-center justify-between w-12/12 ">
           <div className="w-12/12 md:w-3/12 relative flex justify-between">
             <a
