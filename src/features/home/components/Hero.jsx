@@ -8,10 +8,10 @@ export const Hero = () => {
     <div className="">
 
         <div className="flex  mt-12 md:justify-center md:items-center ">
-          <div className="w-full md:w-10/12 flex">
+          <div className="w-full  md:w-11/12 flex flex-col md:flex-row ">
 
-          <div className="w-full  ">
-            <div className="w-8/12">
+          <div className="w-full ">
+            <div className="w-12/12 md:w-8/12">
               <h1 className="text-4xl font-semibold tracking-wide w-11/12 leading-tight text-black">
                 Delivering Solutions Powered by{" "}
                 <span className="text-[#0055BA]"> People, Process,</span> and{" "}
