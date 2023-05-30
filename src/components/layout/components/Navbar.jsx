@@ -19,7 +19,9 @@ function classNames(...classes) {
 
       <nav className="relative flex flex-wrap items-center justify-center w-12/12 pt-5">
         <div className="container px-0 flex flex-wrap items-center justify-between w-12/12 ">
-          <div className="w-12/12 md:w-3/12 relative flex justify-between">
+          <div className="w-12/12 md:w-3/12 relative flex md:justify-between lg:justify-between">
+            <div>
+
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-0 py-2 whitespace-nowrap uppercase text-white"
               href="/"
@@ -34,6 +36,7 @@ function classNames(...classes) {
                 Blueprint Strategy
               </Link>
             </a>
+                </div>
 
             <div className="flex lg:hidden cursor-pointer dropdown relative">
               <Menu as="div" className="relative inline-block text-left">
