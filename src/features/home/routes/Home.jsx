@@ -10,12 +10,15 @@ export const Home = () => {
   return (
     <div>
       <MainLayout page="home">
-        <div>
+        <div className="flex items-center justify-center">
+
+        <div className="max-w-6xl">
           <Hero />
           <HomeServices />
           <Banner />
           <Clients />
           <HomeBlog />
+        </div>
         </div>
       </MainLayout>
     </div>
