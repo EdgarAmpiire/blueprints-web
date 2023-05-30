@@ -59,8 +59,12 @@ export const Team = () => {
               </h1>
             </div>
 
+            
             {people.map((p, index) => (
               <div key={index}>
+                <div className="flex items-center justify-center">
+
+<div className="lg:max-w-7xl max-w-3xl">
                 <div className=" mt-14 flex items-center justify-center ">
                   <div className="flex lg:w-10/12 w-11/12 gap-14">
                     <div className="w-3/12 flex flex-col">
@@ -115,6 +119,8 @@ export const Team = () => {
                       </ol>
                     </div>
                   </div>
+                </div>
+                </div>
                 </div>
               </div>
             ))}
