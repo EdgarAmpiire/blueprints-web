@@ -19,12 +19,15 @@ export const Form = () => {
           <div className="w-full flex lg:flex-row flex-col mt-10 justify-center">
             <div className="lg:w-5/12">
               <div className="px-1 py-2 gap-5 flex lg:flex-col flex-row">
-                <div className="w-4/12">
-                  <div className="flex flex-col lg:flex-row gap-2">
-                    <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
-                      <MdOutlineEmail className="text-white" />
+                <div className="">
+                  <div className="flex flex-col lg:flex-row gap-2 w-full">
+                    <div className="w-1.5/12">
+                      <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
+                        <MdOutlineEmail className="text-white" />
+                      </div>
                     </div>
-                    <div className="text-sm">
+
+                    <div className="text-sm w-8/12">
                       <p className="text-[#040052] font-semibold">
                         Send us an email
                       </p>
@@ -35,7 +38,7 @@ export const Form = () => {
                   </div>
                 </div>
 
-                <div className="w-4/12">
+                <div className="">
                   <div className="flex gap-2 flex-col lg:flex-row">
                     <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
                       <MdOutlineLocationOn className="text-white" />
@@ -53,7 +56,7 @@ export const Form = () => {
                   </div>
                 </div>
 
-                <div className="w-4/12">
+                <div className="lg:w-12/12 w-4/12">
                   <div className="flex gap-2 flex-col lg:flex-row">
                     <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
                       <MdOutlineLocalPhone className="text-white" />
