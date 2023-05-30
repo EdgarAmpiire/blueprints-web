@@ -6,13 +6,11 @@ import { Link } from "react-router-dom";
 export const Hero = () => {
   return (
     <div className="">
-
-        <div className="flex  mt-12 md:justify-center md:items-center ">
-          <div className="w-full  md:w-11/12 flex flex-col md:flex-row ">
-
-          <div className="w-full ">
-            <div className="w-12/12 md:w-8/12">
-              <h1 className="text-4xl font-semibold tracking-wide w-11/12 leading-tight text-black">
+      <div className="flex  mt-12 md:justify-center md:items-center ">
+        <div className="w-full  md:w-11/12 flex flex-col md:flex-row ">
+          <div className="w-8/12   ">
+            <div className="lg:w-10/12 w-12/12">
+              <h1 className="lg:text-4xl text-3xl font-semibold tracking-wide lg:w-9/12 w-10/12 leading-tight text-black">
                 Delivering Solutions Powered by{" "}
                 <span className="text-[#0055BA]"> People, Process,</span> and{" "}
                 <span className="text-[#0055BA]"> Technology</span>
@@ -24,7 +22,7 @@ export const Hero = () => {
                 economy.
               </p>
               <Link to="/contact" className="">
-                <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center mt-5 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150   ">
+                <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center lg:mt-5 mt-12 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150   ">
                   <p className="pl-2 pr-2 text-base text-black ">
                     Book an initial session now
                   </p>
@@ -38,9 +36,8 @@ export const Hero = () => {
           <div className="w-4/12 flex items-center justify-center">
             <img src={thumb} alt="" />
           </div>
-          </div>
         </div>
       </div>
-
+    </div>
   );
 };

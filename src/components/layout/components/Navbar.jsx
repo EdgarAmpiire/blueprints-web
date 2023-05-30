@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 // import defaultLogo from "../../../assets/founders-logo.png";
 import { Link } from "react-router-dom";
-import { Dialog, Menu, Transition } from "@headlessui/react";
+import {  Menu, Transition } from "@headlessui/react";
 import { FiMenu } from "react-icons/fi";
 
 function classNames(...classes) {
