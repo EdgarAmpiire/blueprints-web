@@ -3,8 +3,8 @@ import ClientSlider from "./ClientSlider";
 
 export const Clients = () => {
   return (
-    <div className="flex justify-center items-center ">
-      <div className="mt-24 md:w-10/12">
+    <div className="flex justify-center items-center w-12/12 ">
+      <div className="mt-24 lg:w-10/12 w-11/12">
         <div className="w-full flex justify-start ">
           <div className="px-6 py-1 bg-primary"></div>
         </div>
