@@ -5,7 +5,7 @@ export const Consultation = () => {
   return (
     <div>
       <div className="mt-16 flex justify-center items-center">
-        <div className="w-10/12 bg-[#ECEBFF] rounded-lg flex flex-col items-center justify-center py-10 px-10">
+        <div className="lg:w-10/12 w-11/12 bg-[#ECEBFF] rounded-lg flex flex-col items-center justify-center py-10 px-10">
           <div className="bg-[#0055BA] py-3 px-10 rounded-full ">
             <h1 className="text-white">Blueprint Consulting 7 Step System</h1>
           </div>
