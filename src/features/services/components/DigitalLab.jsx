@@ -11,7 +11,7 @@ export const DigitalLab = () => {
           </h1>
         </div>
 
-        <div className="bg-[#D8D6FF] rounded-xl py-10 px-10 mt-10">
+        <div className="bg-[#D8D6FF] rounded-xl py-10 px-10 mt-10 w-11/12 lg:w-10/12">
           <div className="grid grid-cols-2 w-full">
             <div className="flex items-center justify-center ">
               <img src={thumb} alt="" />
@@ -41,7 +41,7 @@ export const DigitalLab = () => {
           </div>
         </div>
 
-        <div className="bg-[#F5E5FF] rounded-xl py-10 px-10 mt-16">
+        <div className="bg-[#F5E5FF] rounded-xl py-10 px-10 mt-16 w-11/12 lg:w-10/12">
           <div className="grid grid-cols-2 w-full">
             <div className="flex flex-col items-start ">
               <div>
@@ -69,7 +69,7 @@ export const DigitalLab = () => {
           </div>
         </div>
 
-        <div className="bg-[#F3F3F3] rounded-xl py-10 px-10 mt-10">
+        <div className="bg-[#F3F3F3] rounded-xl py-10 px-10 mt-10 w-11/12 lg:w-10/12">
           <div className="grid grid-cols-2 w-full">
             <div className="flex items-center justify-center ">
               <img src={thumb} alt="" />
@@ -102,7 +102,7 @@ export const DigitalLab = () => {
           </div>
         </div>
 
-        <div className="bg-[#ECEBFF] rounded-xl py-10 px-10 mt-16">
+        <div className="bg-[#ECEBFF] rounded-xl py-10 px-10 mt-16 w-11/12 lg:w-10/12">
           <div className="grid grid-cols-2 w-full">
             <div className="flex flex-col items-start ">
               <div>
