@@ -5,9 +5,9 @@ import team from "../../../assets/team.png";
 
 export const Glance = () => {
   return (
-    <div>
-      <div>
-        <div className="mt-14 flex items-center flex-col ">
+    <div className="">
+      <div >
+        <div className="mt-14 flex items-center flex-col w-full  ">
           <div className="flex items-center justify-center">
             <h1 className="text-[#040052] font-semibold text-xl">
               At a glance

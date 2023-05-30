@@ -63,7 +63,7 @@ export const Team = () => {
 
         <div key={index}>
         <div className=" mt-14 flex items-center justify-center ">
-          <div className="flex w-10/12 gap-14">
+          <div className="flex lg:w-10/12 w-11/12 gap-14">
             <div className="w-3/12 flex flex-col">
               <div>
                 <img src={p.avatar} alt="" />
@@ -100,7 +100,7 @@ export const Team = () => {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <div className=" w-10/12 bg-[#BAD0E41A] rounded-md">
+          <div className=" lg:w-10/12 w-11/12 bg-[#BAD0E41A] rounded-md">
             <div className="px-10 pt-10">
               <ol class="relative flex flex-col  text-gray-500 border-l border-gray-200 ">
                 <li class="mb-10 ml-6">
