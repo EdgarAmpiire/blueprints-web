@@ -22,15 +22,15 @@ export const Form = () => {
                 
                 {/* Item One  */}
                 <div className="w-4/12 lg:w-full">
-                  <div className="flex flex-col lg:flex-row gap-2 w-full justify-center items-center lg:justify-start lg:items-start">
+                  <div className="flex flex-col lg:flex-row lg:gap-2 gap-5 w-full justify-center items-center lg:justify-start lg:items-start">
                     <div className="lg:w-1.5/12">
-                      <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
-                        <MdOutlineEmail className="text-white" />
+                      <div className="flex py-4 px-4 lg:p-3 bg-[#0055BA] rounded-full w-fit">
+                        <MdOutlineEmail className="text-white text-3xl lg:text-xl" />
                       </div>
                     </div>
 
                     <div className="text-sm lg:w-10/12 text-center lg:text-left">
-                      <p className="text-[#040052] font-semibold">
+                      <p className="text-[#040052] font-semibold text-base lg:text-md">
                         Send us an email
                       </p>
                       <p className="text-[#040052]">
@@ -43,15 +43,15 @@ export const Form = () => {
                 {/* Item Two  */}
 
                 <div className="w-4/12 lg:w-full">
-                  <div className="flex gap-2 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
+                  <div className="flex lg:gap-2 gap-5 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
                     <div className="lg:w-1.5/12">
-                      <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
-                        <MdOutlineLocationOn className="text-white" />
+                      <div className="flex py-4 px-4 lg:p-3 bg-[#0055BA] rounded-full w-fit h-fit">
+                        <MdOutlineLocationOn className="text-white text-3xl lg:text-xl" />
                       </div>
                     </div>
                     <div className="text-sm lg:w-10/12 text-center lg:text-left">
                       
-                        <p className="text-[#040052] font-semibold">Visit us</p>
+                        <p className="text-[#040052] font-semibold text-base lg:text-md">Visit us</p>
                         <p className="text-[#040052] ">
                           Blueprint Strategy Group, Inc
                         </p>
@@ -67,21 +67,21 @@ export const Form = () => {
                 {/* Item Three  */}
 
                 <div className="w-4/12 lg:w-full">
-                  <div className="flex gap-2 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
+                  <div className="flex lg:gap-2 gap-5 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
                     <div className="lg:w-1.5/12">
-                      <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
-                        <MdOutlineLocalPhone className="text-white" />
+                      <div className="flex py-4 px-4 lg:p-3 bg-[#0055BA] rounded-full w-fit h-fit">
+                        <MdOutlineLocalPhone className="text-white text-3xl lg:text-xl" />
                       </div>
                     </div>
                     <div className="text-sm lg:w-10/12 text-center lg:text-left">
-                      <p className="text-[#040052] font-semibold">Call us</p>
-                      <p className="text-[#040052]">0414 767 212</p>
+                      <p className="text-[#040052] font-semibold text-base lg:text-md">Call us</p>
+                      <p className="text-[#040052] font-light lg:font-normal">0414 767 212</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="lg:w-7/12">
+            <div className="lg:w-7/12 mt-24 lg:mt-0">
               <div>
                 <h1 className="text-sm text-[#040052]">Name (required)</h1>
               </div>
