@@ -14,7 +14,7 @@ export const Principles = () => {
         </div>
 
         <div className="mt-16 flex justify-center">
-          <div className="w-10/12">
+          <div className="lg:w-10/12 w-11/12">
             <div>
               <h1 className="text-[#040052] text-lg font-semibold ">
                 How we guide our decisions
