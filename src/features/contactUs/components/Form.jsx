@@ -19,6 +19,8 @@ export const Form = () => {
           <div className="w-full flex lg:flex-row flex-col mt-10 justify-center">
             <div className="lg:w-5/12">
               <div className="px-1 py-2 gap-5 flex lg:flex-col flex-row">
+
+
                 <div className="">
                   <div className="flex flex-col lg:flex-row gap-2 w-full">
                     <div className="w-1.5/12">
@@ -40,11 +42,10 @@ export const Form = () => {
 
                 <div className="">
                   <div className="flex gap-2 flex-col lg:flex-row">
-                  <div className="w-1.5/12">
-
-                    <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
-                      <MdOutlineLocationOn className="text-white" />
-                    </div>
+                    <div className="w-1.5/12">
+                      <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
+                        <MdOutlineLocationOn className="text-white" />
+                      </div>
                     </div>
                     <div className="text-sm w-8/12">
                       <p className="text-[#040052] font-semibold">Visit us</p>
@@ -59,20 +60,24 @@ export const Form = () => {
                   </div>
                 </div>
 
-                <div className="lg:w-12/12 w-4/12">
+                <div className="">
                   <div className="flex gap-2 flex-col lg:flex-row">
-                  <div className="w-1.5/12">
-
-                    <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit">
-                      <MdOutlineLocalPhone className="text-white" />
-                    </div>
+                    <div className="w-1.5/12">
+                      <div className="flex py-3 px-3 bg-[#0055BA] rounded-full w-fit h-fit">
+                        <MdOutlineLocalPhone className="text-white" />
+                      </div>
                     </div>
                     <div className="text-sm w-8/12">
                       <p className="text-[#040052] font-semibold">Call us</p>
-                      <p className="text-[#040052]">0414 767 212</p>
+                      <p className="text-[#040052]">
+                      0414 767 212
+                      </p>
+                     
                     </div>
                   </div>
                 </div>
+
+                
               </div>
             </div>
             <div className="lg:w-7/12">
