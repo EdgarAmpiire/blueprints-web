@@ -14,8 +14,8 @@ export const Navbar = ({ page }) => {
       {/* <div className="w-full flex flex-col justify-center"> */}
 
       <nav className="relative flex flex-wrap items-center justify-center w-12/12 pt-5 ">
-        <div className="container px-0 flex flex-wrap items-center justify-between w-12/12 lg:max-w-6xl max-w-3xl ">
-          <div className="w-12/12 md:w-3/12 relative flex justify-between ">
+        <div className="container px-0 flex  items-center justify-between w-12/12 lg:max-w-6xl max-w-3xl ">
+          <div className="w-2/12 relative flex justify-between ">
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-0 py-2 whitespace-nowrap uppercase text-white"
               href="/">
@@ -32,7 +32,7 @@ export const Navbar = ({ page }) => {
           </div>
 
           <div
-            className="lg:flex flex-grow items-center w-12/12 md:w-7/12 hidden"
+            className="lg:flex flex-grow items-center justify-center md:w-8/12 hidden"
             id="example-navbar-warning">
             <ul className="flex flex-col md:flex-row list-none ml-auto md:ml-0 md:w-fit ">
               <li className="nav-item">
@@ -104,7 +104,7 @@ export const Navbar = ({ page }) => {
           </div>
 
           <div
-            className="lg:flex flex-grow items-center md:w-fit hidden"
+            className="lg:flex flex-grow items-center justify-end w-2/12 hidden"
             id="example-navbar-warning">
             <ul className="flex flex-col md:flex-row list-none ml-auto md:ml-0 ">
               <li className="nav-item">
