@@ -9,11 +9,10 @@ export const Hero = () => {
   };
   return (
     <div>
-      
-          <div className="mt-16 ">
-            <div className=" flex items-center justify-center ">
-            <div className="flex items-center justify-center">
-        <div className="lg:max-w-7xl max-w-4xl">
+      <div className="mt-16 ">
+        <div className=" flex items-center justify-center ">
+          <div className="flex items-center justify-center">
+            <div className="lg:max-w-7xl max-w-4xl">
               <div className="lg:w-12/12 w-11/12">
                 <div className="">
                   <div className=" border-gray-300">
@@ -34,9 +33,9 @@ export const Hero = () => {
                             : "bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full"
                         }
                         onClick={() => changeComponent("press")}>
-                        Press 
+                        Press
                       </button>
-                    </div> 
+                    </div>
                   </div>
                   <div className="mt-10">
                     {isActive === "blog" && <Blogs />}
