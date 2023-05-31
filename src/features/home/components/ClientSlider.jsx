@@ -14,12 +14,12 @@ import cnb from "../../../assets/cnb.png";
 import honda from "../../../assets/honda.png";
 import avery from "../../../assets/avery.png";
 import corelogic from "../../../assets/corelogic.png";
-import deloitte from "../../../assets/deloitte.png";
-import farmers from "../../../assets/farmers.png";
+import Deloitte from "../../../assets/Deloitte.png";
+import Farmers from "../../../assets/Farmers.png";
 import ibm from "../../../assets/ibm.png";
-import zelle from "../../../assets/zelle.png";
+import Zelle from "../../../assets/Zelle.png";
 import lewray from "../../../assets/lewray.png";
-import adobe from "../../../assets/adobe.png";
+import Adobe from "../../../assets/Adobe.png";
 
 class ClientSlider extends Component {
   render() {
@@ -120,17 +120,17 @@ class ClientSlider extends Component {
             </div>
             <div className=" h-24">
               <div className="flex items-center justify-center h-full ">
-                <img src={adobe} alt="" className="" />
+                <img src={Adobe} alt="" className="" />
               </div>
             </div>
             <div className=" h-24">
               <div className="flex items-center justify-center h-full ">
-                <img src={deloitte} alt="" className="" />
+                <img src={Deloitte} alt="" className="" />
               </div>
             </div>
             <div className=" h-24">
               <div className="flex items-center justify-center h-full ">
-                <img src={farmers} alt="" className="" />
+                <img src={Farmers} alt="" className="" />
               </div>
             </div>
             <div className=" h-24">
@@ -140,7 +140,7 @@ class ClientSlider extends Component {
             </div>
             <div className=" h-24">
               <div className="flex items-center justify-center h-full ">
-                <img src={zelle} alt="" className="" />
+                <img src={Zelle} alt="" className="" />
               </div>
             </div>
             <div className=" h-24">
