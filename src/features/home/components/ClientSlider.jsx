@@ -49,7 +49,7 @@ class ClientSlider extends Component {
 
     return (
       <>
-        <div className="mt-10 ">
+        <div className="mt-10 lg:max-w-6xl md:max-w-4xl max-w-xl  ">
           <Slider {...settings}>
             <div className=" h-24">
               <div className="flex items-center justify-center h-full ">
