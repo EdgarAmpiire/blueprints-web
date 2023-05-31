@@ -35,7 +35,7 @@ export const Hero = () => {
                   </Link>
                 </div>
               </div>
-              <div className="lg:w-4/12 md:w-4/12 w-12/12 flex items-center justify-center">
+              <div className="lg:w-4/12 md:w-4/12 w-12/12 flex items-center justify-center lg:mt-0 md:mt-0 mt-10">
                 <img src={thumb} alt="" />
               </div>
             </div>
