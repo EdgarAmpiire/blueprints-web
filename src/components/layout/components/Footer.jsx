@@ -67,7 +67,7 @@ export const Footer = () => {
                 </Link>
               </div>
 
-              <div className="lg:w-3/12 py-2 lg:px-10 gap-5 flex flex-col lg:border-l-2 lg:border-l-white border-b-2 lg:border-b-0 lg:pb-0 pb-5">
+              <div className="lg:w-3/12 py-2 lg:px-10 gap-5 flex flex-col lg:border-l-2 lg:border-l-white border-b-2 border-b-white lg:border-b-0 lg:pb-0 pb-5">
                 <div>
                   <Link to={"/about-us"}>
                     <p className="text-white ">Resources</p>
