@@ -19,10 +19,10 @@ export const Clients = () => {
               </div>
 
               {/* slider  */}
-              <div>
+              <div className="lg:flex md:flex lg:flex-col md:flex-col hidden">
                 <ClientSlider />
               </div>
-              <div>
+              <div className="lg:hidden md:hidden flex-col">
                 <ResponsiveClientSlider />
               </div>
             </div>
