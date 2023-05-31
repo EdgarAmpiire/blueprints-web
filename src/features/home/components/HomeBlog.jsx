@@ -7,13 +7,13 @@ export const HomeBlog = () => {
       <div className="flex items-center justify-center">
         <div className="lg:max-w-7xl max-w-4xl">
           <div className="flex justify-center items-center">
-            <div className="lg:w-10/12 w-11/12">
+            <div className="lg:w-10/12 md:w-11/12 w-11/12">
               <div className="mt-24 flex flex-col ">
                 <div className="w-full flex justify-start ">
                   <div className="px-6 py-1 bg-primary"></div>
                 </div>
-                <div className="lg:w-8/12 w-10/12 flex flex-col justify-start mt-4 ">
-                  <h1 className="text-3xl text-[#040052] lg:w-9/12 w-8/12 font-semibold">
+                <div className="lg:w-8/12 md:w-10/12 w-12/12 flex flex-col justify-start mt-4 ">
+                  <h1 className="text-3xl text-[#040052] lg:w-9/12 md:w-10/12 w-12/12 font-semibold">
                     People, Process and Technology are always in motion.
                   </h1>
                   <p className="mt-5 text-lg text-gray-500 ">
