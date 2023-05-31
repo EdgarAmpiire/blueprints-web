@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className="lg:max-w-7xl max-w-4xl">
           <div className="flex lg:mt-12 mt-5 justify-center items-center ">
             <div className="  lg:w-10/12 w-11/12 flex flex-col md:flex-row ">
-              <div className="lg:w-8/12   ">
+              <div className="lg:w-8/12 md:w-8/12 w-12/12   ">
                 <div className="lg:w-10/12 w-12/12">
                   <h1 className="lg:text-4xl text-3xl font-semibold tracking-wide lg:w-9/12 md:w-10/12 w-12/12 leading-tight text-black">
                     Delivering Solutions Powered by{" "}
@@ -35,7 +35,7 @@ export const Hero = () => {
                   </Link>
                 </div>
               </div>
-              <div className="w-4/12 flex items-center justify-center">
+              <div className="lg:w-4/12 md:w-4/12 w-12/12 flex items-center justify-center">
                 <img src={thumb} alt="" />
               </div>
             </div>
