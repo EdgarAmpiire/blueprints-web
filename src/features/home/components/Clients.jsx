@@ -3,6 +3,10 @@ import ClientSlider from "./ClientSlider";
 
 export const Clients = () => {
   return (
+    <div>
+      <div className="flex items-center justify-center">
+          <div className="lg:max-w-7xl max-w-4xl">
+         
     <div className="flex justify-center items-center w-12/12 ">
       <div className="mt-24 lg:w-10/12 w-11/12">
         <div className="w-full flex justify-start ">
@@ -19,6 +23,9 @@ export const Clients = () => {
           <ClientSlider />
         </div>
       </div>
+    </div>
+    </div>
+          </div>
     </div>
   );
 };
