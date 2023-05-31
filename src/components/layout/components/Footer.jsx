@@ -10,10 +10,10 @@ export const Footer = () => {
           <h1 className="text-white text-xl">HEY....WAIT!</h1>
 
           <div className="flex w-full lg:items-center justify-between mt-4 md:flex-col lg:flex-row flex-col">
-            <div className="w-5/12">
+            <div className="lg:w-5/12">
               <p className="text-white">Subscribe to our newsletters </p>
             </div>
-            <div className="w-7/12">
+            <div className="lg:w-7/12 lg:mt-0 mt-5">
               <form>
                 <div className="flex">
                   <div className="relative w-full">
