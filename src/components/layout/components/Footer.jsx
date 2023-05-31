@@ -94,7 +94,7 @@ export const Footer = () => {
           <div className="mt-16 hidden lg:flex items-center justify-center  w-full gap-10 ">
             <div className="">
               <h1 className="text-white">
-                2023 © The Blueprint Strategy Group - All Rights Reserved
+                 © 2023 The Blueprint Strategy Group - All Rights Reserved
               </h1>
             </div>
             <div className="border-l-2 border-l-white px-5">
@@ -105,19 +105,21 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-16 flex items-center justify-center  w-full gap-10 ">
-            <div className="">
-              <h1 className="text-white">
-                2023 © The Blueprint Strategy Group - All Rights Reserved
-              </h1>
-            </div>
-            <div>
-              <div className="border-l-2 border-l-white px-5">
+          <div className="mt-16 lg:hidden flex flex-col items-center justify-center  w-full gap-10 ">
+            
+            <div className="flex ">
+              <div className=" px-5">
                 <h1 className="text-white">Privacy Policy</h1>
               </div>
               <div className="border-l-2 border-l-white px-5">
                 <h1 className="text-white">Terms & Conditions</h1>
               </div>
+            </div>
+
+            <div className="">
+              <h1 className="text-white text-center">
+                 © 2023 The Blueprint Strategy Group - All Rights Reserved
+              </h1>
             </div>
           </div>
         </div>
