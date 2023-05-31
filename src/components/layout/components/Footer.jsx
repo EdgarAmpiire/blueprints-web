@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className=" bg-black py-10 md:px-5 lg:px-5 px-0 w-full ">
           <h1 className="text-white text-xl">HEY....WAIT!</h1>
 
-          <div className="flex w-full items-center justify-between mt-4">
+          <div className="flex w-full lg:items-center justify-between mt-4 md:flex-col lg:flex-row flex-col">
             <div className="w-5/12">
               <p className="text-white">Subscribe to our newsletters </p>
             </div>
