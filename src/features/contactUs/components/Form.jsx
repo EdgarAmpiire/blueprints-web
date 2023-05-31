@@ -7,9 +7,8 @@ import {
 
 export const Form = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center">
-        <div className="lg:max-w-7xl max-w-4xl">
+    <div className="">
+      
           <div className="flex items-center justify-center">
             <div className="mt-24 lg:w-10/12 w-11/12 ">
               <div>
@@ -19,6 +18,8 @@ export const Form = () => {
               </div>
 
               <div className="w-full">
+              <div className="flex flex-col justify-center">
+        <div className="lg:max-w-7xl max-w-4xl">
                 <div className="w-full flex lg:flex-row flex-col mt-10 justify-center">
                   <div className="lg:w-5/12">
                     <div className="px-1 py-2 gap-5 flex lg:flex-col flex-row ">
