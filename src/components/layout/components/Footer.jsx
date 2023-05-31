@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <div className="flex items-center justify-center bg-black mt-20">
-      <div className="lg:w-10/12 md:w-10/12 w-11/12 min-w-xs  max-w-7xl">
+      <div className="lg:w-10/12 md:w-10/12 w-11/12 min-w-xs  max-w-6xl">
         <div className=" bg-black py-10 md:px-5 lg:px-5 px-0 w-full ">
           <h1 className="text-white text-xl">HEY....WAIT!</h1>
 
@@ -35,10 +35,10 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-24">
+          <div className="lg:mt-24 mt-12">
             <h1 className="text-white text-xl">READY TO GET STARTED</h1>
-            <div className="flex w-full items-center justify-between mt-4">
-              <div className="w-6/12 ">
+            <div className="flex w-full lg:items-center justify-between mt-4 lg:flex-row flex-col">
+              <div className="lg:w-6/12 ">
                 <p className="text-white">Visit us at our office:</p>
                 <p className="text-white mt-8">Blueprint Strategy Group, Inc</p>
                 <p className="text-white">30 N Gould Street, Suite 4000</p>
@@ -55,7 +55,7 @@ export const Footer = () => {
                   </Link>
                 </div>
               </div>
-              <div className="w-3/12 py-2 px-10 gap-5 flex flex-col border-l-2 border-l-white ">
+              <div className="lg:w-3/12 lg:mt-0 mt-5 py-2 lg:px-10 gap-5 flex flex-col lg:border-l-2 lg:border-l-white ">
                 <Link to={"/about-us"}>
                   <p className="text-white ">About Us</p>
                 </Link>
@@ -67,7 +67,7 @@ export const Footer = () => {
                 </Link>
               </div>
 
-              <div className="w-3/12 py-2 px-10 gap-5 flex flex-col border-l-2 border-l-white ">
+              <div className="lg:w-3/12 py-2 lg:px-10 gap-5 flex flex-col lg:border-l-2 lg:border-l-white ">
                 <div>
                   <Link to={"/about-us"}>
                     <p className="text-white ">Resources</p>
