@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <div className="flex items-center justify-center bg-black mt-20">
-      <div className="w-10/12 min-w-sm max-w-6xl">
-        <div className=" bg-black py-10 px-5 w-full ">
+      <div className="lg:w-10/12 md:w-10/12 w-11/12 min-w-xs  max-w-7xl">
+        <div className=" bg-black py-10 md:px-5 lg:px-5 px-0 w-full ">
           <h1 className="text-white text-xl">HEY....WAIT!</h1>
 
           <div className="flex w-full items-center justify-between mt-4">
