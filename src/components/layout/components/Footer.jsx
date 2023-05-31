@@ -37,7 +37,7 @@ export const Footer = () => {
 
           <div className="lg:mt-24 md:mt-24 mt-12">
             <h1 className="text-white text-xl">READY TO GET STARTED</h1>
-            <div className="flex w-full lg:items-center justify-between mt-4 lg:flex-row flex-col">
+            <div className="flex w-full lg:items-center md:items-center justify-between mt-4 lg:flex-row md:flex-row flex-col">
               <div className="lg:w-6/12 ">
                 <p className="text-white">Visit us at our office:</p>
                 <p className="text-white mt-8">Blueprint Strategy Group, Inc</p>
