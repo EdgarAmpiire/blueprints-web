@@ -8,8 +8,8 @@ import {
 export const Form = () => {
   return (
     <div>
-      <div className="mt-24 lg:w-10/12 w-11/12">
-        <div>
+      <div className="flex items-center justify-center">
+        <div className="mt-24 lg:w-10/12 w-11/12 ">
           <div>
             <h1 className="text-[#040052] uppercase font-bold text-2xl">
               Get in touch
