@@ -9,11 +9,11 @@ export const Banner = () => {
       <div className="bg-[#0055BA] flex items-center justify-center w-full ">
         <div className="lg:mx-14 md:mx-8 mx-0 flex lg:flex-row md:flex-row flex-col-reverse mt-5 lg:w-9/12 md:w-9/12 w-11/12">
           <div className="flex flex-col items-center justify-center lg:w-8/12 md:w-8/12 lg:mt-0 md:mt-0 mt-10">
-            <h1 className="font-semibold text-white lg:w-10/12 md:w-12/12">
+            <h1 className="font-semibold text-white lg:w-10/12 md:w-12/12 text-center">
               “Let’s make the world a better place as a result of the problems
               that we solve, one sprint at a time. “
             </h1>
-            <h1 className="mt-8 text-white font-extralight">CO-FOUNDER, MICHAEL ROSALES</h1>
+            <h1 className="mt-8 text-white font-extralight text-center">CO-FOUNDER, MICHAEL ROSALES</h1>
           </div>
           <div className="lg:w-4/12 md:w-4/12 flex items-center lg:justify-end md:justify-end justify-center lg:mt-0 md:mt-0 ">
             <div className="w-18 h-18">
