@@ -38,7 +38,7 @@ export const Footer = () => {
           <div className="lg:mt-24 md:mt-24 mt-12">
             <h1 className="text-white text-xl">READY TO GET STARTED</h1>
             <div className="flex w-full lg:items-center md:items-center justify-between mt-4 lg:flex-row md:flex-row flex-col">
-              <div className="lg:w-6/12 ">
+              <div className="lg:w-6/12 md:w-6/12 ">
                 <p className="text-white">Visit us at our office:</p>
                 <p className="text-white mt-8">Blueprint Strategy Group, Inc</p>
                 <p className="text-white">30 N Gould Street, Suite 4000</p>
@@ -55,7 +55,7 @@ export const Footer = () => {
                   </Link>
                 </div>
               </div>
-              <div className="lg:w-3/12 lg:mt-0 mt-10 lg:pt-0 pt-5 lg:border-t-0 border-t-2 py-2 lg:px-10 gap-5 flex flex-col lg:border-l-2 lg:border-l-white ">
+              <div className="lg:w-3/12 md:w-3/12 lg:mt-0 md:mt-0 mt-10 lg:pt-0 md:pt-0 pt-5 lg:border-t-0 md:border-t-0 border-t-2 py-2 lg:px-10 md:px-10 gap-5 flex flex-col lg:border-l-2 lg:border-l-white md:border-l-2 md:border-l-white ">
                 <Link to={"/about-us"}>
                   <p className="text-white ">About Us</p>
                 </Link>
@@ -67,7 +67,7 @@ export const Footer = () => {
                 </Link>
               </div>
 
-              <div className="lg:w-3/12 py-2 lg:px-10 gap-5 flex flex-col lg:border-l-2 lg:border-l-white border-b-2 border-b-white lg:border-b-0 lg:pb-0 pb-5">
+              <div className="lg:w-3/12 md:w-3/12 py-2 lg:px-10 gap-5 flex flex-col lg:border-l-2 lg:border-l-white border-b-2 border-b-white lg:border-b-0 lg:pb-0 pb-5">
                 <div>
                   <Link to={"/about-us"}>
                     <p className="text-white ">Resources</p>
