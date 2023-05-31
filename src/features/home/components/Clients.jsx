@@ -1,5 +1,6 @@
 import React from "react";
 import ClientSlider from "./ClientSlider";
+import ResponsiveClientSlider from "./ResponsiveClientSlider";
 
 export const Clients = () => {
   return (
@@ -20,6 +21,9 @@ export const Clients = () => {
               {/* slider  */}
               <div>
                 <ClientSlider />
+              </div>
+              <div>
+                <ResponsiveClientSlider />
               </div>
             </div>
           </div>

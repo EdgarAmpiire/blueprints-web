@@ -21,7 +21,7 @@ import Zelle from "../../../assets/Zelle.png";
 import lewray from "../../../assets/lewray.png";
 import Adobe from "../../../assets/Adobe.png";
 
-class ClientSlider extends Component {
+class ResponsiveClientSlider extends Component {
   render() {
     const settings = {
       dots: false,
@@ -157,4 +157,4 @@ class ClientSlider extends Component {
   }
 }
 
-export default ClientSlider;
+export default ResponsiveClientSlider;
