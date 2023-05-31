@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 export const Hero = () => {
   return (
     <div className="">
+      <div className="flex items-center justify-center">
+          <div className="lg:max-w-7xl max-w-4xl">
       <div className="flex  mt-12 md:justify-center md:items-center ">
         <div className="  lg:w-10/12 w-11/12 flex flex-col md:flex-row ">
           <div className="w-8/12   ">
@@ -37,6 +39,8 @@ export const Hero = () => {
             <img src={thumb} alt="" />
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );
