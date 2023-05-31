@@ -9,11 +9,11 @@ export const Footer = () => {
         <div className=" bg-black py-10 md:px-5 lg:px-5 px-0 w-full ">
           <h1 className="text-white text-xl">HEY....WAIT!</h1>
 
-          <div className="flex w-full lg:items-center justify-between mt-4 md:flex-col lg:flex-row flex-col">
-            <div className="lg:w-5/12">
+          <div className="flex w-full lg:items-center md:items-center justify-between mt-4  lg:flex-row md:flex-row flex-col">
+            <div className="lg:w-5/12 md:w-5/12">
               <p className="text-white">Subscribe to our newsletters </p>
             </div>
-            <div className="lg:w-7/12 lg:mt-0 mt-5">
+            <div className="lg:w-7/12 lg:mt-0 md:w-7/12 md:mt-0 mt-5">
               <form>
                 <div className="flex">
                   <div className="relative w-full">
@@ -35,7 +35,7 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="lg:mt-24 mt-12">
+          <div className="lg:mt-24 md:mt-24 mt-12">
             <h1 className="text-white text-xl">READY TO GET STARTED</h1>
             <div className="flex w-full lg:items-center justify-between mt-4 lg:flex-row flex-col">
               <div className="lg:w-6/12 ">
