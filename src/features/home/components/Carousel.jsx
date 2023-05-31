@@ -69,7 +69,7 @@ export const Carousel = () => {
   };
 
   return (
-    <div className="max-w-[1400px] h-[380px] w-full m-auto py-5 relative">
+    <div className="max-w-[1400px] lg:h-[380px] md:h-[380px] h-[280px] w-full m-auto py-5 relative">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500 ">
