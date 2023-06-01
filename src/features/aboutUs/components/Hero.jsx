@@ -48,7 +48,7 @@ export const Hero = () => {
               WE ARE BLUEPRINT STRATEGY GROUP, INC
             </h2>
 
-            <p className="text-white my-10 lg:w-8/12 w-11/12 font-light">
+            <p className="text-white my-10 lg:w-8/12 w-11/12 leading-loose font-light">
                We are  a digital consulting firm that partners with businesses
               to conceptualize, design, build and position their digital
               products and services
