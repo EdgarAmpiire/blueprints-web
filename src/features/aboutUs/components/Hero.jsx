@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className="">
       <div
-        className="w-full bg-cover bg-center object-cover lg:flex md:flex hidden"
+        className="w-full  bg-cover bg-center object-cover lg:flex md:flex hidden"
         style={{ height: "28rem", backgroundImage: `url(/images/bg.png)` }}>
         <div className="flex flex-col items-center justify-between h-full w-full py-10 bg-[#000000D9] backdrop-brightness-200 ">
           <div className="text-center flex flex-col items-center  ">

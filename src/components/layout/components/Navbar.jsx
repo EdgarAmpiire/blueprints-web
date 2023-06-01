@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 export const Navbar = ({ page }) => {
   return (
-    <div className="w-full sticky top-0 bg-white ">
+    <div className="w-full">
       {/* <div className="w-full flex flex-col justify-center"> */}
 
       <nav className="relative  flex flex-wrap items-center justify-center w-12/12 pt-5 ">

@@ -9,10 +9,9 @@ export const AboutUs = () => {
     <div>
       <MainLayout page="about-us">
         <Hero />
-        
+
         <Glance />
         <Team />
-      
       </MainLayout>
     </div>
   );
