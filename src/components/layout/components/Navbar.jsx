@@ -126,7 +126,7 @@ export const Navbar = ({ page }) => {
           <div className="flex lg:hidden cursor-pointer dropdown relative">
             <Menu as="div" className="relative inline-block text-left">
               <div>
-                <Menu.Button className="inline-flex w-full justify-center  bg-white px-4 py-2 text-sm font-medium ">
+                <Menu.Button className="inline-flex w-full justify-center  bg-white px-0 py-2 text-sm font-medium ">
                   <FiMenu className="text-2xl" aria-hidden="true" />
                 </Menu.Button>
               </div>
