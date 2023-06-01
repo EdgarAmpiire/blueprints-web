@@ -128,7 +128,7 @@ export const Team = () => {
                       <div>
                         <img src={p.avatar} alt="" />
                       </div>
-                      <div className="flex px-0 mt-3 w-12/12 items-center justify-between">
+                      {/* <div className="flex px-0 mt-3 w-12/12 items-center justify-between">
                         <Link to={"/"}>
                           <CiLinkedin className="text-xl text-[#040052] cursor-pointer" />
                         </Link>
@@ -138,7 +138,7 @@ export const Team = () => {
                         <Link to={"/"}>
                           <AiOutlineMail className="text-xl text-[#040052] cursor-pointer" />
                         </Link>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="w-8/12">
                       <div>
@@ -150,6 +150,17 @@ export const Team = () => {
                         </p>
                       </div>
                       <div className="mt-5 border-b border-gray-600 w-12/12"></div>
+                      <div className="flex px-0 mt-3 w-6/12 items-center justify-between">
+                        <Link to={"/"}>
+                          <CiLinkedin className="text-xl text-[#040052] cursor-pointer" />
+                        </Link>
+                        <Link to={"/"}>
+                          <CiTwitter className="text-xl text-[#040052] cursor-pointer" />
+                        </Link>
+                        <Link to={"/"}>
+                          <AiOutlineMail className="text-xl text-[#040052] cursor-pointer" />
+                        </Link>
+                      </div>
                     </div>
                   </div>
                   <div className="mt-5 w-12/12">
