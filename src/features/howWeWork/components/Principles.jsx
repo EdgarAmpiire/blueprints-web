@@ -58,7 +58,7 @@ export const Principles = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="bg-[#ECEBFF] py-5 px-5 w-5/12 rounded-r-lg flex items-center justify-center">
+                    <div className="bg-[#ECEBFF] py-5 px-5 lg:w-5/12 md:w-5/12 w-12/12 lg:rounded-r-lg md:rounded-r-lg rounded-b-lg flex items-center justify-center">
                       <img src={thumb} alt="" />
                     </div>
                   </div>
