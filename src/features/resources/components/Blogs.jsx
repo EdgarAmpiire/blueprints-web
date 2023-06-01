@@ -5,11 +5,11 @@ import thumb from "../../../assets/thumb.png";
 export const Blogs = () => {
   return (
     <div>
-        <div className="lg:flex-row md:flex-row flex-col gap-8 lg:mt-10 md:mt-10">
-            <div className="lg:w-4/12 md:w-4/12 w-11/12 h-56 bg-[#F3F3F3] flex items-center justify-center rounded-xl">
+        <div className="lg:flex-row md:flex-row flex-col gap-8 lg:mt-10 md:mt-10 w-full">
+            <div className="lg:w-4/12 md:w-4/12 w-12/12 h-56 bg-[#F3F3F3] flex items-center justify-center rounded-xl">
               <img src={thumb} alt="" className="w-3/12" />
             </div>
-            <div className="lg:w-8/12 md:w-8/12 w-11/12 flex flex-col justify-between py-2 ">
+            <div className="lg:w-8/12 md:w-8/12 w-12/12 flex flex-col justify-between py-2 ">
               <div className="lg:w-10/12">
                 <h6 className="text-[#04005266] text-sm">
                   18 May 2023, 5 mins read
