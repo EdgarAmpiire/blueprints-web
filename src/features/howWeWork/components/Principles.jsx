@@ -24,7 +24,7 @@ export const Principles = () => {
                 </div>
 
                 <div className="mt-5">
-                  <div className="flex ">
+                  <div className="flex lg:flex-row md:flex-row flex-col ">
                     <div className="bg-[#F5F5F5] py-5 px-5 w-7/12 rounded-l-lg">
                       <div className="mb-5">
                         <h3 className="text-[#040052] text-sm font-light">
