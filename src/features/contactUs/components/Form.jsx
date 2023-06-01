@@ -9,7 +9,7 @@ export const Form = () => {
   return (
     <div className="">
       <div className="flex items-center justify-center">
-        <div className="mt-24 lg:w-7/12 w-11/12 flex flex-col ">
+        <div className="lg:mt-24 md:mt-24 mt-5 lg:w-7/12 w-11/12 flex flex-col ">
           <div>
             <h1 className="text-[#040052] uppercase font-bold text-2xl">
               Get in touch
@@ -23,7 +23,7 @@ export const Form = () => {
                   <div className="lg:w-5/12 ">
                     <div className="px-1 py-2 gap-5 flex lg:flex-col lg:items-start md:flex-row flex-col items-center ">
                       {/* Item One  */}
-                      <div className="md:w-4/12 lg:w-full w-full">
+                      <div className="md:w-4/12 lg:w-full w-full lg:bg-white md:bg-white bg-[#BAD0E44D] rounded-md py-4">
                         <div className="flex flex-col lg:flex-row lg:gap-2 gap-5 w-full justify-center items-center lg:justify-start lg:items-start">
                           <div className="lg:w-1.5/12">
                             <div className="flex py-4 px-4 lg:p-3 bg-[#0055BA] rounded-full w-fit">
