@@ -5,7 +5,7 @@ import thumb from "../../../assets/thumb.png";
 export const Blogs = () => {
   return (
     <div>
-        <div className="lg:flex-row md:flex-row flex-col gap-8 lg:mt-10 md:mt-10 w-full lg:flex-none lg:items-start lg:justify-start md:flex-none md:items-start md:justify-start items-center justify-center flex">
+        <div className="lg:flex-row md:flex-row flex-col gap-8 lg:mt-10 md:mt-10 w-full  items-center justify-center flex">
             <div className="lg:w-4/12 md:w-4/12 w-11/12 h-56 bg-[#F3F3F3] flex items-center justify-center rounded-xl">
               <img src={thumb} alt="" className="w-3/12" />
             </div>
