@@ -70,7 +70,7 @@ export const Form = () => {
 
                       {/* Item Three  */}
 
-                      <div className="md:w-4/12 lg:w-full w-full">
+                      <div className="md:w-4/12 lg:w-full w-full lg:bg-white md:bg-white bg-[#BAD0E44D] rounded-md py-4">
                         <div className="flex lg:gap-2 gap-5 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
                           <div className="lg:w-1.5/12">
                             <div className="flex py-4 px-4 lg:p-3 bg-[#0055BA] rounded-full w-fit h-fit">
