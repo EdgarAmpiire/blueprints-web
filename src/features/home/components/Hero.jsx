@@ -23,8 +23,8 @@ export const Hero = () => {
                     products and services to scale and succeed in existing or
                     new markets in the digital economy.
                   </p>
-                  <Link to="/contact" className="">
-                    <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center lg:mt-5 mt-12 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150   ">
+                  <Link to="/contact" className="flex lg:items-start lg:justify-start md:items-start md:justify-start items-center justify-center">
+                    <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center lg:mt-5 mt-12 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150  ">
                       <p className="pl-2 pr-2 text-base text-black ">
                         Book an initial session now
                       </p>
