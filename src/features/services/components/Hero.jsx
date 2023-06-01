@@ -8,8 +8,26 @@ export const Hero = () => {
     <div>
       <div className="">
         <div
-          class="w-full bg-cover bg-center object-cover"
-          style={{ height: "80vh", backgroundImage: `url(/images/bg.png)` }}>
+          class="w-full bg-cover bg-center object-cover lg:flex md:flex hidden"
+          style={{ height: "28rem", backgroundImage: `url(/images/bg.png)` }}>
+          <div class="flex flex-col items-center justify-between h-full w-full py-10 bg-[#000000D9] backdrop-brightness-200">
+            <div className="mt-14 flex flex-col items-center justify-center w-full">
+              <h1 className="text-4xl lg:w-7/12 w-9/12 font-semibold text-center text-white">
+                Let’s build a wining blueprint
+              </h1>
+              <p className="lg:w-8/12 w-9/12 text-center mt-14 font-light text-white ">
+                 We are much more than consultants - as digital allies,  we
+                guide you in preparing for present and future opportunities by
+                bridging strategy to execution, planning and taking action that
+                accelerates growth and delivers success on all levels
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="w-full bg-cover bg-center object-cover lg:hidden md:hidden flex"
+          style={{ height: "70vh", backgroundImage: `url(/images/bg.png)` }}>
           <div class="flex flex-col items-center justify-between h-full w-full py-10 bg-[#000000D9] backdrop-brightness-200">
             <div className="mt-14 flex flex-col items-center justify-center w-full">
               <h1 className="text-4xl lg:w-7/12 w-9/12 font-semibold text-center text-white">
