@@ -62,9 +62,9 @@ export const Glance = () => {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <div className="px-20 py-10 bg-[#BAD0E44D] rounded-md lg:w-10/12 w-11/12">
-            <p className="text-center font-light">
-              “ We leverage Agile processes and methodologies for product
+          <div className="lg:px-20 md:px-20 px-5 py-10 bg-[#BAD0E44D] rounded-md lg:w-10/12 w-11/12">
+            <p className="lg:text-center md:text-center lg:leading-normal md:leading-normal leading-loose  font-light">
+              “We leverage Agile processes and methodologies for product
               development, and work with businesses to maximize their core
               competencies and uncover their market’s unmet needs to create
               innovative, value-driven, disruptive and differentiated offerings
