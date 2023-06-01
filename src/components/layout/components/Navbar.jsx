@@ -14,7 +14,7 @@ export const Navbar = ({ page }) => {
       {/* <div className="w-full flex flex-col justify-center"> */}
 
       <nav className="relative flex flex-wrap items-center justify-center w-12/12 pt-5 ">
-        <div className="container px-0 flex  items-center justify-between w-12/12 lg:max-w-6xl max-w-3xl ">
+        <div className="container lg:px-0 md:px-0 px-4 flex  items-center justify-between w-12/12 lg:max-w-6xl max-w-3xl  ">
           <div className="w-2/12 relative flex justify-between ">
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-0 py-2 whitespace-nowrap uppercase text-white"
