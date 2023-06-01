@@ -13,8 +13,8 @@ export const Glance = () => {
               At a glance
             </h1>
           </div>
-          <div className="flex justify-between items-center lg:w-10/12 w-11/12  gap-10 mt-10 border-b-2 pb-10">
-            <div className="flex items-center justify-center flex-col w-4/12">
+          <div className="flex justify-between items-center lg:flex-row md:flex-row flex-col lg:w-10/12 w-11/12  lg:gap-10 md:gap-10 gap-3 mt-10 border-b-2 pb-10">
+            <div className="flex items-center justify-center flex-col lg:w-4/12  md:w-4/12 w-10/12">
               <div className=" py-2 px-2 rounded-full flex items-center justify-center h-[5.5rem] w-[5.5rem] ">
                 <img src={vision} alt="" className="w-fit" />
               </div>
@@ -22,14 +22,14 @@ export const Glance = () => {
                 <p className="text-[#040052] font-semibold uppercase">
                   Our Vision
                 </p>
-                <p className="text-xs text-center mt-3">
+                <p className="text-xs text-center mt-3 lg:w-12/12 md:w-12/12 w-10/12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor.
                 </p>
               </div>
             </div>
 
-            <div className="flex items-center justify-center flex-col w-4/12">
+            <div className="flex items-center justify-center flex-col lg:w-4/12  md:w-4/12 w-10/12">
               <div className=" py-5 px-5 rounded-full flex items-center justify-center h-[5.5rem] w-[5.5rem] ">
                 <img src={culture} alt="" className="w-fit" />
               </div>
@@ -37,14 +37,14 @@ export const Glance = () => {
                 <p className="text-[#040052] font-semibold uppercase">
                   Our Culture
                 </p>
-                <p className="text-xs text-center mt-3">
+                <p className="text-xs text-center mt-3 lg:w-12/12 md:w-12/12 w-10/12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor.
                 </p>
               </div>
             </div>
 
-            <div className="flex items-center justify-center flex-col w-4/12">
+            <div className="flex items-center justify-center flex-col lg:w-4/12  md:w-4/12 w-10/12">
               <div className=" py-5 px-5 rounded-full flex items-center justify-center h-[5.5rem] w-[5.5rem] ">
                 <img src={team} alt="" className="w-fit" />
               </div>
@@ -52,7 +52,7 @@ export const Glance = () => {
                 <p className="text-[#040052] font-semibold uppercase">
                   Our Team
                 </p>
-                <p className="text-xs text-center mt-3">
+                <p className="text-xs text-center mt-3 lg:w-12/12 md:w-12/12 w-10/12">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor.
                 </p>
