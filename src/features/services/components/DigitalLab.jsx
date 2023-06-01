@@ -13,7 +13,7 @@ export const DigitalLab = () => {
               </h1>
             </div>
 
-            <div className="bg-[#D8D6FF] rounded-xl py-10 px-10 mt-10 w-11/12 lg:w-10/12">
+            <div className="bg-[#D8D6FF] rounded-xl py-10 lg:px-10 md:px-10 px-5 mt-10 w-11/12 lg:w-10/12">
               <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse lg:gap-0 md:gap-0 gap-10 w-full">
                 <div className="flex items-center justify-center ">
                   <img src={thumb} alt="" />
@@ -43,8 +43,8 @@ export const DigitalLab = () => {
               </div>
             </div>
 
-            <div className="bg-[#F5E5FF] rounded-xl py-10 px-10 mt-16 w-11/12 lg:w-10/12">
-              <div className="grid grid-cols-2 w-full">
+            <div className="bg-[#F5E5FF] rounded-xl py-10 lg:px-10 md:px-10 px-5 mt-10 w-11/12 lg:w-10/12">
+              <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col lg:gap-0 md:gap-0 gap-10 w-full">
                 <div className="flex flex-col items-start ">
                   <div>
                     <h1 className="text-[#040052] text-lg font-semibold">
@@ -71,8 +71,8 @@ export const DigitalLab = () => {
               </div>
             </div>
 
-            <div className="bg-[#F3F3F3] rounded-xl py-10 px-10 mt-10 w-11/12 lg:w-10/12">
-              <div className="grid grid-cols-2 w-full">
+            <div className="bg-[#F3F3F3] rounded-xl py-10 lg:px-10 md:px-10 px-5 mt-10 w-11/12 lg:w-10/12">
+              <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse lg:gap-0 md:gap-0 gap-10 w-full">
                 <div className="flex items-center justify-center ">
                   <img src={thumb} alt="" />
                 </div>
