@@ -65,11 +65,11 @@ export const Principles = () => {
                 </div>
 
                 <div className="mt-16">
-                  <div className="flex lg:flex-row md:flex-row flex-col">
-                    <div className="bg-[#ECEBFF] py-5 px-5 lg:w-5/12 md:w-5/12 w-12/12 lg:rounded-r-lg md:rounded-r-lg rounded-t-lg flex items-center justify-center">
+                  <div className="flex lg:flex-row md:flex-row flex-col-reverse">
+                    <div className="bg-[#ECEBFF] py-5 px-5 lg:w-5/12 md:w-5/12 w-12/12 lg:rounded-r-lg md:rounded-r-lg rounded-b-lg flex items-center justify-center">
                       <img src={thumb} alt="" />
                     </div>
-                    <div className="bg-[#F5F5F5] py-5 px-5 lg:w-7/12 md:w-7/12 w-12/12 lg:rounded-l-lg md:rounded-l-lg rounded-b-lg">
+                    <div className="bg-[#F5F5F5] py-5 px-5 lg:w-7/12 md:w-7/12 w-12/12 lg:rounded-l-lg md:rounded-l-lg rounded-t-lg">
                       <div className="mb-5">
                         <h3 className="text-[#040052] text-sm font-light">
                           BSG’s Guiding Principle 2:
