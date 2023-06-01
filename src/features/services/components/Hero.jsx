@@ -83,7 +83,7 @@ export const Hero = () => {
       </div>
       <div className="w-full mt-14 flex justify-center">
         <div className="bg-[#0055BA] py-10 lg:px-10 md:px-10  w-full flex justify-center">
-          <p className="text-center text-white lg:w-10/12 md:w-10/12 w-11/12 ">
+          <p className="text-center text-white lg:w-10/12 md:w-10/12 w-11/12 lg:leading-normal md:leading-normal leading-loose">
             Our focus is on digital strategies that are driven by data and
             analytics centering on digital discovery, journeys and experience,
             and digital identities to immerse your customers and consumers into
