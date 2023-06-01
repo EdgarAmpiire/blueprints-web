@@ -52,7 +52,7 @@ export const Hero = () => {
               </h1>
             </div>
             <div className="flex lg:flex-row md:flex-row flex-col justify-between lg:items-start md:items-start items-center lg:w-7/12 w-10/12 gap-10 mt-14">
-              <div className="flex items-center justify-center flex-col w-4/12">
+              <div className="flex items-center justify-center flex-col lg:w-4/12 md:w-4/12 w-8/12">
                 <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
                   <img src={startUp} alt="" className="w-fit" />
                 </div>
@@ -61,7 +61,7 @@ export const Hero = () => {
                 </div>
               </div>
 
-              <div className="flex items-center justify-center flex-col w-4/12">
+              <div className="flex items-center justify-center flex-col lg:w-4/12 md:w-4/12 w-8/12">
                 <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
                   <img src={midSized} alt="" className="w-fit" />
                 </div>
@@ -70,7 +70,7 @@ export const Hero = () => {
                 </div>
               </div>
 
-              <div className="flex items-center justify-center flex-col w-4/12">
+              <div className="flex items-center justify-center flex-col lg:w-4/12 md:w-4/12 w-8/12">
                 <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
                   <img src={largeEnt} alt="" className="w-fit" />
                 </div>
