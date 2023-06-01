@@ -7,8 +7,8 @@ import {
 
 export const Form = () => {
   return (
-        <div className="">
-    <div className="flex items-center justify-center">
+    <div className="">
+      <div className="flex items-center justify-center">
         <div className="mt-24 lg:w-7/12 w-11/12 flex flex-col ">
           <div>
             <h1 className="text-[#040052] uppercase font-bold text-2xl">
@@ -20,10 +20,10 @@ export const Form = () => {
             <div className="flex flex-col justify-center">
               <div className="lg:max-w-7xl max-w-4xl">
                 <div className="w-full flex lg:flex-row flex-col mt-10 justify-center">
-                  <div className="lg:w-5/12">
-                    <div className="px-1 py-2 gap-5 flex lg:flex-col flex-row ">
+                  <div className="lg:w-5/12 ">
+                    <div className="px-1 py-2 gap-5 flex lg:flex-col lg:items-start md:flex-row flex-col items-center ">
                       {/* Item One  */}
-                      <div className="w-4/12 lg:w-full">
+                      <div className="md:w-4/12 lg:w-full w-full">
                         <div className="flex flex-col lg:flex-row lg:gap-2 gap-5 w-full justify-center items-center lg:justify-start lg:items-start">
                           <div className="lg:w-1.5/12">
                             <div className="flex py-4 px-4 lg:p-3 bg-[#0055BA] rounded-full w-fit">
@@ -44,7 +44,7 @@ export const Form = () => {
 
                       {/* Item Two  */}
 
-                      <div className="w-4/12 lg:w-full">
+                      <div className="md:w-4/12 lg:w-full w-full">
                         <div className="flex lg:gap-2 gap-5 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
                           <div className="lg:w-1.5/12">
                             <div className="flex py-4 px-4 lg:p-3 bg-[#0055BA] rounded-full w-fit h-fit">
@@ -70,7 +70,7 @@ export const Form = () => {
 
                       {/* Item Three  */}
 
-                      <div className="w-4/12 lg:w-full">
+                      <div className="md:w-4/12 lg:w-full w-full">
                         <div className="flex lg:gap-2 gap-5 flex-col lg:flex-row w-full justify-center items-center lg:justify-start lg:items-start">
                           <div className="lg:w-1.5/12">
                             <div className="flex py-4 px-4 lg:p-3 bg-[#0055BA] rounded-full w-fit h-fit">
