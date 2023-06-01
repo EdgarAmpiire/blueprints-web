@@ -10,7 +10,7 @@ export const Hero = () => {
   return (
     <div className="">
       <div className="lg:mt-16 md:mt-16 mt-8 ">
-          {/* <div className="flex items-center justify-center"> */}
+          <div className="flex items-center justify-center">
             <div className="lg:max-w-7xl md:max-w-3xl ">
               <div className="lg:w-12/12 md:w-12/12 w-12/12 ">
                 <div className="lg:flex-none md:flex-none lg:items-start md:items-start lg:justify-start md:justify-start flex flex-col items-center justify-center ">
@@ -41,7 +41,7 @@ export const Hero = () => {
                     {isActive === "press" && "presses"}
                   </div>
                 </div>
-              {/* </div> */}
+              </div>
             </div>
           </div>
       </div>
