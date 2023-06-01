@@ -9,19 +9,19 @@ export const Hero = () => {
   };
   return (
     <div>
-      <div className="mt-16 ">
+      <div className="lg:mt-16 md:mt-16 mt-8 ">
         <div className=" flex items-center justify-center ">
           <div className="flex items-center justify-center">
-            <div className="lg:max-w-7xl max-w-4xl">
-              <div className="lg:w-12/12 w-11/12">
-                <div className="">
+            <div className="lg:max-w-7xl max-w-3xl">
+              <div className="lg:w-12/12 md:w-12/12 w-10/12">
+                <div className="lg:flex-none md:flex-none lg:items-start md:items-start lg:justify-start md:justify-start flex flex-col items-center justify-center">
                   <div className=" border-gray-300">
-                    <div className="flex gap-10 w-4/12 ">
+                    <div className="flex lg:gap-10 md:gap-10 gap-5 lg:w-4/12 md:w-4/12 w-6/12 ">
                       <button
                         className={
                           isActive === "blog"
-                            ? "bg-[#0055BA] text-white px-10 py-2 rounded-full"
-                            : "bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full"
+                            ? "bg-[#0055BA] text-white lg:px-10 md:px-10 px-8 py-2 rounded-full"
+                            : "bg-[#0055BA33] text-[#040052] lg:px-10 md:px-10 px-8 py-2 rounded-full"
                         }
                         onClick={() => changeComponent("blog")}>
                         Blog
@@ -29,8 +29,8 @@ export const Hero = () => {
                       <button
                         className={
                           isActive === "press"
-                            ? "bg-[#0055BA] text-white px-10 py-2 rounded-full"
-                            : "bg-[#0055BA33] text-[#040052] px-10 py-2 rounded-full"
+                            ? "bg-[#0055BA] text-white lg:px-10 md:px-10 px-8 py-2 rounded-full"
+                            : "bg-[#0055BA33] text-[#040052] lg:px-10 md:px-10 px-8 py-2 rounded-full"
                         }
                         onClick={() => changeComponent("press")}>
                         Press
