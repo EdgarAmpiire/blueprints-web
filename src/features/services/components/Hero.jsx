@@ -30,10 +30,10 @@ export const Hero = () => {
           style={{ height: "70vh", backgroundImage: `url(/images/bg.png)` }}>
           <div class="flex flex-col items-center justify-between h-full w-full py-10 bg-[#000000D9] backdrop-brightness-200">
             <div className="mt-14 flex flex-col items-center justify-center w-full">
-              <h1 className="text-4xl lg:w-7/12 w-9/12 font-semibold text-center text-white">
+              <h1 className="text-4xl lg:w-7/12 w-11/12 font-semibold text-center text-white">
                 Let’s build a wining blueprint
               </h1>
-              <p className="lg:w-8/12 w-9/12 text-center mt-14 font-light text-white ">
+              <p className="lg:w-8/12 w-11/12 leading-loose text-center mt-14 font-light text-white ">
                  We are much more than consultants - as digital allies,  we
                 guide you in preparing for present and future opportunities by
                 bridging strategy to execution, planning and taking action that
@@ -51,7 +51,7 @@ export const Hero = () => {
                 We Help With
               </h1>
             </div>
-            <div className="flex justify-between lg:w-7/12 w-10/12 gap-10 mt-14">
+            <div className="flex lg:flex-row md:flex-row flex-col justify-between lg:items-start md:items-start items-center lg:w-7/12 w-10/12 gap-10 mt-14">
               <div className="flex items-center justify-center flex-col w-4/12">
                 <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
                   <img src={startUp} alt="" className="w-fit" />
