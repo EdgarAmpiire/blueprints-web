@@ -28,7 +28,7 @@ export const Hero = () => {
       <div
         class="w-full bg-cover bg-center object-cover lg:hidden md:hidden flex"
         style={{
-          height: "28rem",
+          height: "70vh",
           backgroundImage: `url(/images/chessbg.png)`,
         }}>
         <div class="flex flex-col items-center justify-between h-full w-full py-10 bg-[#000000D9] backdrop-brightness-200">
