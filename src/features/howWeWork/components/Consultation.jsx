@@ -23,15 +23,15 @@ export const Consultation = () => {
                   informed and updated at each stage of the process
                 </p>
               </div>
-              <div className="mt-10 flex w-6/12 ">
-                <div className="w-6/12 flex items-center justify-center">
-                  <img src={thumb} alt="" className="w-6/12" />
+              <div className="mt-10 flex lg:flex-row md:flex-row flex-col lg:w-6/12 md:w-6/12 w-10/12 items-center ">
+                <div className="lg:w-6/12 md:w-6/12 w-8/12 flex items-center justify-center">
+                  <img src={thumb} alt="" className="lg:w-6/12 md:w-6/12 w-8/12" />
                 </div>
-                <div className="w-6/12 flex items-center justify-center">
-                  <img src={thumb} alt="" className="w-6/12" />
+                <div className="lg:w-6/12 md:w-6/12 w-8/12 flex items-center justify-center">
+                  <img src={thumb} alt="" className="lg:w-6/12 md:w-6/12 w-8/12" />
                 </div>
-                <div className="w-6/12 flex items-center justify-center">
-                  <img src={thumb} alt="" className="w-6/12" />
+                <div className="lg:w-6/12 md:w-6/12 w-8/12 flex items-center justify-center">
+                  <img src={thumb} alt="" className="lg:w-6/12 md:w-6/12 w-8/12" />
                 </div>
               </div>
             </div>
