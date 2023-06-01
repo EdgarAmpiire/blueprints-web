@@ -25,7 +25,7 @@ export const Principles = () => {
 
                 <div className="mt-5">
                   <div className="flex lg:flex-row md:flex-row flex-col ">
-                    <div className="bg-[#F5F5F5] py-5 px-5 w-7/12 rounded-l-lg">
+                    <div className="bg-[#F5F5F5] py-5 px-5 lg:w-7/12 md:w-7/12 w-12/12 lg:rounded-l-lg md:rounded-l-lg rounded-t-lg">
                       <div className="mb-5">
                         <h3 className="text-[#040052] text-sm font-light">
                           BSG’s Guiding Principle 1:
