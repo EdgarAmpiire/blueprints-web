@@ -1,22 +1,12 @@
-import React, { useRef, useEffect, useState } from "react";
 import thumb from "../../../assets/thumb.png";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 export const Hero = () => {
-  const myRef = useRef();
 
-  const [myElementIsVisible, setMyElementIsVisible] = useState();
-  console.log("myElementIsVisible", myElementIsVisible);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      const entry = entries[0];
-      setMyElementIsVisible(entry.isIntersecting);
-      console.log("entry", entry);
-    });
-    observer.observe(myRef.current);
-  }, []);
 
   return (
     <div className="">
@@ -27,13 +17,14 @@ export const Hero = () => {
               <div className="lg:w-8/12 md:w-8/12 w-12/12   ">
                 <div className="lg:w-10/12 w-12/12">
                   <h1
-                    ref={myRef}
+             
                     className="lg:text-4xl text-3xl font-semibold tracking-wide lg:w-9/12 md:w-10/12 w-12/12 leading-tight text-black">
                     Delivering Solutions Powered by{" "}
                     <span className="text-[#0055BA]"> People, Process,</span>{" "}
                     and <span className="text-[#0055BA]"> Technology</span>
                   </h1>
-                  <p className="mt-5 text-gray-500 text-lg">
+               
+                  <p  className="mt-5 text-gray-500 text-lg">
                     We partners with businesses and product teams to
                     conceptualize, design, build and position their digital
                     products and services to scale and succeed in existing or
