@@ -46,35 +46,71 @@ export const Hero = () => {
 
       
           <div className="flex flex-col items-center mt-16 w-full">
-            <div>
+            <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+            >
               <h1 className="text-[#040052] font-semibold lg:text-3xl text-xl">
                 We Help With
               </h1>
             </div>
             <div className="flex lg:flex-row md:flex-row flex-col justify-between lg:items-start md:items-start items-center lg:w-7/12 w-10/12 gap-10 mt-14">
               <div className="flex items-center justify-center flex-col lg:w-4/12 md:w-4/12 w-8/12">
-                <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="800"
+                className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
                   <img src={startUp} alt="" className="w-fit" />
                 </div>
-                <div className="mt-2">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="800"
+                className="mt-2">
                   <p>Start-ups</p>
                 </div>
               </div>
 
               <div className="flex items-center justify-center flex-col lg:w-4/12 md:w-4/12 w-8/12">
-                <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="900"
+                className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
                   <img src={midSized} alt="" className="w-fit" />
                 </div>
-                <div className="mt-2">
+                <div
+                
+                data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="900"
+                  className="mt-2">
                   <p>Mid Sized Enterprises</p>
                 </div>
               </div>
 
               <div className="flex items-center justify-center flex-col lg:w-4/12 md:w-4/12 w-8/12">
-                <div className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
+                className="bg-[#5A50FE] py-5 px-5 rounded-full flex items-center justify-center h-[4.5rem] w-[4.5rem] ">
                   <img src={largeEnt} alt="" className="w-fit" />
                 </div>
-                <div className="mt-2">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
+                className="mt-2">
                   <p>Large Corporations</p>
                 </div>
               </div>

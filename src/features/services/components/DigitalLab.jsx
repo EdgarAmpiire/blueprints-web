@@ -7,7 +7,12 @@ export const DigitalLab = () => {
       <div className="flex items-center justify-center">
         <div className="lg:max-w-7xl max-w-4xl">
           <div className="mt-20 flex flex-col items-center">
-            <div>
+            <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+            >
               <h1 className="text-[#040052] lg:text-3xl text-xl font-semibold">
                 Our Digital Lab{" "}
               </h1>
