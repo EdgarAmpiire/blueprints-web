@@ -16,10 +16,20 @@ export const HomeServices = () => {
       <div className="flex items-center justify-center">
         <div className="lg:max-w-7xl max-w-4xl">
           <div className="mt-24">
-            <div className="w-full flex justify-center ">
+            <div
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+              className="w-full flex justify-center ">
               <div className="px-6 py-1 bg-primary"></div>
             </div>
-            <div className="w-full flex justify-center mt-4 ">
+            <div
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+              className="w-full flex justify-center mt-4 ">
               <h1 className="text-3xl font-semibold ">We help you with</h1>
             </div>
 
