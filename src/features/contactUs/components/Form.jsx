@@ -10,7 +10,10 @@ export const Form = () => {
     <div className="">
       <div className="flex items-center justify-center">
         <div className="lg:mt-24 md:mt-24 mt-5 lg:w-7/12 w-11/12 flex flex-col ">
-          <div>
+          <div data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000">
             <h1 className="text-[#040052] uppercase font-bold text-2xl">
               Get in touch
             </h1>
@@ -20,7 +23,12 @@ export const Form = () => {
             <div className="flex flex-col justify-center">
               <div className="lg:max-w-7xl max-w-4xl">
                 <div className="w-full flex lg:flex-row flex-col mt-10 justify-center">
-                  <div className="lg:w-5/12 ">
+                  <div
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                  className="lg:w-5/12 ">
                     <div className="px-1 py-2 gap-5 flex lg:flex-col lg:items-start md:flex-row flex-col items-center ">
                       {/* Item One  */}
                       <div className="md:w-4/12 lg:w-full w-full lg:bg-white md:bg-white bg-[#BAD0E44D] rounded-md py-4">
@@ -89,7 +97,12 @@ export const Form = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="lg:w-7/12 mt-24 lg:mt-0">
+                  <div
+                  data-aos="fade-left"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                  className="lg:w-7/12 mt-24 lg:mt-0">
                     <div>
                       <h1 className="text-sm text-[#040052]">
                         Name (required)
