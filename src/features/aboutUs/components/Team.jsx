@@ -52,8 +52,13 @@ export const Team = () => {
   return (
     <div>
       <div className="mt-24">
-        <div className="flex justify-center">
-          <h1 className="font-semibold text-xl text-[#040052]">
+        <div
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1000"
+          className="flex justify-center">
+          <h1 className="font-semibold lg:text-3xl text-xl text-[#040052]">
             The Team that makes it happen
           </h1>
         </div>
@@ -64,7 +69,12 @@ export const Team = () => {
               <div className="lg:max-w-7xl max-w-4xl">
                 <div className=" mt-14 flex items-center justify-center ">
                   <div className="flex lg:w-10/12 w-11/12 gap-14">
-                    <div className="w-3/12 flex flex-col">
+                    <div
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      className="w-3/12 flex flex-col">
                       <div>
                         <img src={p.avatar} alt="" />
                       </div>
@@ -82,15 +92,35 @@ export const Team = () => {
                     </div>
                     <div className="w-9/12">
                       <div>
-                        <h1 className="text-[#040052] w-5/12 font-semibold">
+                        <h1
+                          data-aos="fade-up"
+                          data-aos-offset="200"
+                          data-aos-easing="ease-in-sine"
+                          data-aos-duration="1000"
+                          className="text-[#040052] w-5/12 font-semibold">
                           {p.name}
                         </h1>
-                        <p className="text-[#0055BA] text-sm w-5/12 font-light mt-3">
+                        <p
+                          data-aos="fade-up"
+                          data-aos-offset="200"
+                          data-aos-easing="ease-in-sine"
+                          data-aos-duration="1000"
+                          className="text-[#0055BA] text-sm w-5/12 font-light mt-3">
                           {p.title}
                         </p>
                       </div>
-                      <div className="mt-5 border-b border-gray-600 w-9/12"></div>
-                      <div className="mt-5 w-9/12">
+                      <div
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1000"
+                        className="mt-5 border-b border-gray-600 w-9/12"></div>
+                      <div
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1000"
+                        className="mt-5 w-9/12">
                         <p className="font-light">{p.bio}</p>
                       </div>
                     </div>
@@ -98,20 +128,39 @@ export const Team = () => {
                 </div>
 
                 <div className="mt-10 flex justify-center">
-                  <div className=" lg:w-10/12 w-11/12 bg-[#BAD0E41A] rounded-md">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000"
+                    className=" lg:w-10/12 w-11/12 bg-[#BAD0E41A] rounded-md">
                     <div className="px-10 pt-10">
-                      <ol class="relative flex flex-col  text-gray-500 border-l border-gray-200 ">
-                        <li class="mb-10 ml-6">
-                          <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A] ">
+                      <ol className="relative flex flex-col  text-gray-500 border-l border-gray-200 ">
+                        <li className="mb-10 ml-6">
+                          <span className="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A] ">
                             <BsCheckLg className="text-green-500" />
                           </span>
-                          <p class="text-sm">{p.bio1}</p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-easing="ease-in-sine"
+                            data-aos-duration="1000"
+                            className="text-sm">
+                            {p.bio1}
+                          </p>
                         </li>
-                        <li class="mb-10 ml-6">
-                          <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A]">
+                        <li className="mb-10 ml-6">
+                          <span className="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A]">
                             <BsCheckLg className="text-green-500" />
                           </span>
-                          <p class="text-sm">{p.bio2}</p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-easing="ease-in-sine"
+                            data-aos-duration="1000"
+                            className="text-sm">
+                            {p.bio2}
+                          </p>
                         </li>
                       </ol>
                     </div>
@@ -124,7 +173,12 @@ export const Team = () => {
               <div className="lg:max-w-7xl max-w-4xl">
                 <div className="mx-4 mt-14 flex-col items-center justify-center ">
                   <div className="flex lg:w-10/12 w-11/12 gap-3">
-                    <div className="w-4/12 flex flex-col">
+                    <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000"
+                    className="w-4/12 flex flex-col">
                       <div>
                         <img src={p.avatar} alt="" />
                       </div>
@@ -142,15 +196,35 @@ export const Team = () => {
                     </div>
                     <div className="w-8/12">
                       <div>
-                        <h1 className="text-[#040052] w-12/12 font-semibold">
+                        <h1
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1000"
+                        className="text-[#040052] w-12/12 font-semibold">
                           {p.name}
                         </h1>
-                        <p className="text-[#0055BA] text-sm w-12/12 font-light mt-3">
+                        <p
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1000"
+                        className="text-[#0055BA] text-sm w-12/12 font-light mt-3">
                           {p.title}
                         </p>
                       </div>
-                      <div className="mt-5 border-b border-gray-600 w-12/12"></div>
-                      <div className="flex px-0 mt-3 w-6/12 items-center justify-between">
+                      <div 
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      className="mt-5 border-b border-gray-600 w-12/12"></div>
+                      <div
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      className="flex px-0 mt-3 w-6/12 items-center justify-between">
                         <Link to={"/"}>
                           <CiLinkedin className="text-xl text-[#040052] cursor-pointer" />
                         </Link>
@@ -163,26 +237,50 @@ export const Team = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="mt-5 w-12/12">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000"
+                    className="mt-5 w-12/12">
                     <p className="font-light">{p.bio}</p>
                   </div>
                 </div>
 
                 <div className="mt-10 flex justify-center">
-                  <div className=" lg:w-10/12 w-11/12 bg-[#BAD0E41A] rounded-md">
+                  <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000"
+                    className=" lg:w-10/12 w-11/12 bg-[#BAD0E41A] rounded-md">
                     <div className="px-10 pt-10">
                       <ol class="relative flex flex-col  text-gray-500 border-l border-gray-200 ">
                         <li class="mb-10 ml-6">
                           <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A] ">
                             <BsCheckLg className="text-green-500" />
                           </span>
-                          <p class="text-sm">{p.bio1}</p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-easing="ease-in-sine"
+                            data-aos-duration="1000"
+                            class="text-sm">
+                            {p.bio1}
+                          </p>
                         </li>
                         <li class="mb-10 ml-6">
                           <span class="absolute flex items-center justify-center w-6 h-6 bg-green-200 rounded-full -left-3 ring-4 ring-[#BAD0E41A]">
                             <BsCheckLg className="text-green-500" />
                           </span>
-                          <p class="text-sm">{p.bio2}</p>
+                          <p
+                            data-aos="fade-up"
+                            data-aos-offset="200"
+                            data-aos-easing="ease-in-sine"
+                            data-aos-duration="1000"
+                            class="text-sm">
+                            {p.bio2}
+                          </p>
                         </li>
                       </ol>
                     </div>
