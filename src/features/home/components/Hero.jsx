@@ -33,7 +33,7 @@ export const Hero = () => {
                     new markets in the digital economy.
                   </p>
                   <Link
-                    data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000"
+                    data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500"
 
                     to="/contact"
                     className="flex lg:items-start lg:justify-start md:items-start md:justify-start items-center justify-center">
