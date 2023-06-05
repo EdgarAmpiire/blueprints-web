@@ -8,7 +8,12 @@ export const Principles = () => {
         <div className="lg:max-w-7xl max-w-4xl">
           <div className="mt-16">
             <div className="flex flex-col items-center justify-center">
-              <div className="bg-[#0055BA1A] py-2 px-8 rounded-full ">
+              <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
+                className="bg-[#0055BA1A] py-2 px-8 rounded-full ">
                 <h1 className="text-[#0055BA] font-semibold">
                   Our Guiding Principles
                 </h1>
@@ -17,16 +22,30 @@ export const Principles = () => {
 
             <div className="mt-16 flex justify-center">
               <div className="lg:w-10/12 w-11/12">
-                <div>
+                <div
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000">
                   <h1 className="text-[#040052] text-lg font-semibold lg:text-left md:text-left text-center ">
                     How we guide our decisions
                   </h1>
                 </div>
 
                 <div className="mt-5">
-                  <div className="flex lg:flex-row md:flex-row flex-col ">
+                  <div
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                  className="flex lg:flex-row md:flex-row flex-col ">
                     <div className="bg-[#F5F5F5] py-5 px-5 lg:w-7/12 md:w-7/12 w-12/12 lg:rounded-l-lg md:rounded-l-lg rounded-t-lg">
-                      <div className="mb-5">
+                      <div
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1000"
+                        className="mb-5">
                         <h3 className="text-[#040052] text-sm font-light">
                           BSG’s Guiding Principle 1:
                         </h3>
@@ -34,7 +53,12 @@ export const Principles = () => {
                           People, Process and Technology
                         </h1>
                       </div>
-                      <div className="flex flex-col gap-5">
+                      <div
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1000"
+                        className="flex flex-col gap-5">
                         <p className="text-sm text-[#040052] font-light">
                           Having the right motivated, diversified and
                           purpose-driven people in place working within with a
@@ -58,19 +82,41 @@ export const Principles = () => {
                         </p>
                       </div>
                     </div>
-                    <div className="bg-[#ECEBFF] py-5 px-5 lg:w-5/12 md:w-5/12 w-12/12 lg:rounded-r-lg md:rounded-r-lg rounded-b-lg flex items-center justify-center">
-                      <img src={thumb} alt="" />
+                    <div 
+                    
+                    className="bg-[#ECEBFF] py-5 px-5 lg:w-5/12 md:w-5/12 w-12/12 lg:rounded-r-lg md:rounded-r-lg rounded-b-lg flex items-center justify-center">
+                      <img 
+                      data-aos="fade-left"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      src={thumb} alt="" />
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-16">
-                  <div className="flex lg:flex-row md:flex-row flex-col-reverse">
+                  <div
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                  className="flex lg:flex-row md:flex-row flex-col-reverse">
                     <div className="bg-[#ECEBFF] py-5 px-5 lg:w-5/12 md:w-5/12 w-12/12 lg:rounded-r-lg md:rounded-r-lg rounded-b-lg flex items-center justify-center">
-                      <img src={thumb} alt="" />
+                      <img
+                      data-aos="fade-right"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      src={thumb} alt="" />
                     </div>
                     <div className="bg-[#F5F5F5] py-5 px-5 lg:w-7/12 md:w-7/12 w-12/12 lg:rounded-l-lg md:rounded-l-lg rounded-t-lg">
-                      <div className="mb-5">
+                      <div
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      className="mb-5">
                         <h3 className="text-[#040052] text-sm font-light">
                           BSG’s Guiding Principle 2:
                         </h3>
@@ -78,7 +124,12 @@ export const Principles = () => {
                           Create Meaningful and Collaborative Partnerships
                         </h1>
                       </div>
-                      <div className="flex flex-col gap-5">
+                      <div
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      className="flex flex-col gap-5">
                         <p className="text-sm text-[#040052] font-light">
                           Our engagements begin with establishing trust and
                           setting the tone for a productive and impactful
