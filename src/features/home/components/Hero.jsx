@@ -1,9 +1,21 @@
-import React from "react";
+import React, {useRef, useEffect, useState} from "react";
 import thumb from "../../../assets/thumb.png";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 export const Hero = () => {
+  const myRef = useRef();
+
+  const [myElementIsVisible, setMyElementIsVisible] = useState() 
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      console.log('entry', entry);
+    })
+    observer.observe(myRef.current)
+  },[])
+
   return (
     <div className="">
       <div className="flex items-center justify-center">
@@ -12,7 +24,7 @@ export const Hero = () => {
             <div className="  lg:w-10/12 w-11/12 flex flex-col md:flex-row ">
               <div className="lg:w-8/12 md:w-8/12 w-12/12   ">
                 <div className="lg:w-10/12 w-12/12">
-                  <h1 className="lg:text-4xl text-3xl font-semibold tracking-wide lg:w-9/12 md:w-10/12 w-12/12 leading-tight text-black">
+                  <h1 ref={myRef} className="lg:text-4xl text-3xl font-semibold tracking-wide lg:w-9/12 md:w-10/12 w-12/12 leading-tight text-black">
                     Delivering Solutions Powered by{" "}
                     <span className="text-[#0055BA]"> People, Process,</span>{" "}
                     and <span className="text-[#0055BA]"> Technology</span>
