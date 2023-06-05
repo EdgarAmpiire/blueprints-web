@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import thumb from "../../../assets/thumb.png";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -6,6 +7,9 @@ import 'aos/dist/aos.css'
 
 export const Hero = () => {
 
+  useEffect(()=>{
+
+  }, [])
 
 
   return (
