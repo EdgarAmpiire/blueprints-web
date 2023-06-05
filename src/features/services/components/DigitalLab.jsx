@@ -18,13 +18,28 @@ export const DigitalLab = () => {
               </h1>
             </div>
 
-            <div className="bg-[#D8D6FF] rounded-xl py-10 lg:px-10 md:px-10 px-5 mt-10 w-11/12 lg:w-10/12">
+            <div
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+            className="bg-[#D8D6FF] rounded-xl py-10 lg:px-10 md:px-10 px-5 mt-10 w-11/12 lg:w-10/12">
               <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse lg:gap-0 md:gap-0 gap-10 w-full">
                 <div className="flex items-center justify-center ">
-                  <img src={thumb} alt="" />
+                  <img
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                  src={thumb} alt="" />
                 </div>
                 <div className="flex flex-col items-start ">
-                  <div>
+                  <div
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                  >
                     <h1 className="text-[#040052] text-lg font-semibold">
                       Business and Product Strategy
                     </h1>
@@ -32,7 +47,12 @@ export const DigitalLab = () => {
                       Investing in a plan for Growth, Revenue, and Profits
                     </h3>
                   </div>
-                  <div className="mt-5 w-8/12">
+                  <div
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                  className="mt-5 w-8/12">
                     <p className="text-[#6B6A6A] text-sm">
                       Leverage BSG’s business and product strategy team to
                       kickstart product thinking at your organization.
