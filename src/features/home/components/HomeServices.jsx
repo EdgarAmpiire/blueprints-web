@@ -90,7 +90,12 @@ export const HomeServices = () => {
 
             <div className="flex justify-center items-center">
               <div className=" lg:w-12/12 w-11/12 py-5  rounded-lg mt-5 gap-10 lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col ">
-                <div className="w-12/12 flex justify-center items-center">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="800"
+                className="w-12/12 flex justify-center items-center">
                   <div className="rounded-3xl bg-[#050422] py-8 px-5 h-56 max-h-56 min-h-56 ">
                     <div>
                       <img src={strategy} alt="" />
@@ -107,7 +112,12 @@ export const HomeServices = () => {
                   </div>
                 </div>
 
-                <div className="w-12/12 flex justify-center items-center">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
+                className="w-12/12 flex justify-center items-center">
                   <div className="rounded-3xl bg-[#F3F3F3] py-8 px-5 h-56 max-h-56 min-h-56 ">
                     <div>
                       <img src={portfolio} alt="" />
@@ -124,7 +134,12 @@ export const HomeServices = () => {
                   </div>
                 </div>
 
-                <div className="w-12/12  flex justify-center items-center ">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="800"
+                className="w-12/12  flex justify-center items-center ">
                   <div className="rounded-3xl bg-[#F3F3F3] py-7 px-5 h-56 max-h-56 min-h-56 ">
                     <div>
                       <img src={management} alt="" />
@@ -157,7 +172,12 @@ export const HomeServices = () => {
             </div>
           </div> */}
 
-                <div className="w-12/12 flex justify-center items-center">
+                <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
+                className="w-12/12 flex justify-center items-center">
                   <div className="rounded-3xl bg-[#050422] py-8 px-5 h-56 max-h-56 min-h-56 ">
                     <div>
                       <img src={marketing} alt="" />
