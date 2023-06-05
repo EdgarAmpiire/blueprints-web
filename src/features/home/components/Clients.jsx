@@ -10,7 +10,7 @@ export const Clients = () => {
           <div className="flex justify-center items-center w-12/12  ">
             <div className="mt-24 lg:w-10/12 w-11/12">
               <div
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
@@ -18,7 +18,7 @@ export const Clients = () => {
                 <div className="px-6 py-1 bg-primary"></div>
               </div>
               <div
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
