@@ -1,4 +1,4 @@
-import React, {useRef, useEffect, useState} from "react";
+import React, { useRef, useEffect, useState } from "react";
 import thumb from "../../../assets/thumb.png";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -6,15 +6,17 @@ import { Link } from "react-router-dom";
 export const Hero = () => {
   const myRef = useRef();
 
-  const [myElementIsVisible, setMyElementIsVisible] = useState() 
+  const [myElementIsVisible, setMyElementIsVisible] = useState();
+  console.log("myElementIsVisible", myElementIsVisible);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
-      console.log('entry', entry);
-    })
-    observer.observe(myRef.current)
-  },[])
+      setMyElementIsVisible(entry.isIntersecting);
+      console.log("entry", entry);
+    });
+    observer.observe(myRef.current);
+  }, []);
 
   return (
     <div className="">
@@ -24,7 +26,9 @@ export const Hero = () => {
             <div className="  lg:w-10/12 w-11/12 flex flex-col md:flex-row ">
               <div className="lg:w-8/12 md:w-8/12 w-12/12   ">
                 <div className="lg:w-10/12 w-12/12">
-                  <h1 ref={myRef} className="lg:text-4xl text-3xl font-semibold tracking-wide lg:w-9/12 md:w-10/12 w-12/12 leading-tight text-black">
+                  <h1
+                    ref={myRef}
+                    className="lg:text-4xl text-3xl font-semibold tracking-wide lg:w-9/12 md:w-10/12 w-12/12 leading-tight text-black">
                     Delivering Solutions Powered by{" "}
                     <span className="text-[#0055BA]"> People, Process,</span>{" "}
                     and <span className="text-[#0055BA]"> Technology</span>
@@ -35,7 +39,9 @@ export const Hero = () => {
                     products and services to scale and succeed in existing or
                     new markets in the digital economy.
                   </p>
-                  <Link to="/contact" className="flex lg:items-start lg:justify-start md:items-start md:justify-start items-center justify-center">
+                  <Link
+                    to="/contact"
+                    className="flex lg:items-start lg:justify-start md:items-start md:justify-start items-center justify-center">
                     <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center lg:mt-5 mt-12 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150  ">
                       <p className="pl-2 pr-2 text-base text-black ">
                         Book an initial session now
