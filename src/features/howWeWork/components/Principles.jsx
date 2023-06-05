@@ -159,9 +159,19 @@ export const Principles = () => {
                 </div>
 
                 <div className="mt-16">
-                  <div className="flex lg:flex-row md:flex-row flex-col">
+                  <div
+                  data-aos="fade-up"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                  className="flex lg:flex-row md:flex-row flex-col">
                     <div className="bg-[#F5F5F5] py-5 px-5 lg:w-7/12 md:w-7/12 w-12/12 lg:rounded-l-lg md:rounded-l-lg rounded-t-lg">
-                      <div className="mb-5">
+                      <div 
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      className="mb-5">
                         <h3 className="text-[#040052] text-sm font-light">
                           BSG’s Guiding Principle 3:
                         </h3>
@@ -169,7 +179,12 @@ export const Principles = () => {
                           Be Bold and Make Innovation a Mindset
                         </h1>
                       </div>
-                      <div className="flex flex-col gap-5">
+                      <div
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      className="flex flex-col gap-5">
                         <p className="text-sm text-[#040052] font-light">
                           We must be relentlessly committed to challenging
                           conventional ways of solving problems that deliver and
@@ -186,7 +201,12 @@ export const Principles = () => {
                       </div>
                     </div>
                     <div className="bg-[#ECEBFF] py-5 px-5 lg:w-5/12 md:w-5/12 w-12/12 lg:rounded-r-lg md:rounded-r-lg rounded-b-lg flex items-center justify-center">
-                      <img src={thumb} alt="" />
+                      <img
+                      data-aos="fade-left"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1000"
+                      src={thumb} alt="" />
                     </div>
                   </div>
                 </div>
