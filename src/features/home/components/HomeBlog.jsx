@@ -10,7 +10,7 @@ export const HomeBlog = () => {
             <div className="lg:w-10/12 md:w-11/12 w-11/12">
               <div className="mt-24 flex flex-col ">
                 <div 
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="1000"
@@ -18,13 +18,13 @@ export const HomeBlog = () => {
                   <div className="px-6 py-1 bg-primary"></div>
                 </div>
                 <div 
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="1000"
                 className="lg:w-8/12 md:w-10/12 w-12/12 flex flex-col justify-start mt-4 ">
                   <h1 
-                  data-aos="fade-right"
+                  data-aos="fade-up"
                   data-aos-offset="200"
                   data-aos-easing="ease-in-sine"
                   data-aos-duration="1000"
@@ -40,7 +40,7 @@ export const HomeBlog = () => {
                 </div>
               </div>
               <div 
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
