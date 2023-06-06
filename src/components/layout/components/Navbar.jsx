@@ -63,7 +63,7 @@ export const Navbar = ({ page }) => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/how-we-work"
+                  // to="/how-we-work"
                   className={
                     page === "how-we-work"
                       ? "nav-link p-0 underline underline-offset-8 decoration-2 decoration-black"
@@ -76,7 +76,7 @@ export const Navbar = ({ page }) => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/services"
+                  // to="/services"
                   className={
                     page === "services"
                       ? "nav-link p-0 underline underline-offset-8 decoration-2 decoration-black"
@@ -89,7 +89,7 @@ export const Navbar = ({ page }) => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/resources"
+                  // to="/resources"
                   className={
                     page === "resources"
                       ? "nav-link p-0 underline underline-offset-8 decoration-2 decoration-black"
@@ -109,7 +109,7 @@ export const Navbar = ({ page }) => {
             <ul className="flex flex-col md:flex-row list-none ml-auto md:ml-0 ">
               <li className="nav-item">
                 <Link
-                  to="/contact-us"
+                  // to="/contact-us"
                   className={
                     page === "contact-us"
                       ? "nav-link  bg-[#0055BA] px-4 py-1.5 text-white rounded-md  text-base 2xl:text-base "
@@ -161,7 +161,7 @@ export const Navbar = ({ page }) => {
                     <Menu.Item>
                       {({ active }) => (
                         <Link
-                        to="/about-us"
+                        // to="/about-us"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
                             page==="about-us",
@@ -178,7 +178,7 @@ export const Navbar = ({ page }) => {
                     <Menu.Item>
                       {({ active }) => (
                         <Link
-                        to="/how-we-work"
+                        // to="/how-we-work"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
                             page==="how-we-work",
@@ -195,7 +195,7 @@ export const Navbar = ({ page }) => {
                     <Menu.Item>
                       {({ active }) => (
                         <Link
-                        to="/services"
+                        // to="/services"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
                             page==="services",
@@ -211,7 +211,7 @@ export const Navbar = ({ page }) => {
                     <Menu.Item>
                       {({ active }) => (
                         <Link 
-                        to="/resources"
+                        // to="/resources"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
                             page==="resources",
@@ -227,7 +227,7 @@ export const Navbar = ({ page }) => {
                     <Menu.Item>
                       {({ active }) => (
                         <Link 
-                        to="/contact-us"
+                        // to="/contact-us"
                           // onClick={() => setOpen2(true)}
                           className={classNames(
                             page==="contact-us",
