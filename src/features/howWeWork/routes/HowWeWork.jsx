@@ -7,7 +7,7 @@ import { Principles } from "../components/Principles";
 export const HowWeWork = () => {
   return (
     <div>
-      <MainLayout page="how-we-works">
+      <MainLayout page="how-we-work">
         <Hero />
         <Consultation />
         <Principles />

@@ -4,7 +4,7 @@ import { Hero } from '../components/Hero'
 
 export const Resources = () => {
   return (
-    <MainLayout page="resourcess" >
+    <MainLayout page="resources" >
 
     <Hero />
     </MainLayout>
