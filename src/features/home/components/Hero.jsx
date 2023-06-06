@@ -35,7 +35,7 @@ export const Hero = () => {
                   <Link
                     data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500"
 
-                    to="/contact"
+                    // to="/contact"
                     className="flex lg:items-start lg:justify-start md:items-start md:justify-start items-center justify-center">
                     <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center lg:mt-5 mt-12 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150  ">
                       <p className="pl-2 pr-2 text-base text-black ">
