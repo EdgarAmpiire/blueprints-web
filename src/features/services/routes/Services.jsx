@@ -6,7 +6,7 @@ import { DigitalLab } from "../components/DigitalLab";
 export const Services = () => {
   return (
     <div>
-    <MainLayout page="services">
+    <MainLayout page="servicess">
        <div>
         <Hero />
         <DigitalLab />
