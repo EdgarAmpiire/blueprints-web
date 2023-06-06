@@ -50,7 +50,7 @@ export const Navbar = ({ page }) => {
               </li>{" "}
               <li className="nav-item">
                 <Link
-                  to="/about-us"
+                  // to="/about-us"
                   className={
                     page === "about-us"
                       ? "nav-link p-0 underline underline-offset-8 decoration-2 decoration-black"
