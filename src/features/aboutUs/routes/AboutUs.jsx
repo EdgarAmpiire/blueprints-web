@@ -7,7 +7,7 @@ import { Team } from "../components/Team";
 export const AboutUs = () => {
   return (
     <div>
-      <MainLayout page="about-us">
+      <MainLayout page="about-uss">
         <Hero />
 
         <Glance />
