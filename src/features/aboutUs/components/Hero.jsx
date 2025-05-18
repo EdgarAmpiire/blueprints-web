@@ -14,13 +14,11 @@ export const Hero = () => {
               We Are
             </h1>
             <h2 className="text-white text-xl font-semibold uppercase mt-10 ">
-              WE ARE BLUEPRINT STRATEGY GROUP, INC
+              WE ARE green hatch partners
             </h2>
 
             <p className="text-white mt-10 lg:w-8/12 w-6/12 font-light">
-               We are  a digital consulting firm that partners with businesses
-              to conceptualize, design, build and position their digital
-              products and services
+               We are  the best Consulting Firm in Kenya
             </p>
           </div>
           <Link to="/contact-us" className="">
@@ -45,7 +43,7 @@ export const Hero = () => {
               We Are
             </h1>
             <h2 className="text-white text-xl font-semibold uppercase my-5 ">
-              WE ARE BLUEPRINT STRATEGY GROUP, INC
+              WE ARE green hatch partners
             </h2>
 
             <p className="text-white my-10 lg:w-8/12 w-11/12 leading-loose font-light">

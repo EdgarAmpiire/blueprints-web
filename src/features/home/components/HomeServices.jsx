@@ -15,7 +15,7 @@ export const HomeServices = () => {
     <div>
       <div className="flex items-center justify-center">
         <div className="lg:max-w-7xl max-w-4xl">
-          <div className="mt-24">
+          <div className="mt-0">
             <div
               data-aos="fade-up"
               data-aos-offset="200"

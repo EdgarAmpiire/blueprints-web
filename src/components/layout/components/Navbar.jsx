@@ -13,7 +13,7 @@ export const Navbar = ({ page }) => {
     <div className="w-full">
       {/* <div className="w-full flex flex-col justify-center"> */}
 
-      <nav className="relative  flex flex-wrap items-center justify-center w-12/12 pt-5 ">
+      <nav className="relative  flex flex-wrap items-center justify-center w-12/12 pt-5 bg-white backdrop-blur-[12 bg-opacity-100 ">
         <div className="container lg:px-0 md:px-0 px-4 flex  items-center justify-between w-12/12 lg:max-w-6xl max-w-3xl  ">
           <div className="w-2/12 relative flex justify-between ">
             <a
@@ -26,7 +26,7 @@ export const Navbar = ({ page }) => {
                   alt="logo"
                   loading="lazy"
                 /> */}
-                Blueprint Strategy
+                green hatch partners
               </Link>
             </a>
           </div>
