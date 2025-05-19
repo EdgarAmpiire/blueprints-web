@@ -29,8 +29,12 @@ export const HomeServices = () => {
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
-              className="w-full flex justify-center mt-4 ">
+              className="w-full flex flex-col justify-center items-center mt-4 ">
               <h1 className="text-3xl font-semibold ">We help you with</h1>
+              <div className="mt-5 text-center flex items-center justify-center w-fit h-fit ">
+
+              <p >Here’s a description of the main features of Davidson Consulting Firm Limited, <br /> incorporating mineral mining & exportation, freight and forwarding, insurance, <br />warehousing, and other key consulting services:</p>
+              </div>
             </div>
 
             {/* <div className="bg-[#F5F5F5] py-5 px-3 rounded-lg mt-5">
@@ -88,7 +92,7 @@ export const HomeServices = () => {
           </div> 
         </div> */}
 
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center mt-5">
               <div className=" lg:w-12/12 w-11/12 py-5  rounded-lg mt-5 gap-10 lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col ">
                 <div
                 data-aos="fade-up"
@@ -102,11 +106,10 @@ export const HomeServices = () => {
                     </div>
                     <div>
                       <h1 className="text-white mt-5 font-semibold">
-                        Business & Product Strategy
+                      Business Strategy and Advisory
                       </h1>
                       <p className="text-white mt-5 font-light text-sm mb-5">
-                        Defining product ideas to achieve your strategic vision
-                        and goals.
+                      We help businesses develop robust strategies for growth, sustainability, and competitive advantage.
                       </p>
                     </div>
                   </div>
@@ -124,11 +127,10 @@ export const HomeServices = () => {
                     </div>
                     <div>
                       <h1 className="text-black mt-5 font-semibold">
-                        Product Portfolio Management
+                      Financial Consulting
                       </h1>
                       <p className="text-black mt-5 font-light text-sm mb-5">
-                        Optimizing resource allocation, aligning products, and
-                        improving portfolios.
+                      Our experts offer financial planning, investment guidance, Project or Business Funding and risk management strategies.
                       </p>
                     </div>
                   </div>
@@ -146,11 +148,10 @@ export const HomeServices = () => {
                     </div>
                     <div>
                       <h1 className="text-black mt-3 font-semibold w-10/12">
-                        Product Development and Management Operation
+                      Market Research and Analysis
                       </h1>
                       <p className="text-black mt-2 font-light text-sm mb-5 w-10/12">
-                        Commercializing new or existing products that meet
-                        market needs
+                      We provide data-driven insights to help businesses understand market trends and consumer behavior.
                       </p>
                     </div>
                   </div>
@@ -184,11 +185,10 @@ export const HomeServices = () => {
                     </div>
                     <div>
                       <h1 className="text-white mt-5 font-semibold">
-                        Digital Marketing
+                      Solar Energy
                       </h1>
                       <p className="text-white mt-5 font-light text-sm mb-5">
-                        Executing campaigns to increase revenue and engage with
-                        your audience
+                      We support renewable energy epc projects, from feasibility studies to implementation on behalf of the developer to recommended engineers and contractors.
                       </p>
                     </div>
                   </div>

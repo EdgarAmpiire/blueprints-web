@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 // import thumb from "../../../assets/thumb.png";
-// import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -49,6 +49,23 @@ export const Hero = () => {
                           Consultancy <br /> Firm
                         </span>
                       </h1>
+                      <Link
+                      data-aos="fade-up"
+                      data-aos-offset="200"
+                      data-aos-easing="ease-in-sine"
+                      data-aos-duration="1500"
+                      to="/services"
+                      className="flex lg:items-start lg:justify-start md:items-start md:justify-start items-center justify-center"
+                    >
+                      <div className=" bg-[#0055BA] bg-opacity-60 hover:bg-opacity-80 py-3 px-4 rounded-md flex items-center lg:mt-5 mt-12 ml-0 w-fit gap-2 text-red-500 hover:text-white hover:gap-4 ease-in-out duration-150  ">
+                        <p className="pl-2 pr-2 text-bold text-2xl text-white ">
+                          Our Services
+                        </p>
+                        <span className="">
+                          <BsArrowRight className="text-3xl text-white  " />
+                        </span>
+                      </div>
+                    </Link>
                     </div>
                     <div className="row-span-1"></div>
 
@@ -58,23 +75,7 @@ export const Hero = () => {
                       products and services to scale and succeed in existing or
                       new markets in the digital economy.
                     </p> */}
-                    <Link
-                      data-aos="fade-up"
-                      data-aos-offset="200"
-                      data-aos-easing="ease-in-sine"
-                      data-aos-duration="1500"
-                      // to="/contact"
-                      className="flex lg:items-start lg:justify-start md:items-start md:justify-start items-center justify-center"
-                    >
-                      {/* <div className=" bg-[#E5E5E5] py-3 px-4 rounded-md flex items-center lg:mt-5 mt-12 ml-0 w-fit gap-2 text-white hover:text-white hover:gap-4 ease-in duration-150  ">
-                        <p className="pl-2 pr-2 text-base text-black ">
-                          Book an initial session now
-                        </p>
-                        <span className="">
-                          <BsArrowRight className="text-2xl text-black  " />
-                        </span>
-                      </div> */}
-                    </Link>
+                    
                   </div>
                 </div>
 
